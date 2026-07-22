@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 exports/
 tmp/
+.pytest_cache/
+.pytest-tmp/
+src/*.egg-info/

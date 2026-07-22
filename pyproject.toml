@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shein-extractor"
+version = "0.2.0"
+description = "Desktop application for extracting and reporting SHEIN shared carts"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx==0.28.1",
+    "playwright==1.61.0",
+    "pydantic==2.13.4",
+    "PySide6==6.11.1",
+    "pypdf==6.14.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "ruff==0.15.22",
+]
+
+[project.scripts]
+shein-extractor = "shein_extractor.presentation.qt.bootstrap:main"
+shein-extract-cart = "shein_extractor.cli.extract_cart:main"
+shein-diagnose-link = "shein_extractor.infrastructure.diagnostics.link_diagnostics:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "--basetemp=.pytest-tmp"
+testpaths = ["tests"]
+
+[tool.ruff]
+exclude = [".venv", ".pytest-tmp", "outputs", "exports", "tmp"]

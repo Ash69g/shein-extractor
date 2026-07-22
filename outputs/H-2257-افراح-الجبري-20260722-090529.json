@@ -1,0 +1,758 @@
+{
+  "source_url": "https://onelink.shein.com/43/5w1gij077ln5",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_R7AukiFRLdu&group_id=805397620&local_country=SA&url_from=&cart_share=1",
+  "group_id": "805397620",
+  "local_country": "SA",
+  "all_product_size": 37,
+  "counts": {
+    "normalProducts": 37,
+    "outStock": 0,
+    "unavailable": 0
+  },
+  "products": [
+    {
+      "goods_id": "76068082",
+      "goods_sn": "I48k06lyv8u4",
+      "sku_code": "sx25051083131410621",
+      "goods_name": "حذاء كاجوال مسطح وبلا كعب من نسيج محبوك للسيدات، زيادة خفية في الارتفاع، مناسب للجسم الصغير، يمكن ارتداؤه في جميع المواسم",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/05/10/be/1746881493c102c040bc584005aaa0d888c74cfc90.jpg",
+      "goods_attr": "الأسود / CN38",
+      "stock": 10,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "59.35",
+        "amountWithSymbol": "SR59.35",
+        "currency": null
+      },
+      "amountWithSymbol": "SR59.35",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "66184425",
+      "goods_sn": "I77gohrcue2u",
+      "sku_code": "sj2407188347262500",
+      "goods_name": "1 قطعة سوار ذو تصميم عصري وعملي بلون أسود ونسيج ملتوي، تصميم فاخر مناسب للاستعمال اليومي للنساء والمناسبات",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/03/28/ed/1743125425dc520894658df5661019c0ab9ccd0bd9.jpg",
+      "goods_attr": "مسدس اسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.00",
+        "amountWithSymbol": "SR4.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR4.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "56915392",
+      "goods_sn": "I76jrta6m6s2",
+      "sku_code": "sj25021439422545522",
+      "goods_name": "زوج من أقراط ثابتة بنمط الزيتون والأوراق الذهبية، أقراط فاخرة ذات طراز شخصي مرفق وملائم للاستعمال اليومي",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/02/14/b3/173954656789f113060dede5dc667ee10b1388faeb.jpg",
+      "goods_attr": "أصفر ذهبي / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "197256523",
+      "goods_sn": "I2bi5acni61j",
+      "sku_code": "se25091228459522912",
+      "goods_name": "وسادة الفأرة ذات النمط البوهيمي الدائري - قاعدة مطاطية مانعة للانزلاق ، قطر 7.87 بوصة مدمج - مثالي للاستخدام اليومي في المكتب ، وسادة الفأرة ، واحدة 47 جرام",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/12/b7/1757662119c717f02d64fe9a10b744e7d0862642b9_square.jpg",
+      "goods_attr": "متعدد الألوان / البوهيمي الوردي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "132153004",
+      "goods_sn": "I56jspenqr99",
+      "sku_code": "sg2404172304885528",
+      "goods_name": "حقيبة لياقة بدنية مزينة بالحروف من النايلون، حقيبة اليوغا، حقيبة رحلة قصيرة، حقيبة تدريب كرة السلة، حقيبة سفر وأمتعة متعددة الاستخدامات للنساء والرجال للعطلات والسفر",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/20/c1/17530169700e61e183b74e8061136f4a840f27273d.jpg",
+      "goods_attr": "الأسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "32.00",
+        "amountWithSymbol": "SR32.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR32.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "43422622",
+      "goods_sn": "I42s3mfgqkj6",
+      "sku_code": "sx2312082308166066",
+      "goods_name": "نعال صنادل حبل إسبادريل منصة بكعب منحدر مزودة برباطين للكاحل للنساء موديل جديد لعام 2024رمضان",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/09/08/6a/17257673942d362648cd37469b5a30a61d6ac8fe04.jpg",
+      "goods_attr": "الأسود / CN38",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "29.00",
+        "amountWithSymbol": "SR29.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR29.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "217502134",
+      "goods_sn": "I02wgduhnwi8",
+      "sku_code": "sj25060938337086686",
+      "goods_name": "سوار مطوي من الزركونيا الفاخر والبسيط، إكسسوار شخصي فاخر قطعة واحدة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/13/41/17603420978797bd36594d33e7ffd8c8bac46bf62f.jpg",
+      "goods_attr": "إسورة / مقاس واحد / الذهبي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "11432350",
+      "goods_sn": "I23aauudsg3v",
+      "sku_code": "rj2207317461002005",
+      "goods_name": "ROMWE سوار بسيط قطعة واحدة",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2023/10/08/be/169673761801f3a6e525cc48812032ed76bae2cbfa.jpg",
+      "goods_attr": "الأسود / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "7.00",
+        "amountWithSymbol": "SR7.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR7.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "15089106",
+      "goods_sn": "I71trxd4d50r",
+      "sku_code": "sj2302187319608678",
+      "goods_name": "سوار سلسلة مبسط",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2023/04/18/1681782378501a398e697fbacec2df772d0af2c4ef.jpg",
+      "goods_attr": "ذهبي أصفر / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "3.92",
+        "amountWithSymbol": "SR3.92",
+        "currency": null
+      },
+      "amountWithSymbol": "SR3.92",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "24371502",
+      "goods_sn": "I949c8d8y1rb",
+      "sku_code": "sj2310014414497234",
+      "goods_name": "CHOSHILAR 4 قطعة/مجموعة أقراط إبزيم زركونيا مكعبة على الطراز الكوري البسيط المتعدد الاستخدامات، أقراط نحيفة مناسبة للاستخدام اليومي للنساء، هدية مثالية لنفسها",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/10/01/7a/169615027006ef4ce9eea1025b712f96ec8f948624.jpg",
+      "goods_attr": "فضي / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "29662890",
+      "goods_sn": "I3fez7i8vmjp",
+      "sku_code": "sq2401266696575165",
+      "goods_name": "وسادات إضاءة LED للسيارة 2 قطعة، وسادات أكواب متغيرة اللون 7 لون تعمل بالطاقة من منفذ USB غير انزلاقية (قطر وسادة الكوب تقريبًا 6.8 سم/2.68 بوصة، مناسبة لحوامل الأكواب بقطر يصل إلى 6.8 سم) - الرجاء التحقق من الأبعاد قبل الشراء",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/09/20/4d/172682490319d0c9c1fc7929e947f94cd4456b9cb4.jpg",
+      "goods_attr": "أبيض / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "20.00",
+        "amountWithSymbol": "SR20.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR20.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "16446810",
+      "goods_sn": "I0302s1b3b50",
+      "sku_code": "sj2211272697806150",
+      "goods_name": "قلادة بسلسلة مزخرف هندسي",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/05/21/168465441260db9a11f3cb582ee5239351df77d4f3.jpg",
+      "goods_attr": "الأسود / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "15484368",
+      "goods_sn": "I21b1yyup10z",
+      "sku_code": "sc2304282786948858",
+      "goods_name": "50 قطعة ربطات شعر نسائية ملونة للاستخدام اليومي، حاملات ذيل الحصان، ربطات مطاطية للشعر، أربطة شعر، حلقات مطاطية للشعر، اكسسوارات شعر، اكسسوارات رأس، أربطة مطاطية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/03/53/1756892067fa40efa742f4b163da71364d90859c31.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "11601244",
+      "goods_sn": "I54j93xlc8sj",
+      "sku_code": "se2209236119319644",
+      "goods_name": "قطعة واحدة غطاء سماعة أذن من الفرو على شكل دب مناسب ل-",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2022/09/27/16642592654b43ebe66c9fb22cc831a300274a8320.jpg",
+      "goods_attr": "متعدد الألوان / Apple AirPods Pro",
+      "stock": 8,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.81",
+        "amountWithSymbol": "SR8.81",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.81",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "76655239",
+      "goods_sn": "I0ayf54ydz6h",
+      "sku_code": "sb25051091136144271",
+      "goods_name": "1 مشط تدليك بوسادة هوائية من الصندل، تصميم ناعم مبطن بأسنان دائرية مريحة للفروة الرأس، فرشاة بدون كهرباء ستاتيكية لتصفيف الشعر للنساء، العناية بالشعر المنزلية، عودة إلى المدرسة، مستلزمات السفر والعطلات، اكسسوارات الشعر للنساء، فرشاة، فرش الشعر، فرشاة الحافة، فرشاة الشعر، مشط الشعر، مشط الشعر، فرشاة فك التشابك، فرشاة كرة، فرشاة شعر صغيرة، مجموعة فرش الشعر، مشط خشبي، فرشاة الشعر، فرشاة الشعر، مشط الشعر، حلاق، أدوات الشعر، منتجات الشعر، اكسسوارات الشعر، فرشاة الشعر المنسدل، العناية بالشعر، مشط الشعر، اكسسوارات الحلاق، مشط الشعر، فرشاة الشعر المجعد، السفر، أشياء الشعر، فرشاة فك التشابك، فرشاة كرة، فرشاة شعر صغيرة، اكسسوارات الشعر، منتجات الشعر المجعد، معدات التسريح، اكسسوارات، عيد الميلاد، اكسسوارات الحلاق، اكسسوارات الشعر، تصفيف الشعر، مشط خشبي، مستلزمات السفر، مستلزمات السفر، تصفيف الشعر، معدات التسريح",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/05/17/7f/1715875865ae739c79992c78478079c7898b7a8bf9.jpg",
+      "goods_attr": "بني",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "1779793",
+      "goods_sn": "I1gk3tv6g192",
+      "sku_code": "swdress23201027585",
+      "goods_name": "Opuloom فستان ماكسي للنساء على شكل قميص بجيوب مائلة وقطع واحدة",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2022/03/18/1647597866822dae15e1f34f3b473a81b32dcef10b.jpg",
+      "goods_attr": "الأسود / XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "43.00",
+        "amountWithSymbol": "SR43.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR43.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "32656007",
+      "goods_sn": "I21emitfq8yi",
+      "sku_code": "sx2403312427626560",
+      "goods_name": "أحذية رياضية كاجوال صيفية للنساء بدون ربط، أحذية مسطحة بزخارف من الترتر الزهرية، أنيقة ومريحة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/11/06/89/173089574565929e4bc18cac0cc35c433852973f31.jpg",
+      "goods_attr": "وردي / CN38",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "78.00",
+        "amountWithSymbol": "SR78.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR78.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "324131614",
+      "goods_sn": "I19tuloyscyi",
+      "sku_code": "sl251206204140193929",
+      "goods_name": "LOONEY TUNES دمية ليلي تونغ الناعمة بحجم 20 سم، دمية حيوان كرتونية محشوة، هدية عيد ميلاد الأطفال",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/12/06/9d/1765006299ffc5105cca7fef370b58bc15a6a8f466_square.jpg",
+      "goods_attr": "متعدد الألوان / حلوى التافي ذات الرأس الكبير",
+      "stock": 1,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "34.00",
+        "amountWithSymbol": "SR34.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR34.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "2006356",
+      "goods_sn": "I1glryzycabr",
+      "sku_code": "swdress07201218215",
+      "goods_name": "SHEIN BASICS فستان كامي أساسي 1 قطعة، فساتين صيفية للنساء، ملابس صيفية للنساء، فساتين نسائية كاجوال، فساتين سوداء للنساء",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2023/07/13/16892192506c147d117c79afea4e5e614a4f349f11.jpg",
+      "goods_attr": "الأسود / 0XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "56.00",
+        "amountWithSymbol": "SR56.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR56.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "368243188",
+      "goods_sn": "I2mkeudm0r65bm",
+      "sku_code": "st260110113692971924138",
+      "goods_name": "قبعة شمس ذات حافة عريضة جمالية مع حزام ذقن قابل للتعديل لمنع الانزلاق، قبعة خفيفة وقابلة للطي مناسبة للمسافرين في الرحلات البحرية والمشاة، قبعة شاطئ مثالية لحماية من أشعة الشمس أثناء التخييم والنزهات الصيفية والدراجات والرحلات البحرية، قبعة سائق أساسية للنساء، قبعة كاوبوي للربيع",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/10/2e/17680163595f48f7da6bf972058db9534992f89361.jpg",
+      "goods_attr": "متعدد الألوان / أسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "24.00",
+        "amountWithSymbol": "SR24.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR24.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "440090994",
+      "goods_sn": "I4mnr5qbve9d9p",
+      "sku_code": "sj260409153026159693055",
+      "goods_name": "سوار حبل متعدد الألوان مضفر يدوي قابل للتعديل، بطراز بوهيمي رجعي، مريح للارتداء اليومي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/09/f8/177571978765df470df49d27b0ecc4efc752d5a1ed.jpg",
+      "goods_attr": "سوار مضفر / متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "29505556",
+      "goods_sn": "I22uzgvoncgk",
+      "sku_code": "sj2401237972042517",
+      "goods_name": "4 قطع/مجموعة أقراط ستيرلينج فضة عيار 925 جديدة للأذنين المثقوبة، أقراط فضة نقية للنوم، يمكن ارتدائها طوال الوقت لرعاية ثقب الأذن",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/01/23/e5/170597945582c88e647cea0bb0ed8fcfc5227fa3d4.jpg",
+      "goods_attr": "فضي عتيق / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "319870470",
+      "goods_sn": "I946bql2bcp6",
+      "sku_code": "sg25091946432615114",
+      "goods_name": "حقيبة كتف نايلون كاجوال مع حزام قابل للتعديل، متعددة الأقسام، لون أحادي، إغلاق بسحاب، بطانة بوليستر، حقيبة عبر الجسم خفيفة الوزن ومريحة للاستخدام اليومي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/12/06/e2/1765000506ebb1bad0f5e53829664e767efdd6e17c.jpg",
+      "goods_attr": "الأسود / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "36.00",
+        "amountWithSymbol": "SR36.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR36.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "70826512",
+      "goods_sn": "I04jcvi19o6m",
+      "sku_code": "sg25042651096260464",
+      "goods_name": "حقيبة صدر متعددة الوظائف للرجال مع فتحة للسماعات، حقيبة كتف، حقيبة عبر الجسم، حقيبة ظهر صغيرة، حقيبة كتف خفيفة الوزن، جراب للهاتف، لون أحادي، حقيبة رياضية معلقة على الكتف، حقيبة خصر سعة كبيرة للسفر والرحلات والتنقل والدراجات والتنزه، أسود، ضروريات السفر، خفيفة الوزن، مضادة للسرقة، هدية، ، محفظة، الجامعة، المدرسة، الطالب، المعلم، العطلات، محمولة، جيب الصدر، جيب الجانب، جيب الورك، هدية للرجال، هدية عيد الحب، هدية مثيرة للاهتمام، عيد الأب، هدية للزوج، حقيبة للهاتف، عتيق، هدايا عيد الحب، حقائب للسفر",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/26/57/1745659607bcb9405eca6739ca9097f670a3135a40.jpg",
+      "goods_attr": "الأسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "35.00",
+        "amountWithSymbol": "SR35.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR35.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "34638090",
+      "goods_sn": "I6q6s4gdpt2k",
+      "sku_code": "sz2404100501082205",
+      "goods_name": "Swim Vcay مجموعة بيكيني نسائية للسباحة، طباعة عشوائية، 2 قطعة، حقوق ملكية مشتراة، صيفية للشاطئ",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2024/05/08/33/171514575476472d7e1e6d7d6e72feeca848af12b1.jpg",
+      "goods_attr": "متعدد الألوان / XL",
+      "stock": 8,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "34.00",
+        "amountWithSymbol": "SR34.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR34.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "35646715",
+      "goods_sn": "I81xgjb6rpbh",
+      "sku_code": "sc2405227026808108",
+      "goods_name": "قبعة شمس عريضة بسيطة وعصرية قبعة بيسبول بوهيمية نمط كعكة الحصان، درع وجه للحماية من الأشعة فوق البنفسجية في الهواء الطلق للصيف",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/05/22/a1/1716355421bcc0a08912ade176d39e99ca8da00ffa.jpg",
+      "goods_attr": "متعدد الألوان / أسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "12.00",
+        "amountWithSymbol": "SR12.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR12.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "37684879",
+      "goods_sn": "I9114y26m5xf",
+      "sku_code": "sj2208285775965897",
+      "goods_name": "6 قطع أساور كاحل من الفولاذ المقاوم للصدأ بتصميم هندسي بوهيمي عصري، مناسبة للاستخدام اليومي للنساء",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/06/26/20/17193727968e157e19965e28e07cf13ea33ff49f87.jpg",
+      "goods_attr": "الأسود / أسود 22+5 سم",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "14.00",
+        "amountWithSymbol": "SR14.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR14.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "437809767",
+      "goods_sn": "I1mnmmd4tar0qm",
+      "sku_code": "sq260406111281299771660",
+      "goods_name": "Warner Bros ملصق مرآة الرؤية الخلفية للسيارة بشكل فتاة كرتونية جميلة \"طفل خارق\"، ملصق ديكور لمرآة الرؤية الخلفية للسيارة والشاحنة، ملصق غرافيتي لديكور داخل السيارة، ملصق ديكور داخلي للسيارة بشكل \"طفل خارق\"، اكسسوارات ديكور داخلي للسيارة، هدايا حفلات",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2026/04/08/1b/17756602669217d9b0bca7fb3f39a549a0e20bfb19_square.png",
+      "goods_attr": "A / متعدد الألوان / 1",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "442892533",
+      "goods_sn": "I6mnege8biw8q1",
+      "sku_code": "sz260331180706503944070",
+      "goods_name": "SHEIN PETITE CURVE فستان نسائي مطبع بالشبك مناسب للمقاسات الكبيرة، فستان صيفي نسائي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/05/21/98/1779352554578e1579f9fc0e1d35f93c54438f19fe.jpg",
+      "goods_attr": "الأسود / صغير 4XL",
+      "stock": 8,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "16.65",
+        "amountWithSymbol": "SR16.65",
+        "currency": null
+      },
+      "amountWithSymbol": "SR16.65",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "427464096",
+      "goods_sn": "I4mmrhwkhwkwp5",
+      "sku_code": "sh260315162120162445234",
+      "goods_name": "OBOVAY قطاعة بطاطس وخضروات يدوية قطعتان، أداة مطبخ إرجونومية، قطاعة بطاطس مقرمشة من الفولاذ المقاوم للصدأ، فرامة يدوية، مبشرة، قطاعة سلطة، أداة تقطيع بشفرة متموجة، أداة تقطيع مطبخ، قطاعة فعالة، أداة مطبخ عملية، قطاعة خضروات ومبشرة، مناسبة لعمل البطاطس المقلية والرقائق والفواكه والخضروات - رائعة للتخييم والمطبخ الخارجي والتجمعات",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2026/03/23/5c/177426907509e783b2421b6e9f510ff24941f72a29.png",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "46211480",
+      "goods_sn": "I63wy5zmaz61",
+      "sku_code": "sz2409229890381440",
+      "goods_name": "كارديجان فضفاض بياقة على شكل حرف V، كنزة صوفية محبوكة طويلة متعددة الاستخدامات للنساء، كارديجان أسود، كاجوال للعام الجديد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/ssms/2025/11/24/f0/17639659396e7f7195f1224945f85d6fc5cf624574.jpg",
+      "goods_attr": "الأسود / XL",
+      "stock": 9,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "68.00",
+        "amountWithSymbol": "SR68.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR68.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "172592412",
+      "goods_sn": "I423lomuqx6y",
+      "sku_code": "sq25090276611460086",
+      "goods_name": "1 قطعة زخرفة سيارة - دمية شاشة لوحة القيادة على شكل زرافة لطيفة ومريحة، ديكور مرآة الرؤية الخلفية، ديكور داخلي للسيارة جذاب",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/02/b3/17567909866b37aba25bc5091e5ed39239044cfbe1.jpg",
+      "goods_attr": "مقاس واحد / النمط د",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "172592412",
+      "goods_sn": "I423lomukj5w",
+      "sku_code": "sq25090276611460086",
+      "goods_name": "1 قطعة زخرفة سيارة - دمية شاشة لوحة القيادة على شكل زرافة لطيفة ومريحة، ديكور مرآة الرؤية الخلفية، ديكور داخلي للسيارة جذاب",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/02/b3/17567909866b37aba25bc5091e5ed39239044cfbe1.jpg",
+      "goods_attr": "مقاس واحد / النمط ج",
+      "stock": 9,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "172592412",
+      "goods_sn": "I423lomudznt",
+      "sku_code": "sq25090276611460086",
+      "goods_name": "1 قطعة زخرفة سيارة - دمية شاشة لوحة القيادة على شكل زرافة لطيفة ومريحة، ديكور مرآة الرؤية الخلفية، ديكور داخلي للسيارة جذاب",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/02/b3/17567909866b37aba25bc5091e5ed39239044cfbe1.jpg",
+      "goods_attr": "مقاس واحد / النمط ب",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "172592412",
+      "goods_sn": "I423lomu6s0q",
+      "sku_code": "sq25090276611460086",
+      "goods_name": "1 قطعة زخرفة سيارة - دمية شاشة لوحة القيادة على شكل زرافة لطيفة ومريحة، ديكور مرآة الرؤية الخلفية، ديكور داخلي للسيارة جذاب",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/02/b3/17567909866b37aba25bc5091e5ed39239044cfbe1.jpg",
+      "goods_attr": "مقاس واحد / النمط أ",
+      "stock": 2,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "52737111",
+      "goods_sn": "I95pu8gtu7vz",
+      "sku_code": "sj2501064080000089",
+      "goods_name": "سوار من الفولاذ المقاوم للصدأ ذو وجهين برمز فو الصيني، قلادة محظوظة بلون ذهبي مع سلسلة كرات معدنية، مجوهرات للنساء، 1 قطعة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/01/06/91/17361498766ec007055368f2a71a035a0ab49b0920.jpg",
+      "goods_attr": "سوار محظوظ بخرز دائري / مقاس واحد / ذهبي أصفر",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "7.00",
+        "amountWithSymbol": "SR7.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR7.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "47012798",
+      "goods_sn": "I947b637kz3i",
+      "sku_code": "sj2411076232730502",
+      "goods_name": "أقراط زركونيا الألماس بالطراز الأوروبي والأمريكي، تصميم أنيق للارتداء اليومي",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/11/07/97/173096850810df84f5ed9fa97d8393bd1a535c75f9.jpg",
+      "goods_attr": "الأسود / مقاس واحد / 2-علبة من أقراط الحب",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "7.00",
+        "amountWithSymbol": "SR7.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR7.00",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "افراح الجبري",
+  "order_number": "H-2257",
+  "analyzed_at": "2026-07-22T09:05:29.525708+03:00",
+  "output_file": "H-2257-افراح-الجبري-20260722-090529.json"
+}

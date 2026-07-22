@@ -1,10 +1,5 @@
-"""Backward-compatible imports for domain models."""
-
-from _bootstrap import ensure_src_path
-
-ensure_src_path()
-
-from shein_extractor.domain.models import (  # noqa: E402,F401
+from .errors import CartExtractionError, ExpiredShareLinkError
+from .models import (
     AvailabilityStatus,
     CartExtraction,
     CartShare,
@@ -17,9 +12,12 @@ from shein_extractor.domain.models import (  # noqa: E402,F401
 __all__ = [
     "AvailabilityStatus",
     "CartExtraction",
+    "CartExtractionError",
     "CartShare",
+    "ExpiredShareLinkError",
     "ExtractedCartItem",
     "Price",
     "Product",
     "Variant",
 ]
+

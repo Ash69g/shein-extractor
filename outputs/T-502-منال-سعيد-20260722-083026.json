@@ -1,0 +1,358 @@
+{
+  "source_url": "https://onelink.shein.com/43/5wbxi57c6jgs",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_RuvXAnnHQhg&group_id=808245175&local_country=SA&url_from=&cart_share=1",
+  "group_id": "808245175",
+  "local_country": "SA",
+  "all_product_size": 17,
+  "counts": {
+    "normalProducts": 17,
+    "outStock": 0,
+    "unavailable": 0
+  },
+  "products": [
+    {
+      "goods_id": "33865586",
+      "goods_sn": "I71s22lih5rh",
+      "sku_code": "sb2403213486427502",
+      "goods_name": "SHEGLAM بودرة هايلايتر متعددة الأبعاد من Lunar Glow-Heart Galaxy-لمسة نهائية لامعة للغاية-لمعان عاكس أزرق-أخضر-مكياج وجه متعدد الاستخدامات هايلايت هايلايتر",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/07/21/36/178461687457e9efbb11c548e312130324412c88a4.jpg",
+      "goods_attr": "Heart Galaxy / 5 غرام",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "23.00",
+        "amountWithSymbol": "SR23.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR23.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "17799808",
+      "goods_sn": "I82py3193ih0",
+      "sku_code": "sb2305091376714177",
+      "goods_name": "SHEGLAM خافي العيوب Like Magic 12Hr Full Coverage Concealer-خافي عيوب سائل غير لامع بلون رملي يدوم طويلاً ومصحح للون مشرق وخفيف الوزن يدوم طوال اليوم ومرطب وخافي عيوب كونسيلر",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/11/04/2d/1762242427319d65bbfd52b59833ca4ff469db71af.jpg",
+      "goods_attr": "Sand / 3.8 غرام",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "16.00",
+        "amountWithSymbol": "SR16.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR16.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "17799806",
+      "goods_sn": "I32py9m7lgpx",
+      "sku_code": "sb2305094597999755",
+      "goods_name": "SHEGLAM خافي العيوب Like Magic 12Hr Full Coverage Concealer-خافي عيوب سائل غير لامع بلون الكراميل يدوم طويلاً ومصحح للون البشرة وخفيف الوزن ويدوم طوال اليوم ومرطب وخافي عيوب كونسيلر",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/11/04/ad/17622430330901cb9f69589069b9c5363ce6e5114c.jpg",
+      "goods_attr": "Caramel / 3.8 غرام",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "16.00",
+        "amountWithSymbol": "SR16.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR16.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "41709326",
+      "goods_sn": "I8137yoyipp4",
+      "sku_code": "sb2406286007387388",
+      "goods_name": "SHEGLAM Skinfinite كريم أساس مرطب-Acorn",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/04/17/1c/17763966028553242bc5dfa3734e3951c6d89263ad.jpg",
+      "goods_attr": "بلوط - 0.3 مل + 0.4 مل / 30 مل",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "36.00",
+        "amountWithSymbol": "SR36.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR36.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "41709321",
+      "goods_sn": "I1137z00tela",
+      "sku_code": "sb2406288800632198",
+      "goods_name": "SHEGLAM Skinfinite كريم أساس مرطب-Saddle",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/04/17/08/1776396602ea2651c1b3644baa714dac7ae19a590f.jpg",
+      "goods_attr": "Saddle / 30 مل",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "36.00",
+        "amountWithSymbol": "SR36.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR36.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "356615313",
+      "goods_sn": "I2mjzbqo903rbv",
+      "sku_code": "sj260104134895352774411",
+      "goods_name": "ساعة نسائية Pablo Raez قطعة واحدة من الذهب عيار 18 قيراط من الفولاذ المقاوم للصدأ بتصميم تونيو عتيق، إكسسوار مجوهرات ذهبي بسوار سلسلة من الفولاذ الصلب غير قابل للبهتان، ساعة كوارتز أصلية ساحرة بجودة عالية، فاخرة رسمية أنيقة بتصميم جديد رائع، قرص أسود وأبيض، ساعة نسائية شعبية عالية الجودة مقاومة للماء حتى 50 متر، إبزيم فراشة، كاجوال لطيفة، ساعة صغيرة لطيفة مناسبة للأصدقاء أو العائلة للحياة اليومية/العمل/الحفلات، هدية عيد ميلاد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/04/c9/176750605556fca11e5a8a750d8508c497d410d878.jpg",
+      "goods_attr": "الذهبي / الذهبي / أبيض",
+      "stock": 10,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "44.35",
+        "amountWithSymbol": "SR44.35",
+        "currency": null
+      },
+      "amountWithSymbol": "SR44.35",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "55501746",
+      "goods_sn": "I16bsfqkb0ac",
+      "sku_code": "sj25020542438313477",
+      "goods_name": "Pablo Raez ساعة نسائية، ساعة فاخرة بتصميم مستطيل أنيق من الفولاذ المقاوم للصدأ SUS304 باللون الفضي، جودة AAA عالية المستوى، طلاء IPS فاخر، قرص أبيض أنيق، ساعة كوارتز نسائية مربعة شائعة الاستخدام عالية الجودة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/02/05/74/1738735657b52052450c741863c7b1a46208ab7a71.jpg",
+      "goods_attr": "فضي / فضي / أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "43.43",
+        "amountWithSymbol": "SR43.43",
+        "currency": null
+      },
+      "amountWithSymbol": "SR43.43",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "427379150",
+      "goods_sn": "I2mmhwjgbnou87",
+      "sku_code": "sx260306160690991909620",
+      "goods_name": "CUCCOO BIZCHIC أحذية نسائية بكعب رفيع مدبب أسود أساسيات موضة متعددة الاستخدامات يومية للتنقل إلى العمل والتسوق أحذية نسائية بكعب عالي مع رفع خلفي وحزام خلفي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/03/23/aa/1774248342d5438742963460e2dadc9f07c4e41d3d.jpg",
+      "goods_attr": "أسود اللون الفرعي / CN36",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "32.75",
+        "amountWithSymbol": "SR32.75",
+        "currency": null
+      },
+      "amountWithSymbol": "SR32.75",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "13195713",
+      "goods_sn": "I65ol375k3m3",
+      "sku_code": "sg2302169523375251",
+      "goods_name": "حقيبة كتف نسائية خفيفة الوزن بتصميم عصري وجذاب، تحتوي على حقيبة عملات صغيرة، مناسبة للبنات والنساء وطالبات الجامعات والموظفات الجدد والعاملات البيضاء، مثالية للاستخدام في المكتب، الدراسة، العمل، التنقل، الرحلات والنشاطات الخارجية",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2023/02/17/16765971942c12190bdeb3e0697c6d70c3c0239346.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "53.00",
+        "amountWithSymbol": "SR53.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR53.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "464212070",
+      "goods_sn": "I5mlxeyyrkt0iz",
+      "sku_code": "sc260222151226813595386",
+      "goods_name": "نظارة مرأة إطار معدني صغير على شكل عين القطة، عصرية للشاطئ والعطلات",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/02/22/81/177174437425cff2a47e688f118a856c7f26f37d88.jpg",
+      "goods_attr": "شرائح شاي بإطار ذهبي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "12.00",
+        "amountWithSymbol": "SR12.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR12.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "458898795",
+      "goods_sn": "I1moeg9wnw0xgf",
+      "sku_code": "sc260425224177606193687",
+      "goods_name": "زوج واحد من نظارات نسائية بتصميم عين القطة بإطار معدني نصف ضيق، نظارات موضة شارع أنيقة وشخصية متعددة الاستخدامات مناسبة للعروض & العطلات",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/25/ba/17771281528cb087ed122ddc6845ce1c257e12c5a6.jpg",
+      "goods_attr": "متعدد الألوان / الأسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "13.00",
+        "amountWithSymbol": "SR13.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR13.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "493995618",
+      "goods_sn": "I8moo1v2vv2sfw",
+      "sku_code": "sc260502154827220709575",
+      "goods_name": "فرشاة شعر للتدليك بشكل ماكرون مجوف ملون، قطعة واحدة، مناسبة للشعر الرطب والجاف، يمكنها إنشاء تسريحة شعر كثيفة. مناسبة للرجال والنساء، مناسبة للمدرسة والسفر والعطلات. إكسسوار شعر ضروري للنساء. مجموعة أدوات تصفيف الشعر",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/03/d6/177780368411a739dd39f123c90e60492aa95ae916.jpg",
+      "goods_attr": "متعدد الألوان / وردي - قطعة واحدة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "474124317",
+      "goods_sn": "I7mpcdtt139x78",
+      "sku_code": "sc260519163924051559663",
+      "goods_name": "Livesso نظارة نسائية أنيقة بيضاوية الشكل، بإطار معدني أسود بتصميم كلاسيكي عصري، مثالية للسفر والشاطئ، تصميم أساسي لفصلي الخريف والشتاء، مناسبة للعمل والمناسبات غير الرسمية، هدية رائعة، مناسبة للجامعة والعودة إلى المدرسة.",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/28/3a/17510883313969bb4702b8c1195be3bee479c3b3e5.jpg",
+      "goods_attr": "الأسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "12.00",
+        "amountWithSymbol": "SR12.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR12.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "82779166",
+      "goods_sn": "I58hh2mglr6l",
+      "sku_code": "sc25050746234339793",
+      "goods_name": "مروحة محمولة يدوية قابلة للضبط بسرعة 100 درجة، مناسبة للمكتب والخارج، متوفرة بحجم مدمج وعملي قطعة واحدة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/05/07/fa/17466251995118808eb932e1ec41434f7c36d29f3e_square.jpg",
+      "goods_attr": "مقاس واحد يناسب الجميع / أسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "17.20",
+        "amountWithSymbol": "SR17.20",
+        "currency": null
+      },
+      "amountWithSymbol": "SR17.20",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "77035193",
+      "goods_sn": "I17siubfaboj",
+      "sku_code": "sb25040867806232628",
+      "goods_name": "SHEGLAM Showtime In Seattle باليت 15 لون",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/04/21/2a/1776757767163a8815107e47e6dc23d7810d9c2ceb.jpg",
+      "goods_attr": "Showtime in Seattle / 13.2 غرام",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "30.00",
+        "amountWithSymbol": "SR30.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR30.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "22534568",
+      "goods_sn": "I64kcgwms9sc",
+      "sku_code": "sb2307266967711556",
+      "goods_name": "SHEGLAM رذاذ تثبيت المكياج Lock'D In ذو التأثير غير اللامع سريع الجفاف يدوم طويلاً رذاذ تثبيت المكياج غير الدهني للتحكم في الزيوت رذاذ تثبيت المكياج",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/04/02/3c/17751101693a2e35679a467ace57c12985a4aacf02.jpg",
+      "goods_attr": "أبيض / 55ml",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "21.00",
+        "amountWithSymbol": "SR21.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR21.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "37465771",
+      "goods_sn": "I3w9hg20l3yo",
+      "sku_code": "sb2406207576265522",
+      "goods_name": "مرآة صغيرة محمولة ذات وجهين، سطح مموج، أنيقة وبسيطة، مناسبة للحمل والاستخدام في المنزل، مرآة تجميل بطراز Y2K، مرآة تجميل مدمجة، مرآة جيب، مرآة صغيرة، ديكور غرفة المعيشة والنوم والحمام، أغراض السفر، الزفاف والحفلات وأعياد الميلاد، هدايا للرجال والأمهات والآباء والأصدقاء المقربين والمعلمين، رأس السنة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/06/21/5d/1718939922d412effd134f0c4b724fab8daf8eebdd.jpg",
+      "goods_attr": "متعدد الألوان / كبير/1 قطعة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "منال سعيد",
+  "order_number": "T-502",
+  "analyzed_at": "2026-07-22T08:30:26.923970+03:00",
+  "output_file": "T-502-منال-سعيد-20260722-083026.json"
+}

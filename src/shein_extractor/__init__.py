@@ -1,0 +1,2 @@
+"""SHEIN cart extraction application."""
+

@@ -1,19 +1,15 @@
-"""Backward-compatible imports for PDF export."""
-
-from _bootstrap import ensure_src_path
-
-ensure_src_path()
-
-from shein_extractor.infrastructure.pdf import (  # noqa: E402,F401
+from .exporter import (
     PdfExportResult,
     default_pdf_path,
     export_cart_pdf,
     truncate_product_name,
 )
+from .adapter import QtPdfReportExporter
 
 __all__ = [
     "PdfExportResult",
     "default_pdf_path",
     "export_cart_pdf",
     "truncate_product_name",
+    "QtPdfReportExporter",
 ]
