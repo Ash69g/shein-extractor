@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.pytest-tmp-run/
+.ruff_cache/
+*.py[cod]
+diagnostics/*.json
+diagnostics/*.png
+outputs/*.json
