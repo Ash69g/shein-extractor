@@ -1,0 +1,137 @@
+{
+  "source_url": "https://api-shein.shein.com/h5/sharejump/appjump?link=RPeYqFfWou6_b&localcountry=SA&shc=2_RPeYqFfWou6",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_RPeYqFfWou6&group_id=791442490&local_country=SA&url_from=&cart_share=1",
+  "group_id": "791442490",
+  "local_country": "SA",
+  "all_product_size": 6,
+  "counts": {
+    "normalProducts": 5,
+    "outStock": 0,
+    "unavailable": 1
+  },
+  "products": [
+    {
+      "goods_id": "447820004",
+      "goods_sn": "I6mo1c1uga1029",
+      "sku_code": "sb260209163938942810233",
+      "goods_name": "كريم نياسيناميد المنير من SADOER، يقلل من البقع ويحسن المسام، مناسب لعناية الوجه والعين. صيغة لطيفة غير مهيجة، ترطيب عميق، مناسب لجميع أنواع البشرة، عناية يومية للجنسين",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/26/cc/177979018151dac60bc5c9e29cd0f86963335122b4.jpg",
+      "goods_attr": "مجموعة حمض الكوجيك / طقم رضاعة مكون من 4 قطع",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "33.00",
+        "amountWithSymbol": "SR33.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR33.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "38687160",
+      "goods_sn": "I31hmt4vxl4u",
+      "sku_code": "sq2407114050924947",
+      "goods_name": "1قطعة صندوق معلق متعدد الوظائف للمناديل في السيارة جاكارد، صندوق مسند ذراع السيارة للمناديل بفيondah",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/07/11/fc/17206900470a519f19c8cc5ae984384dcd66548b84.jpg",
+      "goods_attr": "مقاس واحد / القوس الجانبي الأحمر",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "13.00",
+        "amountWithSymbol": "SR13.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR13.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "510208603",
+      "goods_sn": "I4mqnfhvmt5pg3",
+      "sku_code": "sq260621144369977747309",
+      "goods_name": "غطاء حماية مقبض باب السيارة ناعم على شكل فيونكة، غطاء مقبض باب السقف للسيارة، قفاز عالمي مناسب لجميع الموديلات وجميع الفصول",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2026/06/25/90/17823812532fd0748769577b6654935389c2e9fa58.png",
+      "goods_attr": "قفاز السقف / أسود وأحمر قطعتين / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "465212880",
+      "goods_sn": "I7moz7sah58wvf",
+      "sku_code": "sq260510112098169207224",
+      "goods_name": "إكسسوارات عجلة القيادة الداخلية للسيارة غطاء عجلة القيادة مزين بفيونكة من الفرو الناعم للشتاء مناسب للنساء والفتيات للاستخدام",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2026/05/12/ea/17785811365b0266d581ad2584cd0d1c0f8a0a17e6.png",
+      "goods_attr": "بيغ بابل / مقاس واحد / خلفية سوداء مع فيونكة حمراء",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "12.00",
+        "amountWithSymbol": "SR12.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR12.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "474236371",
+      "goods_sn": "I7mpay2yqi634b",
+      "sku_code": "sx260518163013903955643",
+      "goods_name": "MAOLI صنادل نسائية مفرغة مزينة بفيونكة، صنادل كاجوال بكعب منخفض قابلة للتنفس، منصة ارتفاع 5 سم مخففة للصدمات وخفيفة الوزن، صنادل صيفية جديدة للشاطئ والرياضة الخارجية، تشمل إكسسوار لولي بوب، أحذية كاجوال منفذة للتهوية لاستخدام يومي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/18/80/1779093550d1a3881ba3343af9c3c988a07374b89b_square.jpg",
+      "goods_attr": "الأسود / CN36-37",
+      "stock": 6,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "45.03",
+        "amountWithSymbol": "SR45.03",
+        "currency": null
+      },
+      "amountWithSymbol": "SR45.03",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "443005468",
+      "goods_sn": "I1mnscl599dw6o",
+      "sku_code": "sb260410112501493861339",
+      "goods_name": "سيروم فيتا أ ريتينول لشد البشرة (15 جرام) | سيروم مضاد للشيخوخة بتركيز عالي 0.1% ريتينول + 3% حمض الهيالورونيك، يقلل الخطوط الدقيقة والتجاعيد، يقلص المسام، يحسن مرونة البشرة، يقلل علامات التعب، يحسن لون البشرة، يعزز المرونة، يجعل البشرة ناعمة ومشرقة، مناسب لجميع أنواع البشرة، 3/2/1 قطعة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/07/06/be/17833013798b4c2175a4db138596f6107ea2bb0aaa_square.jpg",
+      "goods_attr": "ريتينالدهيد / 1 قطعة",
+      "stock": 999,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 0
+    }
+  ],
+  "customer_name": "shein-cart",
+  "analyzed_at": "2026-07-22T01:22:15.918937+03:00",
+  "output_file": "shein-cart-20260722-012215.json"
+}

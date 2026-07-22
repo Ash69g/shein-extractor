@@ -1,0 +1,137 @@
+{
+  "source_url": "https://api-shein.shein.com/h5/sharejump/appjump?link=RPqhpmfzYit_b&localcountry=OTHER&shc=2_RPqhpmfzYit",
+  "final_url": "https://m.shein.com/cart/share/landing?shc=2_RPqhpmfzYit&group_id=786552665&local_country=OTHER&url_from=&cart_share=1",
+  "group_id": "786552665",
+  "local_country": "OTHER",
+  "all_product_size": 6,
+  "counts": {
+    "normalProducts": 5,
+    "outStock": 0,
+    "unavailable": 1
+  },
+  "products": [
+    {
+      "goods_id": "157288277",
+      "goods_sn": "I7bscbh9wb2d",
+      "sku_code": "sb25081668722645353",
+      "goods_name": "100ml Turmeric Whitening Oil - 100ml Plant Essential Oil Blend For Face & Body, Dark Spot Corrector & Firming Moisturizer | Anti-Aging Treatment To Brighten Skin All Skin Types Travel Size",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/04/34/1756977004b26c2c4ec9559595518e18985e7de952_square.jpg",
+      "goods_attr": "100ml / 1pc / Turmeric",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.40",
+        "amountWithSymbol": "$4.40",
+        "currency": null
+      },
+      "amountWithSymbol": "$4.40",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "472784293",
+      "goods_sn": "I4mqneagfknhoi",
+      "sku_code": "sb260514215211170708617",
+      "goods_name": "2pcs Dual-Sided Nose Hair Trimmer Set With Storage Box, Portable Manual Nose Hair Clipper Suitable For Men & Women, 360° Rotatable Washable Nose Hair Grooming Tool, Essential For Salon, Beauty, Travel",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/14/6c/1778767359323c807b3171fc4ed3b6c84196b89192_square.jpg",
+      "goods_attr": "Multicolor / 5 PCS/Beige",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "1.80",
+        "amountWithSymbol": "$1.80",
+        "currency": null
+      },
+      "amountWithSymbol": "$1.80",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "70190739",
+      "goods_sn": "I74ifuctpaus",
+      "sku_code": "sx25022099060048000",
+      "goods_name": "2025 Summer New Vintage Wedge Heel Platform Solid Color Patchwork Versatile Sandals, Breathable Comfortable Round Toe Slip-On Back Strap Buckle Ultra-Light Sole Women's Daily Wear Wedge Heel Platform Sandals",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/25/c0/174556685640ea8c5992c9416a82639c3632270286.jpg",
+      "goods_attr": "Black / EUR41",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "17.00",
+        "amountWithSymbol": "$17.00",
+        "currency": null
+      },
+      "amountWithSymbol": "$17.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "234844531",
+      "goods_sn": "I02x7iptkii8",
+      "sku_code": "sx25092907209792022",
+      "goods_name": "New Women Platform Slip-On Sandals, Fashionable Minimalist Thick Bottom Closed Toe Slippers, Suitable For Autumn Daily Wear, Comfortable And Lightweight House Slippers, Plus Size,Mule Shoes",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/14/7f/1760416886c9c1ddd8e4b007fd2db34a901b095bc3.jpg",
+      "goods_attr": "Black / EUR39.5(CN41)",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "18.90",
+        "amountWithSymbol": "$18.90",
+        "currency": null
+      },
+      "amountWithSymbol": "$18.90",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "132320319",
+      "goods_sn": "I26hppa3pnlb",
+      "sku_code": "sj25021886988338300",
+      "goods_name": "2pcs Boho Chic Jewelry Set For Women, Wrinkled Bark Texture Geometric Asymmetrical Open Bangle Adjustable Ring, Suitable For Daily Accessories, Vacation, Date, Shopping, Party, Gift For Mother, Wife, Girlfriend",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/18/ae/1752805222fd90b1a1fb17a09bf5fe3ff52b2ba94b.jpg",
+      "goods_attr": "Gold / one-size",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "2.92",
+        "amountWithSymbol": "$2.92",
+        "currency": null
+      },
+      "amountWithSymbol": "$2.92",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "34148266",
+      "goods_sn": "I04ms0lcl9oi",
+      "sku_code": "sb2403181609399919",
+      "goods_name": "SlowSunday Joint Brightening Serum, With Niacinamide & VC Derivatives, Brighten The Skin & Even Out Skin Tone, Suitable For Hand Joints, Elbows, Knees, Armpits And Other Parts Of The Body, Suitable For Summer, Y2K",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2024/10/22/d4/17295894247da23a62f046875f60b307c21ff3dbb7.jpg",
+      "goods_attr": "Clear / 15ml",
+      "stock": 0,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "2.20",
+        "amountWithSymbol": "$2.20",
+        "currency": null
+      },
+      "amountWithSymbol": "$2.20",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "shein-cart",
+  "analyzed_at": "2026-07-22T01:19:42.060359+03:00",
+  "output_file": "shein-cart-20260722-011942.json"
+}

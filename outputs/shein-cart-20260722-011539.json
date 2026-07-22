@@ -1,0 +1,197 @@
+{
+  "source_url": "https://api-shein.shein.com/h5/sharejump/appjump?link=RPruXfskXVk_b&localcountry=SA&shc=2_RPruXfskXVk&url_from=GM73964029285",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_RPruXfskXVk&group_id=790786085&local_country=SA&url_from=GM73964029285&cart_share=1",
+  "group_id": "790786085",
+  "local_country": "SA",
+  "all_product_size": 9,
+  "counts": {
+    "normalProducts": 9,
+    "outStock": 0,
+    "unavailable": 0
+  },
+  "products": [
+    {
+      "goods_id": "153660337",
+      "goods_sn": "I3127tgr7yxp",
+      "sku_code": "sh25072039994961679",
+      "goods_name": "1 قطعة/3 قطع/4 قطع زجاجة رذاذ عطر قابلة لإعادة التعبئة سعة 5 مل، زجاجة عطر للسفر، زجاجة رذاذ قابلة لإعادة التعبئة للسفر، مغلفة بشكل فردي، زجاجة إعادة تعبئة العطر للسفر وموزع عطر محمول، زجاجة عطر وردية لامعة مع رشاش، لتخزين العطر الأساسي للسفر، غرفة المعيشة، غرفة النوم، الحمام، الزفاف، الحفلات، عيد الميلاد، هدايا للرجال والنساء، الأصدقاء، الوالدين، الاكسسوارات، هدية رأس السنة الجديدة ممتعة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/12/63/1760240831e4bf3eb60d4cbc2c7aac6934bfd8d88c.jpg",
+      "goods_attr": "متعدد الألوان / 1 وردي + 1 ذهبي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.85",
+        "amountWithSymbol": "SR4.85",
+        "currency": null
+      },
+      "amountWithSymbol": "SR4.85",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "137359818",
+      "goods_sn": "I0xsu3s0rq8h",
+      "sku_code": "sg2401229333844045",
+      "goods_name": "XD 3 قطع/مجموعة زجاجات زجاجية بغطاء دوار 1/2/3/5/10 مل، حاويات لعينات العطور والزيوت الأساسية مع كرات من الصلب وأغطية بنمط الخشب، زجاجات صغيرة شفافة، ضروريات السفر، زجاجات سفر",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/22/a7/1753164100aac596e07000b19c923c886b7d49d3af.jpg",
+      "goods_attr": "شفاف / 5 مل * 3 قطع",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "450724849",
+      "goods_sn": "I0mo2morqycm3r",
+      "sku_code": "sb260417151778923004182",
+      "goods_name": "مجموعة العناية بالأظافر 2/10/16/28/40/42 قطعة، أدوات العناية الشخصية والقدم، أدوات العناية بالأظافر مقص أظافر ملف أظافر",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/18/28/178174824894558b1fd3aed8b5d2948fd0a7e81c84.jpg",
+      "goods_attr": "متعدد الألوان / 42 قطعة بنية اللون",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "38.31",
+        "amountWithSymbol": "SR38.31",
+        "currency": null
+      },
+      "amountWithSymbol": "SR38.31",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "52830381",
+      "goods_sn": "I956ftu8syxq",
+      "sku_code": "sh2412188631958943",
+      "goods_name": "3 قطع قماش رأس المسح الدائري، وسادة تنظيف الأرضية بعصر دوار، ملحقات عالمية لاستبدال المنزلي، منشفة بكرة دوارة 360 درجة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/01/19/c9/1737301557f59e35b0516c2ac387b3ec28b34d0cda_square.jpg",
+      "goods_attr": "متعدد الألوان / رمادي مستدير 3 قطع",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "12.74",
+        "amountWithSymbol": "SR12.74",
+        "currency": null
+      },
+      "amountWithSymbol": "SR12.74",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "22952066",
+      "goods_sn": "I9586rmr2fhz",
+      "sku_code": "re2309081288826636",
+      "goods_name": "JMMO سماعات أذن لاسلكية بصوت ممتاز، سماعات أذن 5.3 مع اقتران تلقائي ووقت تشغيل طويل، خفيفة الوزن ومقاومة للماء، سماعات رأس لاسلكية لنظام iOS و Android، مناسبة للرياضة والتمارين",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2023/11/03/72/16989822329b83ef88ae10c0eb81a01401ed1f61b2.jpg",
+      "goods_attr": "وردي / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "15.03",
+        "amountWithSymbol": "SR15.03",
+        "currency": null
+      },
+      "amountWithSymbol": "SR15.03",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "500157552",
+      "goods_sn": "I8mqaf4zq6ymxz",
+      "sku_code": "sg2412130016053528",
+      "goods_name": "حقيبة يد نسائية أنيقة بتصميم سلسلة، جلد PU مرآة، مثالية للحفلات أو المناسبات المسائية. هدية عيد ميلاد مثالية للصديقة وخيار رائع لحضور الحفلات أو حفلات الزفاف.",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/12/35/17812374323862c57346e7a383938fc21695e5d0c0.jpg",
+      "goods_attr": "لون مشمشي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "52.00",
+        "amountWithSymbol": "SR52.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR52.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "419101378",
+      "goods_sn": "I4mmd8t4zt7ov4",
+      "sku_code": "sh260305170324381995188",
+      "goods_name": "40/20/10/2 قطعة معزز اللون الأسود للغسيل - أوراق متخصصة للملابس السوداء الباهتة، أقراص قماشية للملابس السوداء، غسيل الجينز الداكن، لغسالة الأطباق",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/05/78/17727015489ab84a461551b1ef81aff6c1009f76f2_square.jpg",
+      "goods_attr": "متعدد الألوان / الأسود / 10 قطع",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.70",
+        "amountWithSymbol": "SR6.70",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.70",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "44434711",
+      "goods_sn": "I23g40z62vcv",
+      "sku_code": "sg2409114868403496",
+      "goods_name": "حقيبة نسائية جديدة على الطراز الفرنسي للإبط، حقيبة بيجيت ذات طراز رجعي بسيط، حقيبة كتف متعددة الاستخدامات عالية الجودة للنساء",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/09/4f/178097769014f3c0f5b7bfee69e5b0a4eee607602f.jpg",
+      "goods_attr": "قهوة بني / صغير",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "46.32",
+        "amountWithSymbol": "SR46.32",
+        "currency": null
+      },
+      "amountWithSymbol": "SR46.32",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "259754151",
+      "goods_sn": "I38z6uxmjg6s",
+      "sku_code": "sg25042735535362445",
+      "goods_name": "Dedoo حقيبة كروس بودي مربعة من جلد البو ذات لون أحادي بنقشة الليتشي، محفظة نسائية صغيرة، مناسبة للتنسيق مع الموضة اليومية، حقيبة يد نسائية عصرية باللون الأصفر الكريمي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/23/e2/177951670126b3c7c4e55737a2e79e4e025f9be20b.jpg",
+      "goods_attr": "الأسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "39.54",
+        "amountWithSymbol": "SR39.54",
+        "currency": null
+      },
+      "amountWithSymbol": "SR39.54",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "shein-cart",
+  "analyzed_at": "2026-07-22T01:15:39.076437+03:00",
+  "output_file": "shein-cart-20260722-011539.json"
+}

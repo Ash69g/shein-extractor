@@ -1,0 +1,277 @@
+{
+  "source_url": "https://api-shein.shein.com/h5/sharejump/appjump?link=RPhXkNKHCWE_b&localcountry=SA&shc=2_RPhXkNKHCWE&url_from=GM71972925922",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_RPhXkNKHCWE&group_id=789644565&local_country=SA&url_from=GM71972925922&cart_share=1",
+  "group_id": "789644565",
+  "local_country": "SA",
+  "all_product_size": 13,
+  "counts": {
+    "normalProducts": 13,
+    "outStock": 0,
+    "unavailable": 0
+  },
+  "products": [
+    {
+      "goods_id": "461408892",
+      "goods_sn": "I7mojiv546a2qv",
+      "sku_code": "sz260429115502157994619",
+      "goods_name": "Franclia فستان قصير بانديو مطبوع رقميًا للنساء",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/05/28/25/177995699292dd315f587f28a1069fa9cfaa3a551e.jpg",
+      "goods_attr": "متعدد الألوان / S",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "23.00",
+        "amountWithSymbol": "SR23.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR23.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "474933050",
+      "goods_sn": "I5mo6vw7yn1a67",
+      "sku_code": "sz260420153943064057487",
+      "goods_name": "SHEIN Franclia فستان صيفي للنساء بطبعة فراشة على الرقبة الحالكة باللون الأبيض",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/06/05/68/1780624689230e12056232b92d80bb16904b1e2673.jpg",
+      "goods_attr": "متعدد الألوان / S",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "34.00",
+        "amountWithSymbol": "SR34.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR34.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "437589842",
+      "goods_sn": "I4mn2zmyijvd8e",
+      "sku_code": "sr260323171828515186754",
+      "goods_name": "1م/2م/3 أمتار/4م/5م شريط إضاءة ديكوري مرن من الليد النيون، إضاءة محيطية قابلة للتعتيم، تعمل بالطاقة من منفذ USB، مناسبة لإضاءة المنزل الذكي، إضاءة محيطية دافئة، تقنية تعتيم ذكية، شريط إضاءة محيطية قابل للتعتيم مرن لإضاءة بث البث المباشر، مرآة المكياج، إضاءة مرآة الحمام، تعتيم باللمس",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/23/c5/1774257568158ccf58a8368db50248bac9dd3546aa.jpg",
+      "goods_attr": "شريط نيون يعمل باللمس USB / ضوء دافئ / 2 م/6.56 قدم",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "20.00",
+        "amountWithSymbol": "SR20.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR20.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "353940981",
+      "goods_sn": "I1mjv2obhn1gi2",
+      "sku_code": "sh260101140930429850838",
+      "goods_name": "منعم الأقمشة المركز - حجم السفر مع منظف الغسيل، مضاد للكهرباء الساكنة، منعم الأقمشة، محمول، متعدد النكهات، رائحة منعشة طويلة الأمد 18مل",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/01/b5/1767248794eb947061688aebd4372b37ff50caca41.jpg",
+      "goods_attr": "متعدد الألوان / عبوة واحدة من كل 6 نكهات (عشوائية)",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.74",
+        "amountWithSymbol": "SR8.74",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.74",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "109169280",
+      "goods_sn": "I95m3kfmm09h",
+      "sku_code": "sj25061953798749925",
+      "goods_name": "1 قطعة سوار خيط أحمر محظوظ مضفر، يناسب الجنسين، الأزواج، بتصميم بسيط، مصنوع يدويًا، مناسب للارتداء اليومي، الحفلات، هدايا عيد الميلاد للأصدقاء، متوفر بألوان متعددة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/19/27/17503018045b060764523ad50ff71717eb071b258c.jpg",
+      "goods_attr": "حظ سعيد / الأسود / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.77",
+        "amountWithSymbol": "SR6.77",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.77",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "33054796",
+      "goods_sn": "I34jyuiov3oa",
+      "sku_code": "sg2404025462485226",
+      "goods_name": "كيس غسيل كبير جدًا للسفر، حقيبة تخزين ملابس متسخة عالية السعة، تناسب 4 حمولات، سهل وضعه في سلة الغسيل، قابل للغسل في الغسالة، ضروري للسكن الجامعي، مناسب للمدرسة، يمكن تخزين لوازم الدراسة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/04/02/88/1712045710ff552a9fa9470a982c27182662945b2e.jpg",
+      "goods_attr": "متعدد الألوان / أزرق*1+رمادي*1",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "19.00",
+        "amountWithSymbol": "SR19.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR19.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "212781104",
+      "goods_sn": "I58jytv9631i",
+      "sku_code": "ss25101315267726573",
+      "goods_name": "Madebyblanc لوح محوِّل جاف حجم A4 مع حبل للجدار، يمكن تعليقه لوح محوِّل جاف أبيض مع 3 أقلام تحديد وممحاة مغناطيسيّة للأطفال والكتابة والرسم والمستلزمات المدرسية المنزلية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/07/17/3f/1784257904e52fedd9b2cf7f10f7b08291cbcc2fa0.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "17.00",
+        "amountWithSymbol": "SR17.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR17.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "43643671",
+      "goods_sn": "I336p9x4ilmh",
+      "sku_code": "sh2409251604638061",
+      "goods_name": "10 قطع مجموعة فوط المطبخ، منشفات تنظيف متعددة الألوان، ماصة ومتينة لتنظيف الزجاج والأسطح والأواني والأحواض والحمامات واستخدامات يومية. تشمل وسادات غسل الفولاذ (3 خيارات)",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/09/28/78/17275083818c19f84db4688930bf167abd82c19dfb.jpg",
+      "goods_attr": "متعدد الألوان / متعدد الألوان / رمادي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "3.75",
+        "amountWithSymbol": "SR3.75",
+        "currency": null
+      },
+      "amountWithSymbol": "SR3.75",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "63519830",
+      "goods_sn": "I03vom6tjpiq",
+      "sku_code": "sc25032944254438123",
+      "goods_name": "36 قطعة/مجموعة من إكسسوارات الحجاب شريط الحجاب وأشكال دبابيس الحجاب، سهلة الارتداء، حجاب كاجوال مضاد للانزلاق شريط لاصق ثنائي الجانب، إكسسوارات الحجاب للفستان",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/03/29/39/1743255645dcc275abe331e22b690403d84e0af741.jpg",
+      "goods_attr": "36 قطعة شفافة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "3.00",
+        "amountWithSymbol": "SR3.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR3.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "176537023",
+      "goods_sn": "I134d8lgyxm1",
+      "sku_code": "sh25090671149679949",
+      "goods_name": "5 قطع من حامل المكنسة والممسحة متعدد الوظائف، مشبك للأواني، مشبك حائطي للمكنسة، حامل ممسحة ومكنسة لاصق ذاتي، خطاف قابل للفصل مقاوم للماء ومانع للانزلاق، مناسب للتخزين في المنازل والحمامات والمطابخ والحدائق والمرائب.",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/06/a6/175716299883c0ad7ddbb76570c5016c8d376f52b9.jpg",
+      "goods_attr": "أبيض / [تعزيز مقاوم للماء]3 قطع",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "7.85",
+        "amountWithSymbol": "SR7.85",
+        "currency": null
+      },
+      "amountWithSymbol": "SR7.85",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "260544363",
+      "goods_sn": "I7cnuwvqyv0v",
+      "sku_code": "sh251031265724223826",
+      "goods_name": "6 كرات غسيل قابلة لإعادة الاستخدام، كاشطة سحرية لمنع التشابك، إزالة الشعر والفرو، كرات تنظيف الغسالة والمجفف، أداة غسيل ناعمة غير كهربائية، كرة غسيل لإزالة شعر القطط والكلاب والفرو والنسالة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/10/31/ae/1761906168102986e598b718ec421fb47e37441af2.jpg",
+      "goods_attr": "متعدد الألوان / أبيض / 4pcs",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.80",
+        "amountWithSymbol": "SR4.80",
+        "currency": null
+      },
+      "amountWithSymbol": "SR4.80",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "23709963",
+      "goods_sn": "I1gu7oy6ylei",
+      "sku_code": "sc2309249589744056",
+      "goods_name": "1 قطعة إبزيم معدني أنيق للنساء قابل للتعديل، مناسب للبنطلونات والتنانير، يمنع حدوث مشاكل في الملابس، ملابس صيفية كاجوال",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/01/14/b7/1705241545668d443ea0d670e9cb414294560a539a.jpg",
+      "goods_attr": "أبيض / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.00",
+        "amountWithSymbol": "SR4.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR4.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "484666338",
+      "goods_sn": "I0moy8u2q1c38a",
+      "sku_code": "sz260509191113909509403",
+      "goods_name": "SHEIN Franclia فستان صيفي أنيق بلون موحد برقبة معلقة وخصر مشدود وذيل حورية البحر",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/05/28/ea/1779949424b53eea449cf7f301c4123e65e783f0b3.jpg",
+      "goods_attr": "بني / S",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "48.00",
+        "amountWithSymbol": "SR48.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR48.00",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "shein-cart",
+  "analyzed_at": "2026-07-22T01:13:47.722191+03:00",
+  "output_file": "shein-cart-20260722-011347.json"
+}

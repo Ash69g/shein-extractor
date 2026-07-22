@@ -1,0 +1,438 @@
+{
+  "source_url": "https://onelink.shein.com/43/5w1fugtnb6fk",
+  "final_url": "https://m.shein.com/cart/share/landing?shc=2_R7APSfHmUPk&group_id=805389515&local_country=OTHER&url_from=GM74246382595&cart_share=1",
+  "group_id": "805389515",
+  "local_country": "OTHER",
+  "all_product_size": 21,
+  "counts": {
+    "normalProducts": 21,
+    "outStock": 0,
+    "unavailable": 0
+  },
+  "products": [
+    {
+      "goods_id": "468039115",
+      "goods_sn": "I0mp0k0omcnxen",
+      "sku_code": "sj260330114431078860184",
+      "goods_name": "1 Pair Fashion Colorful Polka Dot Acrylic Geometric Water Drop Round Dangle Earrings, Suitable For Daily Wear",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/11/aa/1778464637d8ac4ac880ed67fcaf44e19f8644a87d.jpg",
+      "goods_attr": "Colorful / one-size",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "1.80",
+        "amountWithSymbol": "$1.80",
+        "currency": null
+      },
+      "amountWithSymbol": "$1.80",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "472457866",
+      "goods_sn": "I0mp5cc1k22hpk",
+      "sku_code": "sj260514181563254894696",
+      "goods_name": "1pc Fashion Black & White Polka Dot Zinc Alloy & Acrylic Clover Bracelet, Suitable For Daily Wear",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/14/d7/1778754045ff26322bfd3ffca392be3c2b65647f17.jpg",
+      "goods_attr": "Black and White / one-size",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "2.20",
+        "amountWithSymbol": "$2.20",
+        "currency": null
+      },
+      "amountWithSymbol": "$2.20",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "23096644",
+      "goods_sn": "I75oucts2b6h",
+      "sku_code": "sj2309121985302056",
+      "goods_name": "1pair Matte Vintage Creative Elegant Simple Atmosphere All-match Earrings",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/09/12/bb/1694482509cd0b13a4cf62ef24708664913db4c4c0.jpg",
+      "goods_attr": "Brown / one-size",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "1.75",
+        "amountWithSymbol": "$1.75",
+        "currency": null
+      },
+      "amountWithSymbol": "$1.75",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "156715033",
+      "goods_sn": "I278xx6ujrg2",
+      "sku_code": "sj25081917818803040",
+      "goods_name": "1pc/5pcs Women's Oversized Resin Bracelet Set, Minimalist Design Bracelet Set For Daily Wear, Minimalist Colorful Acrylic Bracelet",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/08/19/e4/1755568603b7876db99234d668a13c0a4d8ef7c4ad.jpg",
+      "goods_attr": "Multicolor / one-size / A12371-3",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "3.90",
+        "amountWithSymbol": "$3.90",
+        "currency": null
+      },
+      "amountWithSymbol": "$3.90",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "156715033",
+      "goods_sn": "I278xx6tlt8g",
+      "sku_code": "sj25081917818803040",
+      "goods_name": "1pc/5pcs Women's Oversized Resin Bracelet Set, Minimalist Design Bracelet Set For Daily Wear, Minimalist Colorful Acrylic Bracelet",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/08/19/e4/1755568603b7876db99234d668a13c0a4d8ef7c4ad.jpg",
+      "goods_attr": "Multicolor / one-size / A12371-2",
+      "stock": 6,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "3.90",
+        "amountWithSymbol": "$3.90",
+        "currency": null
+      },
+      "amountWithSymbol": "$3.90",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "152195351",
+      "goods_sn": "I473va7xvttb",
+      "sku_code": "sj25081356767533567",
+      "goods_name": "4pcs Elegant Vintage Bracelets, Fashion Minimalist Design, Suitable For Casual Wear, Acrylic, Perfect For Daily And Party",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/08/13/df/17550556324751f7ffff2445af87b7d798cbf6543e.jpg",
+      "goods_attr": "Black and White",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.60",
+        "amountWithSymbol": "$5.60",
+        "currency": null
+      },
+      "amountWithSymbol": "$5.60",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "427818493",
+      "goods_sn": "I8mn03jfdicc0j",
+      "sku_code": "sj25071658649856926",
+      "goods_name": "1pc Vintage Minimalist Style Resin Round Geometric Bracelet, Suitable For Daily Wear And Party Occasions",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/21/38/17740830858f144be395189fcef40499cafb00a336.jpg",
+      "goods_attr": "Orange",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "3.80",
+        "amountWithSymbol": "$3.80",
+        "currency": null
+      },
+      "amountWithSymbol": "$3.80",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "128624831",
+      "goods_sn": "I86g5pgwwwhf",
+      "sku_code": "sj25071658649831328",
+      "goods_name": "1pc Vintage Minimalist Style Resin Round Geometric Bracelet, Suitable For Daily Wear And Party Occasions",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/16/15/1752647599a2a8dd640e25832853fc238e7f10966b.jpg",
+      "goods_attr": "White",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "3.30",
+        "amountWithSymbol": "$3.30",
+        "currency": null
+      },
+      "amountWithSymbol": "$3.30",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "303647341",
+      "goods_sn": "I23qybutlu8v",
+      "sku_code": "sj251118448087038675",
+      "goods_name": "1 Pair Retro Exaggerated Unique Drip Oil Polka Dot Large Hoop Earrings, Minimalist Versatile Geometric Big Circle Black & White Polka Dot Hoop Earrings, Suitable For Women Daily, Vacation, Party Wear",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/11/18/1e/176343772411d614bc23d7e1c6b9e15e191132804c.jpg",
+      "goods_attr": "White / one-size",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "2.70",
+        "amountWithSymbol": "$2.70",
+        "currency": null
+      },
+      "amountWithSymbol": "$2.70",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "464956513",
+      "goods_sn": "I8mosbjprbhfe2",
+      "sku_code": "si260505152564380664191",
+      "goods_name": "3pcs Printed/Solid Color Comfortable Lace Trim Women's Thong Panties",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/30/11/1780112371c8eb65aad518900b60f6f2947837a1f5.jpg",
+      "goods_attr": "Multicolor / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.80",
+        "amountWithSymbol": "$4.80",
+        "currency": null
+      },
+      "amountWithSymbol": "$4.80",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "441387953",
+      "goods_sn": "I2mnq2uxv09qze",
+      "sku_code": "sb260408211863216414343",
+      "goods_name": "24pcs Black Polka Dot Nail Patches, Short Almond-Shaped Nail Set, Includes 1 Adhesive Tab And 1 Mini Nail File, Suitable For Daily Wear. Nails",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2026/04/08/b0/1775654334e81617fbf09d49de356b2ce14f12aba2.png",
+      "goods_attr": "Multicolor / Almond",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "1.05",
+        "amountWithSymbol": "$1.05",
+        "currency": null
+      },
+      "amountWithSymbol": "$1.05",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "368800573",
+      "goods_sn": "I4mkaw0sqokrql",
+      "sku_code": "sb25060424224684655",
+      "goods_name": "Transform Your Nails With 24pcs Medium Almond Shape Press On False Nails Elegant Vintage Cloud White Wide-Border French-Style Fashion Polka Dot Design Press-On Nails Classic Daily Black-And-White Contrasting Polka Dot Pattern Artificial Nails Full Cover False Nails For Women And Girls Includes 1sheet Adhesive Tabs & 1pc Mini Files Strip Jelly Gel Random Shipment",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/12/89/17682044809c08a566519523d756e75eb522e4b37e.jpg",
+      "goods_attr": "White",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "1.34",
+        "amountWithSymbol": "$1.34",
+        "currency": null
+      },
+      "amountWithSymbol": "$1.34",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "81009347",
+      "goods_sn": "I1512lhjeycd",
+      "sku_code": "sj25051759541481911",
+      "goods_name": "1 Pair Fashion Colorful Glass Flower Ear Cuff Earrings Suitable For Women Party And Gathering",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/05/17/3c/17474587289520cccb76b59481c2f83ab728e6dbe7.jpg",
+      "goods_attr": "Colorful / one-size",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "2.80",
+        "amountWithSymbol": "$2.80",
+        "currency": null
+      },
+      "amountWithSymbol": "$2.80",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "51720203",
+      "goods_sn": "I65c3x1m8o9d",
+      "sku_code": "sW210329148216621",
+      "goods_name": "1pc Zirconia Crystal Bow Clip-On Earrings, No Piercing Needed, Gold/Silver Color, Suitable For Women And Girls, Fashionable And Stylish",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2025/12/22/25/17663817148de7ba043350277acdccc8b5042c99dc.png",
+      "goods_attr": "Multicolor / A",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "2.20",
+        "amountWithSymbol": "$2.20",
+        "currency": null
+      },
+      "amountWithSymbol": "$2.20",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "481010685",
+      "goods_sn": "I4mpgcmsca6vav",
+      "sku_code": "sc260522105492846999878",
+      "goods_name": "4pcs Back To School Polka Dot Rabbit Ear Headband Set, Wide Knot Headband, Elastic Bow Hair Tie, Cute Women's Hair Accessories, Autumn/Winter Vacation Style, Gift For Her",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/22/89/17794184787fb9aa16de3b205270e4913cd2781db9.jpg",
+      "goods_attr": "Multicolor / 1pc Black",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "2.10",
+        "amountWithSymbol": "$2.10",
+        "currency": null
+      },
+      "amountWithSymbol": "$2.10",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "481178905",
+      "goods_sn": "I0mpdoketqm9pd",
+      "sku_code": "sz260520142847019738787",
+      "goods_name": "Resyla Women's New Leopard Print Camisole",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/05/25/3f/1779676067e80fe1ea5fc4c31ad8ae6e32d0c41613.jpg",
+      "goods_attr": "Multicolor / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.40",
+        "amountWithSymbol": "$6.40",
+        "currency": null
+      },
+      "amountWithSymbol": "$6.40",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "106153454",
+      "goods_sn": "I81f1rfytfxt",
+      "sku_code": "sb2409101117505000",
+      "goods_name": "2pcs Sexy Purple Flower Temporary Tattoos, Realistic Waterproof Fake Tattoo Stickers For Women, Body Art Decals For Arm, Leg, Chest",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/14/24/17498775466f2a7b4ce101c73b3469504fbf119849.jpg",
+      "goods_attr": "Purple",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "1.30",
+        "amountWithSymbol": "$1.30",
+        "currency": null
+      },
+      "amountWithSymbol": "$1.30",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "50199236",
+      "goods_sn": "I1533hn8dd8r",
+      "sku_code": "sb2412109709115325",
+      "goods_name": "5pcs Black Sketch Floral Pattern Temporary Tattoos, Sexy Black Sketch Floral Chain & Butterfly Design, Waterproof, Sweat-Resistant, Scratch-Resistant, Convenient For Women To Use For Parties, Gatherings And Daily Wear, Applicable For Abdomen, Thighs, Collarbone, Back And Other Areas,Spine Tattoo,Sketch Style",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/12/10/70/1733839994a368d6866a24a997c7d17fdc04738681.jpg",
+      "goods_attr": "Black",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "2.40",
+        "amountWithSymbol": "$2.40",
+        "currency": null
+      },
+      "amountWithSymbol": "$2.40",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "42707913",
+      "goods_sn": "I62u6hiliwok",
+      "sku_code": "sb2409101117539744",
+      "goods_name": "2pcs Black Flower & Butterfly Temporary Tattoo Stickers For Women, Waterproof & Long Lasting Fake Tattoo For Arm, Leg & Chest,Sketch Style",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/09/10/7a/17259788017b842dd566c7d1d43772cab928746c4a.jpg",
+      "goods_attr": "Black",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "1.30",
+        "amountWithSymbol": "$1.30",
+        "currency": null
+      },
+      "amountWithSymbol": "$1.30",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "368068462",
+      "goods_sn": "I6mjhzindltstv",
+      "sku_code": "sb251223103663874573552",
+      "goods_name": "1/3pcs Leopard Print Bow Headband, Wrist Wrap Set With Printed Headscarf, Absorbent Wristband, Reusable Washing Wristband, Soft Microfiber Towel Wristband, Facial Cleansing Wristband For Women, Girls, Yoga, Running",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/12/23/a8/1766457448e922105318cfb3f9689d88de774bb170_square.jpg",
+      "goods_attr": "Multicolor / 3pc Dark Leopard Print Headband Set",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "2.90",
+        "amountWithSymbol": "$2.90",
+        "currency": null
+      },
+      "amountWithSymbol": "$2.90",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "106746820",
+      "goods_sn": "I3449dp6grj9",
+      "sku_code": "sk25061793352811713",
+      "goods_name": "1pc Multifunctional Children Cartoon Stationery Box With Password Lock, High-Tech Smart Pencil Case, Automatic Double Layer Pen Bag, Surprising Gift For Girls",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/20/d0/175040955677e3dc8b58cdc75c3821b2661d55ad34.jpg",
+      "goods_attr": "Multicolor / Blue",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "11.80",
+        "amountWithSymbol": "$11.80",
+        "currency": null
+      },
+      "amountWithSymbol": "$11.80",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "حياة شطوان",
+  "order_number": "T-501",
+  "analyzed_at": "2026-07-22T04:12:39.634005+03:00",
+  "output_file": "T-501-حياة-شطوان-20260722-041239.json"
+}

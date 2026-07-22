@@ -1,0 +1,357 @@
+{
+  "source_url": "https://onelink.shein.com/42/5vnv1lnmis19",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_R7m19llKJxA&group_id=801526900&local_country=SA&url_from=GM75136895145&cart_share=1",
+  "group_id": "801526900",
+  "local_country": "SA",
+  "all_product_size": 17,
+  "counts": {
+    "normalProducts": 15,
+    "outStock": 0,
+    "unavailable": 2
+  },
+  "products": [
+    {
+      "goods_id": "35668250",
+      "goods_sn": "I32umdkmol3j",
+      "sku_code": "sr2405220820837727",
+      "goods_name": "قفازات عازلة للكهربائيين فائقة الرقة، مقاومة للجهد الكهربائي 400 فولت/500 فولت، مصنوعة من مادة المطاط، عازلة للشاشة اللمسية، لاستخدام صناعي قطعة واحدة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/05/22/98/1716348289c111c3e14af868959ef470283e0daece_square.jpg",
+      "goods_attr": "متعدد الألوان / رمادي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "20.00",
+        "amountWithSymbol": "SR20.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR20.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "18123125",
+      "goods_sn": "I33b6ft90v4b",
+      "sku_code": "sj2306191366134006",
+      "goods_name": "خاتم رجالي من الصلب التيتاني، هدية مذهلة لعيد الحب وعيد الأب للزوج والأم وعيد الأم",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/06/19/1687163807898d2a1883da66524d7cb892ea18d7a9_square.jpg",
+      "goods_attr": "فضي / 7",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "14539426",
+      "goods_sn": "I81w09ze73t8",
+      "sku_code": "sh2304049689893788",
+      "goods_name": "1 قطعة صندوق تخزين المجوهرات الأنيق بلون بيج، مثالي كهدية مميزة لأحبائك، مناسب للسفر في الشمس أو كهدية مميزة للعودة إلى المدرسة، تصميم عصري يجمع بين الأناقة والوظائف العملية، يوفر لك مساحة مثالية لتنظيم المجوهرات والإكسسوارات، مثالي للاستخدام اليومي أو المناسبات الخاصة، اجعل كل لحظة مميزة مع هذا الصندوق الفريد.",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2023/04/04/16805949481334f1684be85152b29f667e42514c70.jpg",
+      "goods_attr": "بيج / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "7.00",
+        "amountWithSymbol": "SR7.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR7.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "14814196",
+      "goods_sn": "I221ujzrd4mf",
+      "sku_code": "sj2304118649900297",
+      "goods_name": "قلادة من الفولاذ المقاوم للصدا فضة مع نجمة , شمس و بتعلقة قمر , مناسب الى للنساء ملابس يومية , موسم المدرسة و هدية العيد 3قطعات/طقم",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/27/5d/1769484849372866a0f6dba3dc4ff5793890f6daf3.jpg",
+      "goods_attr": "فضي / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.81",
+        "amountWithSymbol": "SR5.81",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.81",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "30094533",
+      "goods_sn": "I13fgdrax63k",
+      "sku_code": "sj2402187515812903",
+      "goods_name": "RAYQUEEN قلادة نسائية من الفولاذ المقاوم للصدأ باللون الذهبي بتصميم قلب مفرغ، سلسلة عظمة الترقوة بأسلوب INS حلو وبسيط، تصميم فريد، مناسبة للارتداء اليومي والإهداء",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/02/18/67/170825828886c6c9abbb4cacf0ffb56753de99d44e.jpg",
+      "goods_attr": "فضي / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "37967792",
+      "goods_sn": "I7132dwam6qe",
+      "sku_code": "sh2406282235295349",
+      "goods_name": "5 أكياس هدايا من ورق سميك بأشرطة ملونة متنوعة، مناسبة لتغليف هدايا الزفاف، صناديق هدايا أعياد الميلاد، أكياس هدايا الحفلات، ديكور هدايا المناسبات، ديكور الزفاف وغيرها من المناسبات",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/24/d5/177433060324a322fb05a2a0fdbef6e1aaed84f6cd.jpg",
+      "goods_attr": "متعدد الألوان / علبة هدية بيضاء + شريط أبيض [5 قطع]",
+      "stock": 1,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "469466643",
+      "goods_sn": "I5mp0zzltcgs82",
+      "sku_code": "sj260511170614996228503",
+      "goods_name": "قلادة بتعليقة بشكل بجعة ذهبية وفضية، مرصعة بأجنحة من البلور، بتصميم حجر كريم أحمر داكن على شكل قطرة ماء، مرفقة بسلسلة ثعبان، مصنوعة للنساء، مناسبة كهدية قلبية لعيد الأم، عيد الميلاد، الذكرى السنوية، عيد الحب وغيرها من المناسبات الخاصة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/11/be/177849084947b82083bcca88e0f48887967ba1f3dd.jpg",
+      "goods_attr": "متعدد الألوان / أصفر ذهبي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.36",
+        "amountWithSymbol": "SR9.36",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.36",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "12605902",
+      "goods_sn": "I16rem7vbj3m",
+      "sku_code": "sj2212255475413670",
+      "goods_name": "قلادة معلق شمس من الفولاذ المقاوم للصدأ أنيقة للنساء، مناسبة كهدية لجميع المناسبات",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2022/12/26/1672048430f82c31aa5458633e92c69b325f87690b.jpg",
+      "goods_attr": "ذهبي أصفر / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.77",
+        "amountWithSymbol": "SR5.77",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.77",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "448705755",
+      "goods_sn": "I3mo0wqlmvau0a",
+      "sku_code": "sj260329134990204763950",
+      "goods_name": "سوار زهرة التوليب البلورية الملون، مجوهرات نسائية أنيقة وعصرية، مناسبة للارتداء اليومي، هدية للحفلات والزفاف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/24/37/1782288447ac7a770b2e72b70a56bd7451930f9e7a.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد / C",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "301801317",
+      "goods_sn": "I3d8crophr3e",
+      "sku_code": "sh251114033253205454",
+      "goods_name": "زوج واحد من جوارب السيليكون المرطبة والمهدئة، جوارب الصبار القابلة لإعادة الاستخدام، جوارب السبا الليلية، جوارب كعب الجل غير الانزلاقية، مناسبة للنساء ذوات الأقدام الجافة والمتشققة، جوارب السيليكون المرطبة، جوارب السبا والبديكير للقدم من السيليكون، مناسبة للرجال والنساء ذوي بشرة القدم الجافة والخشنة، العناية بالقدم في المنزل",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2026/05/04/d6/1777890298d3522f10d341eb6048e16aa03aeaa7f7.png",
+      "goods_attr": "متعدد الألوان / أسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "448705755",
+      "goods_sn": "I9moqpfisxbebn",
+      "sku_code": "sj260329134990204763950",
+      "goods_name": "سوار زهرة التوليب البلورية الملون، مجوهرات نسائية أنيقة وعصرية، مناسبة للارتداء اليومي، هدية للحفلات والزفاف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/24/37/1782288447ac7a770b2e72b70a56bd7451930f9e7a.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد / J",
+      "stock": 9,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "378516490",
+      "goods_sn": "I4mkkrf1t64eod",
+      "sku_code": "sj2412104223549475",
+      "goods_name": "خاتم قابل للتعديل مطلي بالذهب عيار 18 قيراط من الفولاذ المقاوم للصدأ بتصميم زهرة التوليب واللؤلؤ، موضة فرنسية من نمط Ins مناسب للحفلات والمواعيد والارتداء في المكتب",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/19/87/176880255324fe98252fee239f212b421a2a69e5a4_square.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "10646256",
+      "goods_sn": "I41mn021215q",
+      "sku_code": "sh2205225675894959",
+      "goods_name": "1 علبة خاتم بسيطة أنيقة بني فاتح لتخزين الخواتم في الزفاف، هدية مثالية للسفر والصيف، تصميم عصري يناسب العودة للمدرسة، مثالية لتقديمها كهدية في المناسبات الخاصة، تجمع بين الأناقة والوظائف العملية، خيار رائع لتنظيم المجوهرات، تضفي لمسة من الفخامة على أي طاولة، مثالية للاستخدام اليومي أو في المناسبات، تناسب جميع الأذواق، تصميم مدمج يسهل حمله، خيار مثالي لعشاق الموضة، تضمن الحفاظ على الخواتم بأمان، تعكس الذوق الرفيع، مناسبة لجميع الأعمار، تضيف لمسة من الأناقة إلى أي مجموعة مجوهرات، خيار رائع كهدية للأصدقاء والعائلة.",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2022/05/23/1653296510e70d1bcfeffc2d3fb54cc27114a4f254.jpg",
+      "goods_attr": "كاكي / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "35948179",
+      "goods_sn": "I2cgl0yiqtaw",
+      "sku_code": "sj2311111131366679",
+      "goods_name": "قلادة بتصميم بسيط من إطار صورة من الفولاذ المقاوم للصدأ بزخرفة، هدية تذكارية للعائلة، قطعة واحدة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/06/19/9d/17187621429caa9a62a1110da9c5c147f6d624c949.jpg",
+      "goods_attr": "فضي / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "482247347",
+      "goods_sn": "I6mpf7j6ofs9kr",
+      "sku_code": "sr260521153563511944932",
+      "goods_name": "L.A.OL.A.U 1 قطعة L.AOL.AU TS26D/TS26A جهاز قياس متعدد رقمي جديد - جهاز قياس متعدد قابل للشحن مع نطاق تلقائي وشاشة LCD، يقيس الجهد والتيار والمقاومة والسعة والحرارة، مناسب للمختبر والمصنع والمنزل",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2026/05/21/c8/1779349042f1c4e2f7d5af6c8b885b661757937852_square.png",
+      "goods_attr": "متعدد الألوان / TS26D",
+      "stock": 5,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "125.01",
+        "amountWithSymbol": "SR125.01",
+        "currency": null
+      },
+      "amountWithSymbol": "SR125.01",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "123667021",
+      "goods_sn": "I72drjg5kzjl",
+      "sku_code": "ss25071081227262121",
+      "goods_name": "16 قطعة/عبوة مجموعة ملصقات جميلة بأشكال حيوانات ونقاط صغيرة، مناسبة للدفاتر والإطارات وأغلفة الهواتف والأكواب والمجلات وحافظات الأقلام، ملصقات DIY للتخصيص، عودة إلى المدرسة، لوازم مدرسية، هدايا عيد الميلاد، هدايا للنساء، قرطاسية إبداعية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/28/22/177735597313f9b0f442c89360279d52c1676aaab7_square.jpg",
+      "goods_attr": "متعدد الألوان / 2 تركيبات",
+      "stock": 0,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "17.00",
+        "amountWithSymbol": "SR17.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR17.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "479973962",
+      "goods_sn": "I5mpdj6sskkkg2",
+      "sku_code": "sl260520112915506158970",
+      "goods_name": "قطعة واحدة لعبة تخفيف الضغط قابلة للضغط بشكل الزلابية، قطعة واحدة لعبة حسية للأصابع على شكل خبز واقعي صغير قابلة للضغط ببطء، مناسبة للأطفال والبالغين، أداة تخفيف القلق للمكتب، هدية عيد ميلاد (ألوان القفص والختم تُرسل عشوائياً)",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/20/f8/1779248329c0751c52e23ab180ec5a1dea4a242d01_square.jpg",
+      "goods_attr": "متعدد الألوان / بريق ذهبي صغير (لون عشوائي)",
+      "stock": 999,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.81",
+        "amountWithSymbol": "SR9.81",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.81",
+      "is_on_sale": 0
+    }
+  ],
+  "customer_name": "shein-cart",
+  "analyzed_at": "2026-07-17T12:11:09.703663+03:00",
+  "output_file": "shein-cart-20260717-121109.json"
+}

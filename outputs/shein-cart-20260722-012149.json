@@ -1,0 +1,57 @@
+{
+  "source_url": "https://api-shein.shein.com/h5/sharejump/appjump?link=RP34nBDpdWe_b&localcountry=SA&shc=2_RP34nBDpdWe",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_RP34nBDpdWe&group_id=791083230&local_country=SA&url_from=&cart_share=1",
+  "group_id": "791083230",
+  "local_country": "SA",
+  "all_product_size": 2,
+  "counts": {
+    "normalProducts": 2,
+    "outStock": 0,
+    "unavailable": 0
+  },
+  "products": [
+    {
+      "goods_id": "61352750",
+      "goods_sn": "I47851c2gzu8",
+      "sku_code": "st25031119999461413",
+      "goods_name": "VBOSI (نوصي بشراء مقاس أكبر) قوام قابل للتعديل لتصحيح الوضعية، دعامة الكتف والظهر، مناسب للجنسين",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/05/01/4a/17460570309bfd90379ad77c4e3b2a164f8cfab10b.jpg",
+      "goods_attr": "الأسود / M",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "21.00",
+        "amountWithSymbol": "SR21.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR21.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "50497384",
+      "goods_sn": "I04vtdvde5vp",
+      "sku_code": "st2412066691875916",
+      "goods_name": "KENSUN 1 قطعة مصباح رأس LED قابل للشحن محمول بتركيز قابل للتعديل، ضوء قوي خارجي مناسب للصيد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/02/1f/1743576091140177e59d6ed1a539733e40031a99a7_square.jpg",
+      "goods_attr": "الأسود / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "18.00",
+        "amountWithSymbol": "SR18.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR18.00",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "shein-cart",
+  "analyzed_at": "2026-07-22T01:21:49.518220+03:00",
+  "output_file": "shein-cart-20260722-012149.json"
+}

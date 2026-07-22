@@ -1,0 +1,458 @@
+{
+  "source_url": "https://onelink.shein.com/43/5wby9hrrzp0p",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_RuvwdrfjPxA&group_id=808253505&local_country=SA&url_from=&cart_share=1",
+  "group_id": "808253505",
+  "local_country": "SA",
+  "all_product_size": 22,
+  "counts": {
+    "normalProducts": 22,
+    "outStock": 0,
+    "unavailable": 0
+  },
+  "products": [
+    {
+      "goods_id": "440078700",
+      "goods_sn": "I7mnecbtdgwmgq",
+      "sku_code": "sl260331154857426847107",
+      "goods_name": "لعبة ضغط بشكل أخطبوط لطيف، لعبة ضغط أخطبوط فقاعي، لعبة ضغط بطيئة الارتداد، هدية حفلة ممتعة، عيد ميلاد، هالوين، عيد الميلاد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/31/37/17749443445c759becbb0c76867f173e30d3b09bc8.jpg",
+      "goods_attr": "متعدد الألوان / واحد عشوائي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.85",
+        "amountWithSymbol": "SR5.85",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.85",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "266140462",
+      "goods_sn": "I43gu8hg0tnq",
+      "sku_code": "sl251106178778878868",
+      "goods_name": "POKOJA LAND مجموعة ألعاب سكوشي: قطة جبنة، كف قطة عنب، ألعاب سكوشي بإنعاش بطيء، قطط ، كلاب، بطريق، موز، ألعاب تخفيف الضغط للمراهقين والأطفال",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/03/13/54/1741846147200362f76fdfd4fea5a4eed9805c0e42.jpg",
+      "goods_attr": "متعدد الألوان / مخلب القط العنب",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.82",
+        "amountWithSymbol": "SR5.82",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.82",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "461410741",
+      "goods_sn": "I3mo8jub3zw699",
+      "sku_code": "sa260421193734817989822",
+      "goods_name": "SHEIN Playful Pals طقم ملابس طفل ولد مكون من 2 قطعة، كارديجان بياقة مزينة بشكل دب كرتوني وقصير الأكمام، وشورت مطبوع بشكل دب، من قماش مضلع، طقم ملابس صيفية للأطفال الذكور",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/07/01/a2/1782894954b66720d5ac91eba0e161150244eadec9.jpg",
+      "goods_attr": "أصفر / 6-9M",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "19.00",
+        "amountWithSymbol": "SR19.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR19.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "426221920",
+      "goods_sn": "I3mmu9uug7t3rz",
+      "sku_code": "sg25031991911833608",
+      "goods_name": "حقيبة مربعة بسلسلة بتصميم رقعات شبكة ماسية بلون موحد كلاسيكي على طراز المهرج مع إغلاق قفل ملتوي باللون البرغندي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/17/74/17737304566e5584e691dfacf42f8ba69c19e395fe.jpg",
+      "goods_attr": "وردي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "41.00",
+        "amountWithSymbol": "SR41.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR41.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "438778149",
+      "goods_sn": "I2mngsuhcblkbo",
+      "sku_code": "sz260402093173330933028",
+      "goods_name": "Elenzga فستان كاجوال للنساء بخصر مطاطي وطباعة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/04/08/bd/1775650625e395c5308dc7e427e125f28de798f972.jpg",
+      "goods_attr": "أزرق غامق / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "44.00",
+        "amountWithSymbol": "SR44.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR44.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "229789301",
+      "goods_sn": "I032iuj1vmrj",
+      "sku_code": "sj25102044717706762",
+      "goods_name": "زوج واحد من أقراط حلقية بطبعة نمر مخملية عصرية مناسبة لارتداء النساء في الحفلات",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/20/47/1760955951458f8a7638d931c729f5613b4331678a.jpg",
+      "goods_attr": "ذهبي أصفر / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.81",
+        "amountWithSymbol": "SR6.81",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.81",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "46600603",
+      "goods_sn": "I53vk9pz6orn",
+      "sku_code": "sz2410241787728797",
+      "goods_name": "DAZY تي شيرت نسائي بياقة منسدلة وأكمام طويلة وقصة ضيقة طباعة نمر",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2025/02/21/dd/1740101549bd520abb81f04ee2c7b1bb5a2935e607.jpg",
+      "goods_attr": "قهوة بني / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "25.00",
+        "amountWithSymbol": "SR25.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR25.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "391329326",
+      "goods_sn": "I1mkzn4ynx8u5s",
+      "sku_code": "sx260106233864015686635",
+      "goods_name": "أحذية صندل نسائية بكعب عالي أبيض على الطراز الصيني، بتصميم إصبع القدم المدبب وتطريز بالدانتيل، سهلة الارتداء، مناسبة للإطلالات الصيفية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/29/e0/1769702326813d183a7c3bd442bc0570074d29f898.jpg",
+      "goods_attr": "وردي / CN39",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "37.63",
+        "amountWithSymbol": "SR37.63",
+        "currency": null
+      },
+      "amountWithSymbol": "SR37.63",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "141327621",
+      "goods_sn": "I6aqoewb3u7e",
+      "sku_code": "sh25073157667135737",
+      "goods_name": "مشط مزدوج الوظيفة قابل للاستخدام في الشعر الجاف والمبلل - تصميم تدليك لطيف، مقبض من البلاستيك ABS، مناسب لجميع أنواع الشعر، يقلل من التشابك والتجعد، يحسن صحة فروة الرأس، مثالي كهدية صغيرة، ضروري منزلي لاستخدام يومي، مريح للسفر، مشط دائري مجوف، فرشاة تصفيف شعر جذابة مع أسنان تدليك ناعمة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/31/9b/17539233995c7176594474187813367fdaff94e3f9.jpg",
+      "goods_attr": "متعدد الألوان / 1 قطعة بودرة أحمر الخدود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "7.00",
+        "amountWithSymbol": "SR7.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR7.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "520441131",
+      "goods_sn": "I9mquibnx6zssv",
+      "sku_code": "sk260626134511464902153",
+      "goods_name": "SHEIN Genkimix Kids أوفرول جينز للبنات الصغيرات بتصميم متعدد الاستخدامات، أزرق متوسط اللون، مطرز بقلوب وردية، بأسلوب ريترو، مناسب للربيع والصيف والخريف والشتاء، مع جيب كبير وتصميم عقدة على الصدر، بقصة فضفاضة وساق مستقيمة، من قماش ناعم ومريح للارتداء اليومي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/07/07/ab/1783388679353a10f1682e4b76aeed8cb881129a2c.jpg",
+      "goods_attr": "أزرق فاتح / 5Y",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "39.00",
+        "amountWithSymbol": "SR39.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR39.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "58414038",
+      "goods_sn": "I660nj0htbr1",
+      "sku_code": "sz25012344323126224",
+      "goods_name": "Soleia فستان سبغيتي بطبعات زهرية للجميع للعطلات الاعتيادية للنساء",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2025/02/24/35/1740398254d5777227d9b180a09282ab2d8eda6315.jpg",
+      "goods_attr": "الأحمر / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "20.29",
+        "amountWithSymbol": "SR20.29",
+        "currency": null
+      },
+      "amountWithSymbol": "SR20.29",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "383043725",
+      "goods_sn": "I8mki0i51ti86v",
+      "sku_code": "sz25060434103280944",
+      "goods_name": "SHEIN EZwear فستان إنزلاقي ضيق بطول كامل بطبعة نمر، مناسب للصيف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/05/07/95/1778133902263c58afcad6560da339a25ea7bccc9e.jpg",
+      "goods_attr": "متعدد الألوان / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "25.00",
+        "amountWithSymbol": "SR25.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR25.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "406081113",
+      "goods_sn": "I7dcqrensy2o",
+      "sku_code": "sa251129742422841872",
+      "goods_name": "SHEIN رومبير صيفية كاجوال للأطفال الرضع البنات الوردية المطبوعة بالفراولة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/02/12/f7/1770885892f5c7f56677123855193d6f579466ebc3.jpg",
+      "goods_attr": "الأزرق / 3-6M",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "21.00",
+        "amountWithSymbol": "SR21.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR21.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "39769463",
+      "goods_sn": "I71sx7pw462v",
+      "sku_code": "sc2407290534762765",
+      "goods_name": "4 قطع مشابك شعر بلاستيكية خفيفة الوزن بشكل مخلب بطول 6 سم/2.36 بوصة ذات لون جيلي لامع للنساء، أنيقة وعملية للاستخدام اليومي والحفلات والسفر والاستحمام والمكياج وتناسب مختلف الملابس، إكسسوارات شعر مناسبة للمدرسة والجامعة في فصلي الخريف والشتاء والصيف",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/07/29/b2/1722195013910242b1000ffe1511d252fd1068e585.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "77041645",
+      "goods_sn": "I9a5qp07hmok",
+      "sku_code": "sz2406186844490415",
+      "goods_name": "SHEIN EZwear فستان كاجوال ضيق مطبوع بنمط دوار الشمس بتصميم بسيط، مناسب للصيف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/05/13/af/17471329720e0622c4cd65a7f66dd6db4e7de1dc39.jpg",
+      "goods_attr": "متعدد الألوان / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "24.00",
+        "amountWithSymbol": "SR24.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR24.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "41941041",
+      "goods_sn": "I32jv04tktqb",
+      "sku_code": "sk2408291414246308",
+      "goods_name": "5 أزواج جوارب بنمط كرتوني للأطفال الرضع من الجنسين",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/08/29/da/1724928581e6848108916d9be44971d80d79499ecf.jpg",
+      "goods_attr": "متعدد الألوان / 6-12M",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.62",
+        "amountWithSymbol": "SR10.62",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.62",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "406743359",
+      "goods_sn": "I2ml7ufcr9k1is",
+      "sku_code": "sk260204174699537502829",
+      "goods_name": "SHEIN 4 قطع/مجموعة تيشيرتات كاجوال بياقة طاقم وأكمام قصيرة للفتيات الصغيرات مع طباعات فراولة وكرز وليمون وزهور بألوان الفاكهة المستوحاة من الدوبامين مثل الأصفر الليموني والأخضر النعناعي والوردي التوت والأبيض الكريمي، مناسبة للارتداء اليومي في الربيع والصيف، والأنشطة الخارجية والمنزل والعطلات",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/02/13/29/17709873825d9d911ffa2a2faeecda89035fdc9948.jpg",
+      "goods_attr": "متعدد الألوان / 7Y",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "47.00",
+        "amountWithSymbol": "SR47.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR47.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "437320494",
+      "goods_sn": "I7mkkt28a3oxv5",
+      "sku_code": "sa260119144989342428575",
+      "goods_name": "Playful Pals مجموعة ملابس علوية بلا أكمام وشورت مطبوع بطبعة الديناصور للأطفال الرضع الصبيان، أنيقة وجذابة، مناسبة للخروجات الربيعية/الصيفية والارتداء المنزلي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/04/22/02/17768399798178cfb5a9b919048f4d49d2ab661c14.jpg",
+      "goods_attr": "أخضر / 6-9M",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "28.00",
+        "amountWithSymbol": "SR28.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR28.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "410056424",
+      "goods_sn": "I5mm32oosqc91a",
+      "sku_code": "sc2408060322016165",
+      "goods_name": "1 قطعة شريط رأس مزخرف بالزهور المصنوعة يدويًا بطريقة الكروشيه، مناسب للارتداء اليومي والخروجات الربيعية وإكسسوارات الشاطئ للنساء، عصابة صيفية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/02/26/7b/1772086451e3821cdb057395c78bfa72576add6ac6.jpg",
+      "goods_attr": "أصفر / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "395910411",
+      "goods_sn": "I5mjtu8pa3z56m",
+      "sku_code": "sk251231175368598505069",
+      "goods_name": "SHEIN ChillGRL جمبسوت جينز كاجوال ناعمة مريحة للبنات مزينة برسومات قلب وزهور نمط",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/02/03/c5/1770112574b4614877e48bacd52ac60fc999f7dbf0.jpg",
+      "goods_attr": "أزرق فاتح / 7Y",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "43.35",
+        "amountWithSymbol": "SR43.35",
+        "currency": null
+      },
+      "amountWithSymbol": "SR43.35",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "31148011",
+      "goods_sn": "I3mw1rd0455s",
+      "sku_code": "sz2312054772777344",
+      "goods_name": "SHEIN Privé فستان بنمط النقاط برقبة مربعة وقصة ضيقة على الجسم وتفاصيل تجمعات",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2024/03/20/26/17109225511bf5b2db615535d820ca924cd5aee668.jpg",
+      "goods_attr": "الأسود / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "23.00",
+        "amountWithSymbol": "SR23.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR23.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "208341691",
+      "goods_sn": "I23og9g5cntm",
+      "sku_code": "sk25093051941351244",
+      "goods_name": "3/1 قطعة قبعة محبوكة للأطفال، قبعة محبوكة للأطفال في الشتاء والربيع، مناسبة للأولاد والبنات، إكسسوارات الأطفال، قبعة الأطفال، قبعة مرنة، قبعة للأطفال من عمر 0-3 سنوات، مريحة، قابلة للتنفس، صديقة للبشرة، قبعة محبوكة ناعمة ودافئة للأطفال",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/30/b3/1759196721d9757c024809a4d3616f29b0b6d229c6.jpg",
+      "goods_attr": "متعدد الألوان / عبوة من 3 قطع من 1 إلى 2 سنة",
+      "stock": 8,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "24.00",
+        "amountWithSymbol": "SR24.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR24.00",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "هاشم الذيباني",
+  "order_number": "T-500",
+  "analyzed_at": "2026-07-22T05:54:40.876339+03:00",
+  "output_file": "T-500-هاشم-الذيباني-20260722-055440.json"
+}

@@ -1,0 +1,817 @@
+{
+  "source_url": "https://api-shein.shein.com/h5/sharejump/appjump?link=RPzE9QhWk6h_b&localcountry=SA&shc=2_RPzE9QhWk6h&url_from=GM71142760134",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_RPzE9QhWk6h&group_id=789883135&local_country=SA&url_from=GM71142760134&cart_share=1",
+  "group_id": "789883135",
+  "local_country": "SA",
+  "all_product_size": 40,
+  "counts": {
+    "normalProducts": 37,
+    "outStock": 0,
+    "unavailable": 3
+  },
+  "products": [
+    {
+      "goods_id": "38944852",
+      "goods_sn": "I21hmjvv7pp7",
+      "sku_code": "sh2407150383194753",
+      "goods_name": "bablov كوب قهوة من الفولاذ المقاوم للصدأ 316L سعة 22 أونصة، كوب عازل للحرارة/البرودة مع قش، سعة كبيرة مع مقبض، زجاجة مياه، كوب رياضي ولياقة بدنية، إبريق مياه، هدية عيد الميلاد، مناسب لتجمعات العائلة وهدايا أصدقاء عيد الميلاد، كوب مياه للعودة إلى المدرسة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/07/15/45/172104768934359145db0770de05f2ad22440f1052_square.jpg",
+      "goods_attr": "متعدد الألوان / لون القرنفل",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "54.00",
+        "amountWithSymbol": "SR54.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR54.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "409784415",
+      "goods_sn": "I7mm4hahbvrr09",
+      "sku_code": "sx260227135507120018666",
+      "goods_name": "Bholvia أحذية مسطحة كاجوال جديدة عصرية للنساء بتصميم مربع الأصبع مطرزة ولامعة ذات قاع ناعم، بفيونكة زينة متعددة الاستخدامات مرنة وملائمة للبس اليومي في جميع المناسبات",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/03/23/9b/1774237216e6453e5e661f5da3cc8c6a8ec17fa438.jpg",
+      "goods_attr": "عنابي اللون / EUR40",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "52.01",
+        "amountWithSymbol": "SR52.01",
+        "currency": null
+      },
+      "amountWithSymbol": "SR52.01",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "67637893",
+      "goods_sn": "I491691m36vi",
+      "sku_code": "si25041608232012807",
+      "goods_name": "10 زوج جوارب رياضية قصيرة وغير ظاهرة لون دوبامين الصلب، مناسبة لفصلي الربيع والصيف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/16/ab/1744787486f3800f9a4d9379a226a0917e9617bac4.jpg",
+      "goods_attr": "متعدد الألوان / 10 أزواج 39-42",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "20.00",
+        "amountWithSymbol": "SR20.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR20.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "192162267",
+      "goods_sn": "I9245zpnz14w",
+      "sku_code": "sz25091033043453304",
+      "goods_name": "GlowEve بلوزة نسائية بلون أحادي مع عقدة مجدولة وأكمام طويلة وطيات عصرية بفتحة الكتف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/09/23/42/1758589541927dbb893b9a377ac69b3b12b2eec8d1.jpg",
+      "goods_attr": "وردي / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "36.00",
+        "amountWithSymbol": "SR36.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR36.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "343413973",
+      "goods_sn": "I14e4ll12055",
+      "sku_code": "sz25081885353201970",
+      "goods_name": "Aloruh ملابس علوية قصيرة ضيقة مصنوعة من الجاكار المحبوك بأكمام طويلة وياقة منخفضة للنساء",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/12/29/87/17670158350dd74edb79ae762c07132a51c10920b5.jpg",
+      "goods_attr": "أصفر / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "27.00",
+        "amountWithSymbol": "SR27.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR27.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "290146885",
+      "goods_sn": "I24ua6eft4es",
+      "sku_code": "sz251118711402275078",
+      "goods_name": "Jemour فستان نسائي أنيق مكشكش بالدانتيل",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/11/20/bb/17636189658d8ef43dde4a29acdfd9c080ec770e22.jpg",
+      "goods_attr": "بني / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "100.00",
+        "amountWithSymbol": "SR100.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR100.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "421440186",
+      "goods_sn": "I1mmslts6ilcws",
+      "sku_code": "si260316110850534699383",
+      "goods_name": "Veilyse حمالة صدر باندو بدون حمالات بلون موحد، مقاس BC، رافعة ومعززة، بدون ظهر، حمالة صدر غير مرئية للصيف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/04/01/fb/17750307135dfe205f7ce86484e742a4aa59299cff.jpg",
+      "goods_attr": "الأسود / M",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "20.00",
+        "amountWithSymbol": "SR20.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR20.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "421445491",
+      "goods_sn": "I0mmslxaduv5v9",
+      "sku_code": "si260316111149141649122",
+      "goods_name": "Veilyse حمالة صدر داعمة للنساء، إغلاق أمامي، بدون حمالات، سلك داخلي، بنقشة قلب، بدون ظهر، طقم لانجري صيفي مناسب للفساتين",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/04/01/47/1775030696d9b80f540d17a9ebeac893222e850f3f.jpg",
+      "goods_attr": "بيج / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "22.00",
+        "amountWithSymbol": "SR22.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR22.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "71728920",
+      "goods_sn": "I38be66kum46",
+      "sku_code": "sj25042639346470804",
+      "goods_name": "قطعة واحدة سلسلة معدنية متعددة الطبقات، باللون الذهبي، على طراز أوروبي وأمريكي، متصلة بحلقة للإصبع، تصميم راقي ونمطي ، سوار شاطئي للنساء",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/26/a6/17456511312e1cbd9a0e6f6afe8c5b8779860596cd.jpg",
+      "goods_attr": "الذهبي / مقاس واحد / JL1036 ذهبي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "129827403",
+      "goods_sn": "I1a5mnigu2kc",
+      "sku_code": "sc25040754584479433",
+      "goods_name": "4 قطع/مجموعة من مشابك الشعر نصف الدائرية بنمط الرخام الوردي والبيج الفاتح بزهور الأقحوان، إكسسوارات شاطئية للشعر للنساء، إكسسوارات خريفية وشتوية للعطلات والسفر والمناسبات والحفلات",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/17/d9/17527345039d87bdc7478bfe34518f95e349066826.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "12.00",
+        "amountWithSymbol": "SR12.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR12.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "210314185",
+      "goods_sn": "I33xyvq4de0b",
+      "sku_code": "sz25101134711531463",
+      "goods_name": "Alexandranx بنطلون جينز بأرجل واسعة للنساء",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/10/28/ab/1761641915be8b130783801fe5715a7bfdf28a76b1.jpg",
+      "goods_attr": "أزرق فاتح / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "77.00",
+        "amountWithSymbol": "SR77.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR77.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "46645382",
+      "goods_sn": "I82x9ol646ez",
+      "sku_code": "sz2409142621721312",
+      "goods_name": "DAZY سروال جينز طويل نساء بقصة ساق واسعة ذو لون أحادي، مناسب للأرجل الطويلة",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2024/11/04/9d/17306866444baad8e92a559fd266a7ccc2a737aec0.jpg",
+      "goods_attr": "أزرق متوسط / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "84.00",
+        "amountWithSymbol": "SR84.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR84.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "444418644",
+      "goods_sn": "I5mo2hvghao8x3",
+      "sku_code": "si260417135579022002988",
+      "goods_name": "DAZY 20 زوج جوارب كاحل للنساء، متنوعة الألوان موحد اللون والمخطط عموديًا، منفذة للهواء وناعمة وقابلة للاستخدام المتعدد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/21/38/17767688544f7c5663679234f85781d25427f39c16.jpg",
+      "goods_attr": "متعدد الألوان / 40-43",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "33.00",
+        "amountWithSymbol": "SR33.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR33.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "105942030",
+      "goods_sn": "I58z3c6a8uaf",
+      "sku_code": "sz25052848918683073",
+      "goods_name": "EMERY ROSE مجموعة نسائية من قطعتين من لايمرا بلون بني فاتح، تصميم أنيق وعملي للعمل، ملابس علوية بأزرار أمامية وبنطلون طويل، مناسب للمناسبات الرسمية والخروج في فصول الصيف والخريف والشتاء، مناسب للعمل والمناسبات الاجتماعية كعيد الميلاد وعيد الشكر والسنة الجديدة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/08/04/47/17542368502083065bdefbf3d4276ad2d867aa3c56.jpg",
+      "goods_attr": "قهوة بني / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "75.00",
+        "amountWithSymbol": "SR75.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR75.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "67997192",
+      "goods_sn": "I975jicx4bly",
+      "sku_code": "si25022218233154461",
+      "goods_name": "بدلة تشكيل الجسم قطعة واحدة للنساء، بدون أكمام، حمالات كتف قابلة للفصل والتعديل، مشد جسم ضيق، تحكم في البطن، حمالة صدر، ملابس داخلية تشكيلية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/31/24/176189396352dad2e34dfcac133f85161d49afee40.jpg",
+      "goods_attr": "بني فاتح / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "39.00",
+        "amountWithSymbol": "SR39.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR39.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "242318421",
+      "goods_sn": "I8bi6fjqz74m",
+      "sku_code": "sz25091284783805405",
+      "goods_name": "SHEIN Tall بودي بني للنساء من الشبك الشفاف بأكمام طويلة وياقة وهمية مجعدة، مناسب لحفلات الكوكتيل والمواعيد الرومانسية وطبقة أساسية شتوية شفافة، للنساء الطويلات",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/01/14/28/17683867764b569f8ab992cfe07cf74d889e91c8bb.jpg",
+      "goods_attr": "بني / Tall L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "39.00",
+        "amountWithSymbol": "SR39.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR39.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "345787390",
+      "goods_sn": "I19tu0q3z7hy",
+      "sku_code": "sz251206447004019112",
+      "goods_name": "conciso فستان ماكسي نسائي من الشيفون بطبقتين بدون أكمام، رومانسي للشاطئ والزفاف والحفلات ووصيفة العروس وحفلة الشاي ورأس السنة وعيد الميلاد، بني ربيعي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/06/05/17780369364d31c34b036871e281c9cfffcf72d2b3.jpg",
+      "goods_attr": "بني / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "78.00",
+        "amountWithSymbol": "SR78.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR78.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "276520069",
+      "goods_sn": "I6blg8iaij7b",
+      "sku_code": "sz25091640136449909",
+      "goods_name": "SHEIN BAE فستان أنيق طويل الأكمام بياقة عالية وخصر مطاطي شبه شفاف، لون بوردو، مناسب لحفلات الكوكتيل والمناسبات الرومانسية وأيام الخريف والشتاء والتجمعات والحفلات والمناسبات الرسمية وحفلات الزفاف وعيد الهالوين وعيد الميلاد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/11/10/20/176274103152c4f8c5d8f02db4a5c4c47d6bdc7604.jpg",
+      "goods_attr": "عنابي اللون / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "65.00",
+        "amountWithSymbol": "SR65.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR65.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "44988816",
+      "goods_sn": "I92bv5aq8ri4",
+      "sku_code": "sz2408208758318116",
+      "goods_name": "Elenzga مجموعة من 2 قطعة من البليزر النسائي، طقم أنيق مع تصميم ياقة جاثرة وخصر متجمع وأزرار وطيات متناسقة غير متماثلة",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2024/10/15/0c/1728989686281da11e087d2c6c48f175875eeccb3f.jpg",
+      "goods_attr": "بيج / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "99.00",
+        "amountWithSymbol": "SR99.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR99.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "413968272",
+      "goods_sn": "I6mmblu2f3lygz",
+      "sku_code": "sz25061209372015489",
+      "goods_name": "فستان ميدي من التويد بلون المشمش للنساء من Unadoll، فستان حورية بأكمام قصيرة وأزرار ضيق، مناسب لحفلة عيد الميلاد وليلة موعد خريفية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/04/e8/17726029363bec6d0e39d59cd1023de69685f85a13.jpg",
+      "goods_attr": "لون مشمشي / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "94.00",
+        "amountWithSymbol": "SR94.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR94.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "142574162",
+      "goods_sn": "I796svtpgnu6",
+      "sku_code": "sz25060632809538717",
+      "goods_name": "Modelyn فستان بودي كون أنيق بلون أحادي مع تصميم رقعي من الدانتيل",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/08/02/dc/1754139103992c830fd2b93824d2a3badf6f2ec470.jpg",
+      "goods_attr": "الأسود / 2XL",
+      "stock": 7,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "82.00",
+        "amountWithSymbol": "SR82.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR82.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "63625216",
+      "goods_sn": "I83r052yi4qk",
+      "sku_code": "si25032470109727013",
+      "goods_name": "5 أزواج من جوارب الكاحل القصيرة الشفافة غير المرئية من الدانتيل للنساء، جوارب قارب منخفضة القطع مع سيليكون مانع للانزلاق (بدون بطاقة ورقية)، للربيع والصيف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/03/24/93/1742779858e554fc2bcfebe7d5c9a3284a7f134db4.jpg",
+      "goods_attr": "متعدد الألوان / (36-39) 5 أزواج",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "70667949",
+      "goods_sn": "I03zf9rqi4b6",
+      "sku_code": "sx25040365656006651",
+      "goods_name": "SHUZIA صندل نسائي مزلاج ذو كعب سميك على شكل حرف H عصري",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/12/23/ec/17664633140f183f0cf9e1e81988eda9e3a04dc764.jpg",
+      "goods_attr": "اخضر زيتون / EUR39",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "57.00",
+        "amountWithSymbol": "SR57.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR57.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "486130599",
+      "goods_sn": "I3moww98l2b0c4",
+      "sku_code": "sz260508203118682641821",
+      "goods_name": "Coutiva فستان سهرة رسمي أنيق بمقاس كبير مزين بالراينستون مع فتحة رقبة V عميقة وتصميم ملتوي من الأمام (أسلوب زخرفة كثيفة)",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/05/29/28/17800400774e7012f5a86603ec91739290a2a44b62.jpg",
+      "goods_attr": "الأسود / 2XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "106.00",
+        "amountWithSymbol": "SR106.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR106.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "196832222",
+      "goods_sn": "I63cnozpmvil",
+      "sku_code": "sz25091907533537673",
+      "goods_name": "SHEIN Elenzya بدلة فضفاضة أنيقة بياقة على شكل حرف V وخصر مكسر بالكشكشة مزينة باللؤلؤ من الشيفون، مناسبة لضيوف الزفاف، بدلة نسائية أنيقة باللون البرغندي، بأكمام طويلة وخصر مشدود بطراز رومانسي عتيق",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/09/28/30/1759023178557d30ab7e264ef6feaf8f83282404d1.jpg",
+      "goods_attr": "الأزرق / 2XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "68.60",
+        "amountWithSymbol": "SR68.60",
+        "currency": null
+      },
+      "amountWithSymbol": "SR68.60",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "179885044",
+      "goods_sn": "I2bev54w2oiv",
+      "sku_code": "sz25090437123476727",
+      "goods_name": "Elenzga فستان ضيق الخصر بياقة على شكل حرف V مقاس كبير",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/09/11/b2/17575608373d6812a8d7e49e0b7f1616d404b93686.jpg",
+      "goods_attr": "قهوة بني / 2XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "57.00",
+        "amountWithSymbol": "SR57.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR57.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "439301752",
+      "goods_sn": "I8mjgy0a7sk2qq",
+      "sku_code": "sx251222171165305523864",
+      "goods_name": "Sleekvia صنادل نسائية بنعل مربع مرصعة بالراين وحزام الكاحل للكريسماس",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/04/21/7d/17767612010ef1aaea1c1cb899718c145134fce7e4.jpg",
+      "goods_attr": "قهوة بني / EUR39",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "59.00",
+        "amountWithSymbol": "SR59.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR59.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "65732908",
+      "goods_sn": "I460uzlkrnvk",
+      "sku_code": "sx25012363220422262",
+      "goods_name": "CUCCOO BASICS صندل شبشب منبسط مريح قابل للتنفس مزين بمعدن للنساء",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2025/04/08/f6/1744095628de260c1c31694acdf13cc2f38a288dc9.jpg",
+      "goods_attr": "الأسود / EUR39",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "57.00",
+        "amountWithSymbol": "SR57.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR57.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "132563940",
+      "goods_sn": "I39b90xw8tqm",
+      "sku_code": "sx25061156544500400",
+      "goods_name": "CUCCOO BIZCHIC صنادل نسائية بتزيين إبزيم مريحة للربيع/الصيف باللون البني",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/07/28/69/1753701422b10d1e76305606a875b635cb02824445.jpg",
+      "goods_attr": "لون مشمشي / EUR39",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "41.00",
+        "amountWithSymbol": "SR41.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR41.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "190659006",
+      "goods_sn": "I37tmia6jy6q",
+      "sku_code": "sz25091285289982474",
+      "goods_name": "Cravure مجموعة قميص وفستان واقي من الشمس من الشيفون بياقة صينية للنساء كبيرات الحجم",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/11/21/86/17636881639d64e0b51330424fb890080055225704.jpg",
+      "goods_attr": "عنابي اللون / 2XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "83.00",
+        "amountWithSymbol": "SR83.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR83.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "162892741",
+      "goods_sn": "I8o8eef2tzyn",
+      "sku_code": "sz25071178141602319",
+      "goods_name": "Flexra بنطلون جينز مستقيم محبوك رياضي كاجوال كبير الحجم",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/09/01/f5/17566904735a947420e231cbd74f5ee7707f5b8d86.jpg",
+      "goods_attr": "أزرق فاتح / 2XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "92.00",
+        "amountWithSymbol": "SR92.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR92.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "50727692",
+      "goods_sn": "I845hafd2tcn",
+      "sku_code": "si2412168902366497",
+      "goods_name": "3/5/10 أزواج من الجوارب للنساء بدون ظهور دانتيلا زهرية تهوية وامتصاص، راحة للصيف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/29/88/1780040253647499cce21ffe42aff8da9014bc7823.jpg",
+      "goods_attr": "متعدد الألوان / 10 أزواج من لون البشرة / 39-42",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "17.66",
+        "amountWithSymbol": "SR17.66",
+        "currency": null
+      },
+      "amountWithSymbol": "SR17.66",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "50727692",
+      "goods_sn": "I845hafcw8c3",
+      "sku_code": "si2412168902366497",
+      "goods_name": "3/5/10 أزواج من الجوارب للنساء بدون ظهور دانتيلا زهرية تهوية وامتصاص، راحة للصيف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/29/88/1780040253647499cce21ffe42aff8da9014bc7823.jpg",
+      "goods_attr": "متعدد الألوان / 10 أزواج باللون الأسود / 39-42",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "17.66",
+        "amountWithSymbol": "SR17.66",
+        "currency": null
+      },
+      "amountWithSymbol": "SR17.66",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "422213607",
+      "goods_sn": "I2mmbns543lu1k",
+      "sku_code": "sz25091047016039224",
+      "goods_name": "Firerie فستان نسائي أنيق وراقي وعصري للمناسبات الرسمية والحياة اليومية، مزين بديكور معدني، أكمام طويلة جدًا مشقوقة وشبكة منسدلة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/03/16/30/1773652757bf53af83eb14c9f7f399bca0a2f58ba3.jpg",
+      "goods_attr": "قهوة بني / 2XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "96.00",
+        "amountWithSymbol": "SR96.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR96.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "497292749",
+      "goods_sn": "I1moldv6dnru4t",
+      "sku_code": "sz260430191152363772726",
+      "goods_name": "Firerie بلوزة نسائية مقاس كبير بتصميم أنيق وعصري مع أكمام كيب مفتوحة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/06/11/34/1781144799935b1bfcfc47548e0ce9315ece62440c.jpg",
+      "goods_attr": "الأسود / 2XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "50.00",
+        "amountWithSymbol": "SR50.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR50.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "54490963",
+      "goods_sn": "I25o4vtws8hk",
+      "sku_code": "sz2311165919117800",
+      "goods_name": "SHEIN LUNE قميص كاجوال بأكمام قصيرة وياقة دائرية ولون أحادي مزود بأزرار، مقاس كبير الحجم",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2025/01/22/2c/17375403684b5fb55990120c0916a834bff3efb7df.jpg",
+      "goods_attr": "أزرق فاتح اللون / 2XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "33.00",
+        "amountWithSymbol": "SR33.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR33.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "15387464",
+      "goods_sn": "I4f6tv0axu3c",
+      "sku_code": "si2304271721160527",
+      "goods_name": "جوارب قصيرة غير مرئية دانتيل زهري 5 أزواج",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/04/27/1682564480bdb969b01c49a230467b4044b4baf372.jpg",
+      "goods_attr": "متعدد الألوان / 40-43",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "16.00",
+        "amountWithSymbol": "SR16.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR16.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "328315476",
+      "goods_sn": "I358p21pahx5",
+      "sku_code": "sz251205123995169969",
+      "goods_name": "SHEIN LUNE قميص نسائي أنيق بأربطة أمامية وطبعة زهرية منسوجة بقصة ضيقة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/12/18/ed/1765987272e556ca6a991b1031c0ab3cb39ebbffd8.jpg",
+      "goods_attr": "وردي / L",
+      "stock": 0,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "31.00",
+        "amountWithSymbol": "SR31.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR31.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "430719353",
+      "goods_sn": "I4mm1kzxvyt1xv",
+      "sku_code": "sz260225131565643897409",
+      "goods_name": "SHEIN Clasi فستان سهرة طويل للمرأة البدينة، بتصميم أكمام قصيرة، فتحة رقبة على شكل حرف V، مع شق، طول كامل، أنيق وأنثوي. فستان ماكسي أنيق للمرأة البدينة بلون أحادي، بأكمام خفاش قصيرة على شكل حرف V، مع طيات وشق في الذيل، مناسب لعيد الميلاد وعيد المعلم",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/03/26/ab/1774493308b989f7b9e79245d17631e7f73ff61f95.jpg",
+      "goods_attr": "أخضر عسكري / 2XL",
+      "stock": 0,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "59.00",
+        "amountWithSymbol": "SR59.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR59.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "445669686",
+      "goods_sn": "I8mngw9r4nhzq6",
+      "sku_code": "sz260402110775007972049",
+      "goods_name": "Vionelle فستان فينتاج بياقة على شكل حرف V بدون أكمام مطوي عند الخصر، ربيع/صيف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/04/17/97/1776391930efb80e183eba3ce09254f8db79283133.jpg",
+      "goods_attr": "كاكي / 1XL",
+      "stock": 0,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "35.75",
+        "amountWithSymbol": "SR35.75",
+        "currency": null
+      },
+      "amountWithSymbol": "SR35.75",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "shein-cart",
+  "analyzed_at": "2026-07-22T00:58:18.844062+03:00",
+  "output_file": "shein-cart-20260722-005818.json"
+}

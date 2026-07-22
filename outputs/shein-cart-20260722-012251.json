@@ -1,0 +1,177 @@
+{
+  "source_url": "https://api-shein.shein.com/h5/sharejump/appjump?link=RPzKqW8P36k_b&localcountry=SA&shc=2_RPzKqW8P36k",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_RPzKqW8P36k&group_id=789982620&local_country=SA&url_from=&cart_share=1",
+  "group_id": "789982620",
+  "local_country": "SA",
+  "all_product_size": 8,
+  "counts": {
+    "normalProducts": 7,
+    "outStock": 0,
+    "unavailable": 1
+  },
+  "products": [
+    {
+      "goods_id": "411098905",
+      "goods_sn": "I0mm36u529yin7",
+      "sku_code": "sr260226154720877947323",
+      "goods_name": "1 طقم من 3/6/10 قطع أضواء جو USB، يمكن استخدامها كإضاءة ليلية وديكور جداري. تعرض أنماطًا رومانسية مثل الفراشات والسديم. تعمل بالطاقة من USB، وتخلق بسهولة بيئة نوم مريحة، خيار هدية مثالي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/02/26/7d/1772092167862318988bce958d883e09e9e8253002_square.jpg",
+      "goods_attr": "الأسود / مجموعة واحدة - 10 قطع (03)",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "12.00",
+        "amountWithSymbol": "SR12.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR12.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "510969431",
+      "goods_sn": "I6mqb3bkfm8otw",
+      "sku_code": "sr260612233572971066923",
+      "goods_name": "1 قطعة مصباح إسقاط الكواكب والقمر، ضوء زخرفي دوار 360 درجة، شرائح إسقاط قابلة للاستبدال، تصميم لطيف، منشئ الأجواء. مصباح إسقاط LED محمول يعمل بالطاقة USB مع أنماط إسقاط عطارد والمريخ والأرض والكواكب الأخرى، مناسب لأجواء المنزل والمعارض العلمية وديكور خلفية الكمبيوتر وضوء الليل التعليمي. مناسب لديكور الجدران والسقف وضوء أجواء السماء المرصعة بالنجوم LED.",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/27/22/178257255399ffa8f10259bcfaf5de18813efc6695.jpg",
+      "goods_attr": "جهاز عرض الكواكب USB / 6 قطع + مصباح واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "11.22",
+        "amountWithSymbol": "SR11.22",
+        "currency": null
+      },
+      "amountWithSymbol": "SR11.22",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "109315702",
+      "goods_sn": "I7qej7nfsgik",
+      "sku_code": "st25062145459340428",
+      "goods_name": "OBOVAY أحذية رياضية تنفس للرجال مقاس كبير، أحذية تدريب خفيفة الوزن للاستخدام الخارجي، لون قماش أحادي اللون، أحذية رياضية للجري",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/21/85/17505000231fed1a383276939f1fd47c8071388531_square.jpg",
+      "goods_attr": "رمادي / EUR41",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "63.00",
+        "amountWithSymbol": "SR63.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR63.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "450060507",
+      "goods_sn": "I4modx7tpnmerh",
+      "sku_code": "sh260421174657963589000",
+      "goods_name": "زوج من بطانات القدم الصيفية القابلة لإعادة الاستخدام، مضادة للرطوبة ومبطنة، مناسبة للأحذية الرياضية والشبشب والأحذية اليومية، بطانات قدم ناعمة وخفيفة الوزن للجنسين، باللونين الأرجواني والأزرق",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/21/c1/177676494774d847cdac6f5fad90c9786523253737.jpg",
+      "goods_attr": "سعر ترويجي / أزرق، مقاس 39-40 يورو",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "491623742",
+      "goods_sn": "I7mpfas0xjnekk",
+      "sku_code": "sh260521173035207311860",
+      "goods_name": "قطعة واحدة وسادة فرك القدم، مقشر تدليك القدم للحمام، وسادة فرك الظهر مع أكواب شفط مناسبة للحمام والمرحاض والدش والسكن الجامعي، لوازم العودة إلى المدرسة، إكسسوارات ديكور الحمام، أدوات التنظيف والعناية بالبشرة، أساسيات الحمام المنزلي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/21/ef/17793561040f54788d7ac9752d25fab002a263c13a.jpg",
+      "goods_attr": "متعدد الألوان / رمادي قطعة واحدة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "441837691",
+      "goods_sn": "I0mny9cty8e92x",
+      "sku_code": "sh260411175802194950822",
+      "goods_name": "بطانات إسفنجية سميكة ذاتية اللصق - وسادات كعب مضادة للبثور | مثالية لتعديل الأحذية ذات المقاسات الكبيرة إلى مقاس أصغر | وسادات واقية للأحذية العادية | قابلة للتعديل | قبضة مانعة للانزلاق | مصممة للارتداء لفترات طويلة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/11/4d/17759015554107bcda6ebd9999e2393e557e5c47c5_square.jpg",
+      "goods_attr": "A / زوج واحد/بيج",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.00",
+        "amountWithSymbol": "SR4.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR4.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "321505842",
+      "goods_sn": "I14dl6gx3hlb",
+      "sku_code": "sh251207949555551535",
+      "goods_name": "زوج واحد من بطانات القدم المبطنة برغوة الذاكرة الممتصة للصدمات، بطانة داخلية مريحة للرياضة والاستخدام اليومي، مناسبة للأحذية ذات الكعب العالي والأحذية الرياضية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/28/ea/1782620441b47209092bfbb74de336434c38d9524e_square.jpg",
+      "goods_attr": "رمادي / EUR39-40",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.81",
+        "amountWithSymbol": "SR4.81",
+        "currency": null
+      },
+      "amountWithSymbol": "SR4.81",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "446625653",
+      "goods_sn": "I5mnfk9fuln5fo",
+      "sku_code": "sb260401123640486658208",
+      "goods_name": "قطعتان من فرشاة الاستحمام السيليكون ذات الاستخدامين - مثبتة على الحائط لتقشير الجسم والظهر، أداة استحمام للبالغين للتنظيف العميق والتقشير",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/05/18/22/1779081601ff6cb1e5909e2054a145e23c36a053dc.jpg",
+      "goods_attr": "متعدد الألوان / حصيرة غسيل القدم باللون الرمادي/1 قطعة + خطاف/1 قطعة",
+      "stock": 0,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "shein-cart",
+  "analyzed_at": "2026-07-22T01:22:51.926828+03:00",
+  "output_file": "shein-cart-20260722-012251.json"
+}

@@ -1,0 +1,237 @@
+{
+  "source_url": "https://api-shein.shein.com/h5/sharejump/appjump?link=RPEbl7oaDhT_b&localcountry=SA&shc=2_RPEbl7oaDhT",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_RPEbl7oaDhT&group_id=790742080&local_country=SA&url_from=&cart_share=1",
+  "group_id": "790742080",
+  "local_country": "SA",
+  "all_product_size": 11,
+  "counts": {
+    "normalProducts": 10,
+    "outStock": 0,
+    "unavailable": 1
+  },
+  "products": [
+    {
+      "goods_id": "424471274",
+      "goods_sn": "I5mmn9bemg8hka",
+      "sku_code": "sz251217225948784566707",
+      "goods_name": "تي شيرت نسائي من الساتان السميك بلون موحد، بياقة على شكل حرف V، أكمام قصيرة، مناسب للصيف والخريف، قطعة أساسية للعطلات والإطلالات الكاجوال",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/12/32/17733068333c2153b9e76030f26ad53434ed18441f.jpg",
+      "goods_attr": "عنابي اللون / XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "29.56",
+        "amountWithSymbol": "SR29.56",
+        "currency": null
+      },
+      "amountWithSymbol": "SR29.56",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "367599679",
+      "goods_sn": "I6cwfxoxahdw",
+      "sku_code": "sz251106966146715684",
+      "goods_name": "Al Najma فستان نسائي أنيق جديد من قماش الساتان اللامع والفاخر المرصع بالراين ستون بفتحة رقبة على شكل مفتاح، بتصميم بسيط وعصري",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/01/13/5f/176826959443e7b4a8920aeddcdadaed6526fe0211.jpg",
+      "goods_attr": "الأرجواني / XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "46.92",
+        "amountWithSymbol": "SR46.92",
+        "currency": null
+      },
+      "amountWithSymbol": "SR46.92",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "354212892",
+      "goods_sn": "I9mjhzu42eqc4y",
+      "sku_code": "sz251223105688081859223",
+      "goods_name": "Flexra جينز ذو ساق مستقيمة مرنة بلون أزرق متوسط مغسول للمقاسات الكبيرة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/01/05/eb/1767602773e47658d07da1b15386eb59065e7ec752.jpg",
+      "goods_attr": "أزرق متوسط / 0XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "80.00",
+        "amountWithSymbol": "SR80.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR80.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "16548100",
+      "goods_sn": "I82n67gkh797",
+      "sku_code": "sj2305220969067750",
+      "goods_name": "خلخال موضة بديكور خرز ربط الأصابع للنساء الى عطلة قطعة واحدة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/05/22/16847263288e8be5db180aca9b6360da2a6a268f76.jpg",
+      "goods_attr": "ذهبي أصفر / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "40434899",
+      "goods_sn": "I222s9y0pfzk",
+      "sku_code": "sh2408081415564738",
+      "goods_name": "1 علبة غداء محمولة من الألياف الخيزرانية لتوست، خبز وساندويتش، لوازم مدرسية، هدية عودة للمدارس وعيد الميلاد",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/12/01/cb/1733038724a54dee4cc3123ced764372e4355ca192.jpg",
+      "goods_attr": "متعدد الألوان / بيج-1 قطعة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "425805294",
+      "goods_sn": "I6mmvqf308tx08",
+      "sku_code": "sj260113163030910086757",
+      "goods_name": "ساعة جلد PU للنساء قطر الواجهة مع عرض رقمي، بطراز بريطاني قديم، ساعة كوارتز فاخرة، مناسبة للعطلات والحفلات والأعراس والعودة للمدرسة وعيد الميلاد وعيد الشكر وعيد الهالوين والفصح وغيرها من المناسبات، أفضل هدية للنساء",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/18/45/1773818818e0896dbcf2c7b8b9d14e708ff46d4357.jpg",
+      "goods_attr": "الأسود / قطعة واحدة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "15.00",
+        "amountWithSymbol": "SR15.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR15.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "294906817",
+      "goods_sn": "I99dohoo9lbh",
+      "sku_code": "sh251117188131178164",
+      "goods_name": "حامل أقلام دوار 360 درجة، تصميم ثلاثي الأقسام، علبة أقلام دوارة كبيرة السعة لتنظيم المكتب، مناسبة للمكتب والمدرسة ومستلزمات الفن",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/19/59/1773883307fa88fb3f5399a16bbb4c8a19ca9fa91b.jpg",
+      "goods_attr": "متعدد الألوان / أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "16.00",
+        "amountWithSymbol": "SR16.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR16.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "416668998",
+      "goods_sn": "I5mmj3vkywmq8s",
+      "sku_code": "sh260309193632672810420",
+      "goods_name": "رف كتب مكتبي واحد من المعدن والبولي بروبيلين بقاعدة مانعة للانزلاق وفواصل قابلة للتعديل، مثالي لتنظيم الكتب والملفات والأدوات المكتبية ومستحضرات التجميل.",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/07/15/0b/17840958820c7af7c23b4b29b891b93725a21aaa80.jpg",
+      "goods_attr": "متعدد الألوان / أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "20.00",
+        "amountWithSymbol": "SR20.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR20.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "429290670",
+      "goods_sn": "I2mn15mvp3coxl",
+      "sku_code": "sj260128171774512936769",
+      "goods_name": "2 قطعة سلسلة خصر مصنوعة يدويًا بخرز ترتر بتصميم بسيط، مناسبة للأجواء الحلوة والحارة، إكسسوارات جسم بأسلوب عطلة الشاطئ للنساء",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2026/03/22/71/1774147143c0501d6867d717663e2071e751dfb918.png",
+      "goods_attr": "ذهبي أصفر",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "67731566",
+      "goods_sn": "I37ue6pfn84v",
+      "sku_code": "sj2308093575318878",
+      "goods_name": "سلسلة صدر وسلسلة جسم مزينة بالراينستون والخرز للنساء، زينة ربيعية وصيفية، جذابة ومثيرة لحفلات السهرة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/10/c0/17442811352cd97ef562b5d13f86738cec15e067ca_square.jpg",
+      "goods_attr": "فضي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.77",
+        "amountWithSymbol": "SR6.77",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.77",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "403934837",
+      "goods_sn": "I8mkuiukbgcmzk",
+      "sku_code": "sz251126157047334582",
+      "goods_name": "DAZY فستان طويل أنيق للنساء بياقة على شكل حرف V نسيج محبب بلون موحد، فستان صيفي للحفلات باللون البرغندي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/02/09/3d/1770615366fd24afecd05345451d725d20fff83657.jpg",
+      "goods_attr": "عنابي اللون / XL",
+      "stock": 0,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "65.00",
+        "amountWithSymbol": "SR65.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR65.00",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "shein-cart",
+  "analyzed_at": "2026-07-22T01:16:33.497838+03:00",
+  "output_file": "shein-cart-20260722-011633.json"
+}

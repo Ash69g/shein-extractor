@@ -17,6 +17,7 @@ from PySide6.QtWidgets import (
     QDialog,
     QDialogButtonBox,
     QFrame,
+    QFileDialog,
     QGridLayout,
     QHBoxLayout,
     QHeaderView,
@@ -46,9 +47,11 @@ from extract_cart import (
 )
 from invoice_parser import InvoiceData, parse_invoice_text
 from models import AvailabilityStatus, CartExtraction, ExtractedCartItem
+from pdf_export import default_pdf_path, export_cart_pdf, truncate_product_name
 
 
 OUTPUT_DIRECTORY = Path("outputs")
+EXPORT_DIRECTORY = Path("exports")
 ASSET_DIRECTORY = Path(__file__).resolve().parent / "assets"
 TIMESTAMP_PATTERN = re.compile(r"(\d{8}-\d{6})(?:-\d+)?$")
 THUMBNAIL_SIZE = 120
@@ -399,6 +402,11 @@ class MainWindow(QMainWindow):
         self.settings = QSettings("SHEINExtractor", "SHEINExtractor")
         self.image_manager = QNetworkAccessManager(self)
         self.image_cache: dict[str, QPixmap] = {}
+        self.pending_image_urls: set[str] = set()
+        self.failed_image_urls: set[str] = set()
+        self.image_waiters: dict[
+            str, list[weakref.ReferenceType[QLabel]]
+        ] = {}
         self.setWindowTitle("SHEIN Cart Products")
         self.resize(1500, 900)
         self.setLayoutDirection(Qt.LayoutDirection.RightToLeft)
@@ -568,7 +576,8 @@ class MainWindow(QMainWindow):
         self.export_button = QPushButton("تصدير البيانات")
         self.export_button.setObjectName("exportButton")
         self.export_button.setDisabled(True)
-        self.export_button.setToolTip("سيتم تفعيله بعد تحديد صيغة التصدير")
+        self.export_button.setToolTip("يتاح بعد اكتمال تحميل جميع صور المنتجات")
+        self.export_button.clicked.connect(self.export_pdf)
         self.copy_button = QPushButton("نسخ البيانات")
         self.copy_button.setObjectName("copyButton")
         self.copy_button.setDisabled(True)
@@ -888,6 +897,7 @@ class MainWindow(QMainWindow):
             self.worker_thread.deleteLater()
         self.worker_thread = None
         self.worker = None
+        self._update_export_availability()
 
     @Slot(str)
     def load_history_file(self, path_value: str) -> None:
@@ -1019,6 +1029,8 @@ class MainWindow(QMainWindow):
         self.product_search_input.setDisabled(busy)
         self.history_sidebar.setDisabled(busy)
         self.progress.setVisible(busy)
+        if busy:
+            self.export_button.setDisabled(True)
 
     def _clear_display(self) -> None:
         self.current_extraction = None
@@ -1051,6 +1063,7 @@ class MainWindow(QMainWindow):
             self.table.setRowHeight(row, ROW_HEIGHT)
             self._set_product_row(row, product)
         self.apply_product_filter(self.product_search_input.text())
+        self._update_export_availability()
 
     @Slot(str)
     def apply_product_filter(self, query: str) -> None:
@@ -1093,9 +1106,7 @@ class MainWindow(QMainWindow):
         self._load_image(product.goods_img, image_label)
 
         full_name = product.goods_name or "—"
-        visible_name = (
-            full_name if len(full_name) <= 100 else f"{full_name[:100].rstrip()}…"
-        )
+        visible_name = truncate_product_name(full_name)
         name_item = QTableWidgetItem(visible_name)
         name_item.setToolTip(full_name)
         name_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
@@ -1117,36 +1128,46 @@ class MainWindow(QMainWindow):
     def _load_image(self, url: str | None, label: QLabel) -> None:
         if not url:
             label.setText("لا توجد صورة")
+            self._update_export_availability()
             return
         cached = self.image_cache.get(url)
         if cached is not None:
             label.setPixmap(cached)
             label.setText("")
+            self._update_export_availability()
             return
-        reply = self.image_manager.get(QNetworkRequest(QUrl(url)))
         label_reference = weakref.ref(label)
+        if url in self.pending_image_urls:
+            self.image_waiters.setdefault(url, []).append(label_reference)
+            return
+
+        self.failed_image_urls.discard(url)
+        self.pending_image_urls.add(url)
+        self.image_waiters[url] = [label_reference]
+        reply = self.image_manager.get(QNetworkRequest(QUrl(url)))
         reply.finished.connect(
-            lambda current_reply=reply, reference=label_reference, image_url=url: (
-                self._finish_image(current_reply, reference, image_url)
+            lambda current_reply=reply, image_url=url: self._finish_image(
+                current_reply, image_url
             )
         )
+        self._update_export_availability()
 
     def _finish_image(
         self,
         reply: QNetworkReply,
-        label_reference: weakref.ReferenceType[QLabel],
         url: str,
     ) -> None:
-        label = label_reference()
+        waiters = self.image_waiters.pop(url, [])
+        self.pending_image_urls.discard(url)
         try:
-            if label is None:
-                return
             if reply.error() != QNetworkReply.NetworkError.NoError:
-                label.setText("تعذر التحميل")
+                self.failed_image_urls.add(url)
+                self._set_image_waiters_text(waiters, "تعذر التحميل")
                 return
             pixmap = QPixmap()
             if not pixmap.loadFromData(reply.readAll()):
-                label.setText("صورة غير صالحة")
+                self.failed_image_urls.add(url)
+                self._set_image_waiters_text(waiters, "صورة غير صالحة")
                 return
             scaled = pixmap.scaled(
                 THUMBNAIL_SIZE,
@@ -1155,12 +1176,125 @@ class MainWindow(QMainWindow):
                 Qt.TransformationMode.SmoothTransformation,
             )
             self.image_cache[url] = scaled
-            label.setPixmap(scaled)
-            label.setText("")
+            self.failed_image_urls.discard(url)
+            for reference in waiters:
+                label = reference()
+                if label is not None:
+                    label.setPixmap(scaled)
+                    label.setText("")
         except RuntimeError:
             pass
         finally:
             reply.deleteLater()
+            self._update_export_availability()
+
+    @staticmethod
+    def _set_image_waiters_text(
+        waiters: list[weakref.ReferenceType[QLabel]], text: str
+    ) -> None:
+        for reference in waiters:
+            label = reference()
+            if label is not None:
+                label.setText(text)
+
+    def _image_loading_counts(self) -> tuple[int, int, int]:
+        products = self.current_extraction.products if self.current_extraction else []
+        total = len(products)
+        loaded = sum(
+            bool(product.goods_img and product.goods_img in self.image_cache)
+            for product in products
+        )
+        failed = sum(
+            not product.goods_img or product.goods_img in self.failed_image_urls
+            for product in products
+        )
+        return total, loaded, failed
+
+    def _update_export_availability(self) -> None:
+        total, loaded, failed = self._image_loading_counts()
+        ready = bool(total) and loaded == total and failed == 0
+        self.export_button.setEnabled(ready and self.worker_thread is None)
+        if ready:
+            self.export_button.setToolTip(
+                "تصدير جميع المنتجات المعروضة في التحليل إلى ملف PDF"
+            )
+        elif failed:
+            self.export_button.setToolTip(
+                f"تعذر تجهيز {failed} صورة. أعد فتح التحليل بعد التحقق من الاتصال."
+            )
+        elif total:
+            self.export_button.setToolTip(
+                f"جاري تحميل صور المنتجات: {loaded} من {total}"
+            )
+        else:
+            self.export_button.setToolTip("لا توجد منتجات لتصديرها")
+
+    @Slot()
+    def export_pdf(self) -> None:
+        if self.current_extraction is None or self.current_output_path is None:
+            return
+        total, loaded, failed = self._image_loading_counts()
+        if failed or loaded != total:
+            QMessageBox.information(
+                self,
+                "الصور غير مكتملة",
+                "انتظر حتى تظهر جميع صور المنتجات قبل تصدير ملف PDF.",
+            )
+            return
+
+        EXPORT_DIRECTORY.mkdir(parents=True, exist_ok=True)
+        suggested_path = default_pdf_path(
+            self.current_output_path,
+            EXPORT_DIRECTORY,
+        ).resolve()
+        selected_path, _ = QFileDialog.getSaveFileName(
+            self,
+            "حفظ تقرير PDF",
+            str(suggested_path),
+            "PDF (*.pdf)",
+        )
+        if not selected_path:
+            return
+        output_path = Path(selected_path)
+        if output_path.suffix.casefold() != ".pdf":
+            output_path = output_path.with_suffix(".pdf")
+
+        self.export_button.setDisabled(True)
+        self.progress.setRange(0, 1)
+        self.progress.setValue(0)
+        self.progress.show()
+        self.status_label.setText("جاري إنشاء تقرير PDF بجميع المنتجات...")
+
+        def update_progress(current: int, maximum: int) -> None:
+            self.progress.setRange(0, maximum)
+            self.progress.setValue(current)
+            QApplication.processEvents()
+
+        try:
+            page_count = export_cart_pdf(
+                self.current_extraction,
+                output_path,
+                self.image_cache,
+                json_name=self.current_output_path.name,
+                progress_callback=update_progress,
+            )
+        except (OSError, RuntimeError) as error:
+            QMessageBox.warning(self, "تعذر تصدير PDF", str(error))
+            self.status_label.setText("تعذر إنشاء تقرير PDF.")
+            return
+        finally:
+            self.progress.hide()
+            self.progress.setRange(0, 0)
+            self._update_export_availability()
+
+        self.status_label.setText(
+            f"تم تصدير جميع المنتجات إلى PDF في {page_count} صفحة."
+        )
+        QMessageBox.information(
+            self,
+            "اكتمل التصدير",
+            f"تم حفظ التقرير بنجاح:\n{output_path}",
+        )
 
     def closeEvent(self, event: QCloseEvent) -> None:
         if self.worker_thread is not None:
