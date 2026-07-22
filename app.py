@@ -9,15 +9,24 @@ import sys
 import unicodedata
 import weakref
 
-from PySide6.QtCore import QObject, QSettings, QSize, Qt, QThread, QUrl, Signal, Slot
-from PySide6.QtGui import QCloseEvent, QColor, QIcon, QPixmap
+from PySide6.QtCore import (
+    QObject,
+    QSettings,
+    QSize,
+    Qt,
+    QThread,
+    QTimer,
+    QUrl,
+    Signal,
+    Slot,
+)
+from PySide6.QtGui import QCloseEvent, QColor, QDesktopServices, QIcon, QPixmap
 from PySide6.QtNetwork import QNetworkAccessManager, QNetworkReply, QNetworkRequest
 from PySide6.QtWidgets import (
     QApplication,
     QDialog,
     QDialogButtonBox,
     QFrame,
-    QFileDialog,
     QGridLayout,
     QHBoxLayout,
     QHeaderView,
@@ -56,6 +65,7 @@ ASSET_DIRECTORY = Path(__file__).resolve().parent / "assets"
 TIMESTAMP_PATTERN = re.compile(r"(\d{8}-\d{6})(?:-\d+)?$")
 THUMBNAIL_SIZE = 120
 ROW_HEIGHT = 133
+MAX_IMAGE_ATTEMPTS = 10
 
 STATUS_LABELS = {
     AvailabilityStatus.AVAILABLE: "متاح",
@@ -163,7 +173,7 @@ def history_entry_from_path(path: Path) -> HistoryEntry:
     )
 
 
-def rename_history_path(
+def renamed_history_target(
     path: Path,
     customer_name: str,
     order_number: str | None = None,
@@ -176,7 +186,17 @@ def rename_history_path(
         sanitize_filename_component(order_number) if order_number else None
     )
     identity = f"{safe_order_number}-{safe_name}" if safe_order_number else safe_name
-    target = path.with_name(f"{identity}-{timestamp.strftime('%Y%m%d-%H%M%S')}.json")
+    return path.with_name(
+        f"{identity}-{timestamp.strftime('%Y%m%d-%H%M%S')}.json"
+    )
+
+
+def rename_history_path(
+    path: Path,
+    customer_name: str,
+    order_number: str | None = None,
+) -> Path:
+    target = renamed_history_target(path, customer_name, order_number)
     if target == path:
         return path
     if target.exists():
@@ -398,12 +418,16 @@ class MainWindow(QMainWindow):
         self.worker: ExtractionWorker | None = None
         self.current_extraction: CartExtraction | None = None
         self.current_output_path: Path | None = None
+        self.auto_export_pending = False
+        self.pdf_export_in_progress = False
         self.last_history_width = 320
         self.settings = QSettings("SHEINExtractor", "SHEINExtractor")
         self.image_manager = QNetworkAccessManager(self)
         self.image_cache: dict[str, QPixmap] = {}
         self.pending_image_urls: set[str] = set()
+        self.scheduled_image_urls: set[str] = set()
         self.failed_image_urls: set[str] = set()
+        self.image_retry_attempts: dict[str, int] = {}
         self.image_waiters: dict[
             str, list[weakref.ReferenceType[QLabel]]
         ] = {}
@@ -411,6 +435,17 @@ class MainWindow(QMainWindow):
         self.resize(1500, 900)
         self.setLayoutDirection(Qt.LayoutDirection.RightToLeft)
         self._build_ui()
+        self.toast_label = QLabel(self)
+        self.toast_label.setObjectName("toastLabel")
+        self.toast_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.toast_label.setAttribute(
+            Qt.WidgetAttribute.WA_TransparentForMouseEvents,
+            True,
+        )
+        self.toast_label.hide()
+        self.toast_timer = QTimer(self)
+        self.toast_timer.setSingleShot(True)
+        self.toast_timer.timeout.connect(self.toast_label.hide)
         self._apply_style()
         self.history_sidebar.refresh()
         self._restore_settings()
@@ -782,6 +817,14 @@ class MainWindow(QMainWindow):
                 background: #0b1220;
             }
             QProgressBar::chunk { background: #2563eb; }
+            QLabel#toastLabel {
+                background: #166534;
+                color: #ffffff;
+                border: 1px solid #22c55e;
+                border-radius: 8px;
+                padding: 10px 18px;
+                font-weight: 700;
+            }
             QSplitter::handle { background: #263244; width: 4px; }
             """
         )
@@ -835,6 +878,7 @@ class MainWindow(QMainWindow):
     def start_extraction(self) -> None:
         if self.worker_thread is not None:
             return
+        self.auto_export_pending = False
         invoice_data = parse_invoice_text(self.invoice_input.toPlainText())
         if invoice_data.has_multiple_cart_urls:
             QMessageBox.warning(
@@ -878,9 +922,10 @@ class MainWindow(QMainWindow):
         self, extraction: CartExtraction, output_path: str
     ) -> None:
         path = Path(output_path)
+        self.auto_export_pending = True
         self._show_extraction(extraction, path, from_history=False)
         self.status_label.setText(
-            f"اكتمل استخراج {len(extraction.products)} منتج وحُفظ الملف تلقائيًا."
+            f"اكتمل استخراج {len(extraction.products)} منتج. جاري تجهيز الصور وملف PDF..."
         )
         self._set_busy(False)
         self.history_sidebar.refresh(path)
@@ -916,6 +961,7 @@ class MainWindow(QMainWindow):
             )
             return
         self.invoice_input.clear()
+        self.auto_export_pending = False
         self.url_input.setText(entry.extraction.source_url)
         self.customer_input.setText(
             "" if entry.customer_name == "غير محدد" else entry.customer_name
@@ -938,11 +984,29 @@ class MainWindow(QMainWindow):
             QMessageBox.warning(self, "اسم غير صالح", "اكتب اسم العميل الجديد.")
             return
         try:
+            previous_pdf_path = default_pdf_path(path, EXPORT_DIRECTORY)
+            target_path = renamed_history_target(
+                path,
+                customer_name,
+                entry.extraction.order_number,
+            )
+            target_pdf_path = default_pdf_path(target_path, EXPORT_DIRECTORY)
+            if (
+                previous_pdf_path.exists()
+                and target_pdf_path.exists()
+                and previous_pdf_path != target_pdf_path
+            ):
+                raise FileExistsError(
+                    f"يوجد تقرير PDF بالاسم نفسه: {target_pdf_path.name}"
+                )
             new_path = rename_history_path(
                 path,
                 customer_name,
                 entry.extraction.order_number,
             )
+            new_pdf_path = default_pdf_path(new_path, EXPORT_DIRECTORY)
+            if previous_pdf_path.exists() and previous_pdf_path != new_pdf_path:
+                previous_pdf_path.rename(new_pdf_path)
         except (OSError, FileExistsError) as error:
             QMessageBox.warning(self, "تعذر إعادة التسمية", str(error))
             return
@@ -965,6 +1029,7 @@ class MainWindow(QMainWindow):
         self.customer_input.clear()
         self.order_input.clear()
         self.invoice_input.clear()
+        self.auto_export_pending = False
         self.status_label.setText("جاهز لاستقبال الرابط.")
         self.history_sidebar.list_widget.clearSelection()
         self._clear_display()
@@ -989,6 +1054,16 @@ class MainWindow(QMainWindow):
         self.product_search_input.clear()
         self.current_extraction = extraction
         self.current_output_path = path
+        for product in extraction.products:
+            image_url = product.goods_img
+            if (
+                image_url
+                and image_url not in self.image_cache
+                and image_url not in self.pending_image_urls
+                and image_url not in self.scheduled_image_urls
+            ):
+                self.failed_image_urls.discard(image_url)
+                self.image_retry_attempts[image_url] = 0
         self._populate_summary(extraction)
         self._populate_products(extraction.products)
         self._update_metadata(from_history=from_history)
@@ -1127,7 +1202,7 @@ class MainWindow(QMainWindow):
 
     def _load_image(self, url: str | None, label: QLabel) -> None:
         if not url:
-            label.setText("لا توجد صورة")
+            label.setText("غير متوفر")
             self._update_export_availability()
             return
         cached = self.image_cache.get(url)
@@ -1137,13 +1212,20 @@ class MainWindow(QMainWindow):
             self._update_export_availability()
             return
         label_reference = weakref.ref(label)
-        if url in self.pending_image_urls:
-            self.image_waiters.setdefault(url, []).append(label_reference)
+        self.image_waiters.setdefault(url, []).append(label_reference)
+        if url in self.pending_image_urls or url in self.scheduled_image_urls:
             return
 
         self.failed_image_urls.discard(url)
+        self.image_retry_attempts[url] = 0
+        self._request_image(url)
+
+    def _request_image(self, url: str) -> None:
+        if url in self.image_cache or url in self.pending_image_urls:
+            return
+        self.scheduled_image_urls.discard(url)
         self.pending_image_urls.add(url)
-        self.image_waiters[url] = [label_reference]
+        self.image_retry_attempts[url] = self.image_retry_attempts.get(url, 0) + 1
         reply = self.image_manager.get(QNetworkRequest(QUrl(url)))
         reply.finished.connect(
             lambda current_reply=reply, image_url=url: self._finish_image(
@@ -1157,17 +1239,15 @@ class MainWindow(QMainWindow):
         reply: QNetworkReply,
         url: str,
     ) -> None:
-        waiters = self.image_waiters.pop(url, [])
+        waiters = self.image_waiters.get(url, [])
         self.pending_image_urls.discard(url)
         try:
             if reply.error() != QNetworkReply.NetworkError.NoError:
-                self.failed_image_urls.add(url)
-                self._set_image_waiters_text(waiters, "تعذر التحميل")
+                self._schedule_image_retry(url, waiters)
                 return
             pixmap = QPixmap()
             if not pixmap.loadFromData(reply.readAll()):
-                self.failed_image_urls.add(url)
-                self._set_image_waiters_text(waiters, "صورة غير صالحة")
+                self._schedule_image_retry(url, waiters)
                 return
             scaled = pixmap.scaled(
                 THUMBNAIL_SIZE,
@@ -1177,6 +1257,8 @@ class MainWindow(QMainWindow):
             )
             self.image_cache[url] = scaled
             self.failed_image_urls.discard(url)
+            self.scheduled_image_urls.discard(url)
+            self.image_waiters.pop(url, None)
             for reference in waiters:
                 label = reference()
                 if label is not None:
@@ -1187,6 +1269,28 @@ class MainWindow(QMainWindow):
         finally:
             reply.deleteLater()
             self._update_export_availability()
+
+    def _schedule_image_retry(
+        self,
+        url: str,
+        waiters: list[weakref.ReferenceType[QLabel]],
+    ) -> None:
+        attempt = self.image_retry_attempts.get(url, 1)
+        if attempt >= MAX_IMAGE_ATTEMPTS:
+            self.failed_image_urls.add(url)
+            self.scheduled_image_urls.discard(url)
+            self.image_waiters.pop(url, None)
+            self._set_image_waiters_text(waiters, "غير متوفر")
+            return
+
+        next_attempt = attempt + 1
+        self.scheduled_image_urls.add(url)
+        self._set_image_waiters_text(
+            waiters,
+            f"إعادة {next_attempt}/{MAX_IMAGE_ATTEMPTS}",
+        )
+        delay_ms = min(500 * attempt, 3000)
+        QTimer.singleShot(delay_ms, lambda image_url=url: self._request_image(image_url))
 
     @staticmethod
     def _set_image_waiters_text(
@@ -1210,68 +1314,140 @@ class MainWindow(QMainWindow):
         )
         return total, loaded, failed
 
+    def _current_pdf_path(self) -> Path | None:
+        if self.current_output_path is None:
+            return None
+        return default_pdf_path(self.current_output_path, EXPORT_DIRECTORY).resolve()
+
     def _update_export_availability(self) -> None:
         total, loaded, failed = self._image_loading_counts()
-        ready = bool(total) and loaded == total and failed == 0
-        self.export_button.setEnabled(ready and self.worker_thread is None)
-        if ready:
+        resolved = loaded + failed
+        pdf_path = self._current_pdf_path()
+        pdf_exists = bool(pdf_path and pdf_path.exists())
+        ready = bool(total) and resolved == total
+        self.export_button.setEnabled(
+            (pdf_exists or ready)
+            and self.worker_thread is None
+            and not self.pdf_export_in_progress
+        )
+        if pdf_exists:
+            self.export_button.setToolTip("فتح تقرير PDF المحفوظ مسبقًا")
+        elif ready:
             self.export_button.setToolTip(
-                "تصدير جميع المنتجات المعروضة في التحليل إلى ملف PDF"
-            )
-        elif failed:
-            self.export_button.setToolTip(
-                f"تعذر تجهيز {failed} صورة. أعد فتح التحليل بعد التحقق من الاتصال."
+                "إنشاء تقرير PDF لجميع منتجات التحليل"
             )
         elif total:
+            max_attempt = max(
+                (
+                    self.image_retry_attempts.get(product.goods_img or "", 0)
+                    for product in self.current_extraction.products
+                ),
+                default=0,
+            )
             self.export_button.setToolTip(
-                f"جاري تحميل صور المنتجات: {loaded} من {total}"
+                f"جاري تجهيز الصور: {loaded} من {total} — المحاولة {max_attempt}/{MAX_IMAGE_ATTEMPTS}"
             )
         else:
             self.export_button.setToolTip("لا توجد منتجات لتصديرها")
+
+        if (
+            total
+            and resolved < total
+            and not self.pdf_export_in_progress
+            and self.worker_thread is None
+        ):
+            active_attempt = max(
+                (
+                    self.image_retry_attempts.get(product.goods_img or "", 0)
+                    for product in self.current_extraction.products
+                    if product.goods_img not in self.image_cache
+                ),
+                default=0,
+            )
+            self.progress.setRange(0, total)
+            self.progress.setValue(resolved)
+            self.progress.show()
+            self.status_label.setText(
+                f"جاري تحميل صور المنتجات: {loaded} من {total}"
+                + (
+                    f" — المحاولة {active_attempt}/{MAX_IMAGE_ATTEMPTS}"
+                    if active_attempt > 1
+                    else ""
+                )
+                + (
+                    f" — توجد {failed} صورة غير متوفرة"
+                    if failed
+                    else ""
+                )
+            )
+        elif ready and not self.pdf_export_in_progress:
+            self.progress.hide()
+            self.progress.setRange(0, 0)
+            if not self.auto_export_pending:
+                self.status_label.setText(
+                    "اكتمل تجهيز صور المنتجات. تقرير PDF جاهز."
+                )
+
+        if (
+            self.auto_export_pending
+            and self.worker_thread is None
+            and (pdf_exists or ready)
+            and not self.pdf_export_in_progress
+        ):
+            self.auto_export_pending = False
+            QTimer.singleShot(0, self._auto_export_pdf)
 
     @Slot()
     def export_pdf(self) -> None:
         if self.current_extraction is None or self.current_output_path is None:
             return
+        output_path = self._current_pdf_path()
+        if output_path is None:
+            return
+        if output_path.exists():
+            QDesktopServices.openUrl(QUrl.fromLocalFile(str(output_path)))
+            self.show_toast("تم فتح تقرير PDF المحفوظ مسبقًا.")
+            return
         total, loaded, failed = self._image_loading_counts()
-        if failed or loaded != total:
-            QMessageBox.information(
-                self,
-                "الصور غير مكتملة",
-                "انتظر حتى تظهر جميع صور المنتجات قبل تصدير ملف PDF.",
-            )
+        if loaded + failed != total:
+            self.show_toast("انتظر حتى تنتهي محاولات تحميل الصور.", error=True)
+            return
+        self._create_pdf(output_path, automatic=False)
+
+    @Slot()
+    def _auto_export_pdf(self) -> None:
+        output_path = self._current_pdf_path()
+        if output_path is None:
+            return
+        if output_path.exists():
+            self.status_label.setText("ملف PDF محفوظ مسبقًا لهذا التحليل.")
+            self.show_toast("تقرير PDF موجود ومحفوظ مسبقًا.")
+            self._update_export_availability()
+            return
+        self._create_pdf(output_path, automatic=True)
+
+    def _create_pdf(self, output_path: Path, *, automatic: bool) -> None:
+        if self.current_extraction is None or self.current_output_path is None:
             return
 
         EXPORT_DIRECTORY.mkdir(parents=True, exist_ok=True)
-        suggested_path = default_pdf_path(
-            self.current_output_path,
-            EXPORT_DIRECTORY,
-        ).resolve()
-        selected_path, _ = QFileDialog.getSaveFileName(
-            self,
-            "حفظ تقرير PDF",
-            str(suggested_path),
-            "PDF (*.pdf)",
-        )
-        if not selected_path:
-            return
-        output_path = Path(selected_path)
-        if output_path.suffix.casefold() != ".pdf":
-            output_path = output_path.with_suffix(".pdf")
-
+        self.pdf_export_in_progress = True
         self.export_button.setDisabled(True)
         self.progress.setRange(0, 1)
         self.progress.setValue(0)
         self.progress.show()
-        self.status_label.setText("جاري إنشاء تقرير PDF بجميع المنتجات...")
+        self.status_label.setText("جاري إنشاء صفحات تقرير PDF...")
 
         def update_progress(current: int, maximum: int) -> None:
             self.progress.setRange(0, maximum)
             self.progress.setValue(current)
+            self.status_label.setText(
+                f"جاري إنشاء ملف PDF: الصفحة {current} من {maximum}"
+            )
             QApplication.processEvents()
 
         try:
-            page_count = export_cart_pdf(
+            result = export_cart_pdf(
                 self.current_extraction,
                 output_path,
                 self.image_cache,
@@ -1279,29 +1455,73 @@ class MainWindow(QMainWindow):
                 progress_callback=update_progress,
             )
         except (OSError, RuntimeError) as error:
-            QMessageBox.warning(self, "تعذر تصدير PDF", str(error))
+            try:
+                output_path.unlink(missing_ok=True)
+            except OSError:
+                pass
             self.status_label.setText("تعذر إنشاء تقرير PDF.")
+            self.show_toast(f"تعذر إنشاء PDF: {error}", error=True, duration=4000)
             return
         finally:
+            self.pdf_export_in_progress = False
             self.progress.hide()
             self.progress.setRange(0, 0)
             self._update_export_availability()
 
+        save_mode = "تلقائيًا" if automatic else "بنجاح"
         self.status_label.setText(
-            f"تم تصدير جميع المنتجات إلى PDF في {page_count} صفحة."
+            f"تم حفظ PDF {save_mode} في {result.page_count} صفحة."
+            + (
+                f" استُخدم بديل لـ {result.unavailable_image_count} صورة."
+                if result.unavailable_image_count
+                else " جميع الصور مكتملة."
+            )
         )
-        QMessageBox.information(
-            self,
-            "اكتمل التصدير",
-            f"تم حفظ التقرير بنجاح:\n{output_path}",
+        toast_text = (
+            "تم حفظ ملف PDF تلقائيًا."
+            if automatic
+            else "تم حفظ ملف PDF بنجاح."
         )
+        if result.unavailable_image_count:
+            toast_text += f" صور غير متوفرة: {result.unavailable_image_count}."
+        self.show_toast(toast_text)
+
+    def show_toast(
+        self,
+        message: str,
+        *,
+        error: bool = False,
+        duration: int = 2000,
+    ) -> None:
+        background = "#991b1b" if error else "#166534"
+        border = "#ef4444" if error else "#22c55e"
+        self.toast_label.setMinimumWidth(0)
+        self.toast_label.setMaximumWidth(16777215)
+        self.toast_label.setStyleSheet(
+            f"background:{background}; color:#ffffff; border:1px solid {border}; "
+            "border-radius:8px; padding:10px 18px; font-weight:700;"
+        )
+        self.toast_label.setText(message)
+        self.toast_label.adjustSize()
+        maximum_width = max(self.width() - 80, 320)
+        if self.toast_label.width() > maximum_width:
+            self.toast_label.setFixedWidth(maximum_width)
+            self.toast_label.setWordWrap(True)
+            self.toast_label.adjustSize()
+        self.toast_label.move(
+            max((self.width() - self.toast_label.width()) // 2, 20),
+            20,
+        )
+        self.toast_label.raise_()
+        self.toast_label.show()
+        self.toast_timer.start(duration)
 
     def closeEvent(self, event: QCloseEvent) -> None:
-        if self.worker_thread is not None:
+        if self.worker_thread is not None or self.pdf_export_in_progress:
             QMessageBox.information(
                 self,
                 "التحليل قيد التنفيذ",
-                "انتظر حتى تنتهي عملية الاستخراج قبل إغلاق البرنامج.",
+                "انتظر حتى تنتهي عملية الاستخراج أو إنشاء PDF قبل إغلاق البرنامج.",
             )
             event.ignore()
             return

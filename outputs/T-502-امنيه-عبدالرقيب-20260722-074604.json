@@ -1,0 +1,258 @@
+{
+  "source_url": "https://onelink.shein.com/43/5w4rkvqbokf5",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_RuVuI63grkR&group_id=806279495&local_country=SA&url_from=&cart_share=1",
+  "group_id": "806279495",
+  "local_country": "SA",
+  "all_product_size": 12,
+  "counts": {
+    "normalProducts": 11,
+    "outStock": 0,
+    "unavailable": 1
+  },
+  "products": [
+    {
+      "goods_id": "14134555",
+      "goods_sn": "I11lujootkwt",
+      "sku_code": "sb2212076566203490",
+      "goods_name": "شعر مستعار للذيل الحصان مستقيم طويل إضافي من 18 إلى 34 بوصة باللون البني والأسود للنساء، مناسب لرأس السنة الصينية والمهرجانات الموسيقية والحفلات والتنكر والعطلات والاستخدام اليومي",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/06/25/1687685289576ab262fbac7bf3bb46b39d7d653c25.jpg",
+      "goods_attr": "شوكولاته بني / 34 inch",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "15.00",
+        "amountWithSymbol": "SR15.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR15.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "11139230",
+      "goods_sn": "I42arvmup4co",
+      "sku_code": "sb2206209961627765",
+      "goods_name": "SHEGLAM جل الحواجب Set Me Up جل حواجب شفاف مقاوم للماء يدوم طويلاً، يدوم طويلاً، مرطب للحواجب، مكياج حواجب وعيد الميلاد محدد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/05/23/df/1747987862bd8d1478055ca564631eeb094c3cd5f4.jpg",
+      "goods_attr": "شفاف / 7g",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "14.00",
+        "amountWithSymbol": "SR14.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR14.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "420522807",
+      "goods_sn": "I6mmlhdq7moue3",
+      "sku_code": "sj260311112535482835391",
+      "goods_name": "زوج من أقراط فريدة التصميم من الفولاذ المقاوم للصدأ 304 بتصميم زهرة البابونج الصغيرة والشرابات الطويلة للنساء",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/11/3b/1773199682e66c91abbe7f7a46ec41b59d40e2d649.jpg",
+      "goods_attr": "الذهبي",
+      "stock": 10,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "7.20",
+        "amountWithSymbol": "SR7.20",
+        "currency": null
+      },
+      "amountWithSymbol": "SR7.20",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "449724132",
+      "goods_sn": "I1mnobehlyqdlr",
+      "sku_code": "sb260407154552942916395",
+      "goods_name": "SHEGLAM Marshmallow Puff قلم تمويه الشفاه-330 Red Teddy",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/05/07/1a/177814902775605e0b6cbe56d7d71fb89c3d46add8.jpg",
+      "goods_attr": "330 دبدوب أحمر / 1.75g",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "17.00",
+        "amountWithSymbol": "SR17.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR17.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "32513026",
+      "goods_sn": "I276byttrxia",
+      "sku_code": "sc2403241437825973",
+      "goods_name": "إكسسوارات تصفيف الشعر: بكرات الشعر، لفافات الشعر، الباروكات، أدوات التصفيف، دبابيس الشعر، مشابك الشعر، مشابك الفك، مشابك الشعر، مشابك الشعر، مشابك الشعر، إكسسوارات الشعر للنساء للعطلات الصيفية والشاطئ",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/04/03/8b/1712122117e188545010e9cc89c1d2c7dd9b4091ea.jpg",
+      "goods_attr": "متعدد الألوان / بني أسود 4 #",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "524823272",
+      "goods_sn": "I2mrdozeay04xz",
+      "sku_code": "sh260709234501633078701",
+      "goods_name": "1-9 قطعة فرشاة تنظيف موقد الغاز، فرشاة سلكية، فرشاة تنظيف المطبخ، فرشاة تنظيف الدهون، فرشاة إزالة الصدأ، فرشاة كهربائية، مستلزمات التنظيف، فرشاة وعاء سلكية من الفولاذ، فرشاة تنظيف متعددة الوظائف، ألوان عشوائية، المطبخ، الحمام، الاستخدام المنزلي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/07/09/76/1783612528e705c873c7f19947d53f74d47f39a894.jpg",
+      "goods_attr": "A / مقاس واحد يناسب الجميع / 3 عبوات",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "3.85",
+        "amountWithSymbol": "SR3.85",
+        "currency": null
+      },
+      "amountWithSymbol": "SR3.85",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "74893793",
+      "goods_sn": "I386hzlxgdi9",
+      "sku_code": "sj25050739130218263",
+      "goods_name": "6 قطع أقراط حلقية صغيرة من الفولاذ المقاوم للصدأ بأقطار 8 مم / 10 مم / 12 مم / 14 مم / 16 مم / 18 مم ، مجوهرات ثقب غضروف الأذن للجنسين",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2025/05/07/4c/174658144414c5f11254f3fc289a5baf49c80cf1eb.png",
+      "goods_attr": "الذهبي / 6 أزواج",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "38831933",
+      "goods_sn": "I11eu0g9atgv",
+      "sku_code": "sj2407124297622225",
+      "goods_name": "سوار كاحل سلسلة أفعى من الفولاذ المقاوم للصدأ 20+5 سم قابل للتعديل, هدايا للنساء والبنات مجوهرات وإكسسوارات قطعة واحدة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/07/12/29/17207636382579b1da7db295633052272282fa0bb2.jpg",
+      "goods_attr": "خلخال سلسلة الأفعى / ذهبي أصفر / 20 سم + 5 سم",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.85",
+        "amountWithSymbol": "SR4.85",
+        "currency": null
+      },
+      "amountWithSymbol": "SR4.85",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "9877165",
+      "goods_sn": "I2m6g92843lb",
+      "sku_code": "sj2202215262162655",
+      "goods_name": "Nooxian أقراط مزينة بزهور من الزركونيا المكعبة مع خيط",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2022/02/22/1645521305fdaf87c04c83f410c670e0c5251ffa84.jpg",
+      "goods_attr": "ذهبي أصفر / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "522588418",
+      "goods_sn": "I5mra9v6wkpwng",
+      "sku_code": "sj260707142133459999769",
+      "goods_name": "زوج واحد من أقراط النساء من الفولاذ المقاوم للصدأ، شرابات طويلة مع سلسلة وعناصر مستطيلة، أسلوب فاخر بسيط، مناسب للتنقل اليومي والمواعيد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/07/07/d3/1783405326182beb889ee984c58c44f6b3814ef0c5.jpg",
+      "goods_attr": "متعدد الألوان / ذهب",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.61",
+        "amountWithSymbol": "SR5.61",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.61",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "31538203",
+      "goods_sn": "I63cm1ftcfbr",
+      "sku_code": "sw2403139253571265",
+      "goods_name": "قطعة واحدة مروحة يدوية صغيرة محمولة متوافقة مع منافذ Type-C و Android للهواتف الذكية والأجهزة اللوحية للاستخدام في رحلات الصيف",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/03/07/1c/17413190200b45b447f048890c98c14d9078a665fd.jpg",
+      "goods_attr": "روز أحمر / أسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "395282666",
+      "goods_sn": "I3mkyv0ky9vs1m",
+      "sku_code": "sb251223161980595034373",
+      "goods_name": "6 قطع كريم تبييض الإبط، لوشن الجسم بالكولاجين للبقع الداكنة، مزيل عرق، الإبط، اليد، المرفق، الرقبة، الإبط، الركبة، المرفق وخط البيكيني، تبييض وترطيب البشرة، -تركيبة فاخرة، كريم تبييض فوري، لوشن جسم بأسعار معقولة، تبييض وترطيب، كريم تبييض الإبط مع مستخلصات نباتية وكولاجين. كريم تبييض، كريم مرطب، كريم الحليب، كريم تبييض، عطر نسائي.",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/29/40/1769654637136e4ba503c2606f31aa164aa54ebbc0.jpg",
+      "goods_attr": "كريم تبييض / قطعة واحدة",
+      "stock": 999,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.60",
+        "amountWithSymbol": "SR5.60",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.60",
+      "is_on_sale": 0
+    }
+  ],
+  "customer_name": "امنيه عبدالرقيب",
+  "order_number": "T-502",
+  "analyzed_at": "2026-07-22T07:46:04.153954+03:00",
+  "output_file": "T-502-امنيه-عبدالرقيب-20260722-074604.json"
+}

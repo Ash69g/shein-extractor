@@ -1,0 +1,718 @@
+{
+  "source_url": "https://api-shein.shein.com/h5/sharejump/appjump?link=RPQVnkxOpR4_b&localcountry=SA&shc=2_RPQVnkxOpR4",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_RPQVnkxOpR4&group_id=792679515&local_country=SA&url_from=&cart_share=1",
+  "group_id": "792679515",
+  "local_country": "SA",
+  "all_product_size": 35,
+  "counts": {
+    "normalProducts": 34,
+    "outStock": 0,
+    "unavailable": 1
+  },
+  "products": [
+    {
+      "goods_id": "44775901",
+      "goods_sn": "I0ip23rvzwow",
+      "sku_code": "sh2409290408983562",
+      "goods_name": "كوب قهوة سيراميك بتصميم كابيبارا الكرتوني سعة 400 مل (13.5 أونصة)، تصميم حيوان جذاب، كوب شوفان معزول وقابل لإعادة الاستخدام، متعدد الأغراض، آمن للغسل في غسالة الأطباق، كوب حليب إبداعي، أدوات شرب مستوحاة من الحيوانات الأليفة، هدية عيد الحب، ، عودة إلى المدرسة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/05/22/11/17479196801fadc9f270d6fe38862def650cb94676_square.jpg",
+      "goods_attr": "متعدد الألوان / كأس الكابيبارا البرتقالي (بني)",
+      "stock": 10,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "39.82",
+        "amountWithSymbol": "SR39.82",
+        "currency": null
+      },
+      "amountWithSymbol": "SR39.82",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "306219534",
+      "goods_sn": "I39jhrxw5tj1",
+      "sku_code": "sj251124244748209400",
+      "goods_name": "2 قطعة مجموعة سوار معدني وخاتم ذو نسيج ملتوي أنيق بطراز قديم، مناسب للنساء، مناسب للمناسبات والأعياد والاحتفالات والحفلات والأعراس والعطلات والتسوق والارتداء اليومي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/11/24/d5/1763954639fd6edbd90e788dcff2bf6b52471db807.jpg",
+      "goods_attr": "ذهبي أصفر / طقم سوار وخاتم من قطعتين",
+      "stock": 6,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "61417012",
+      "goods_sn": "I173xz3b2rrx",
+      "sku_code": "sh2412017194038829",
+      "goods_name": "1/2 قطعة نباتات معلقة اصطناعية، نباتات ماندالا معلقة خضراء، رف جداري، ديكور المنزل وغرفة المعيشة، مناسب للاستخدام الداخلي والخارجي، ديكور رف غرفة المعيشة، الغرفة، المطبخ، المنزل، الزفاف، ديكور غرفة النوم.",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/03/10/15/1741596276d3bcf369b47f339c18feb068774d4e1f_square.jpg",
+      "goods_attr": "شجرة الكينا المعلقة باللون الأخضر الكرمي / 2PCS",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "17.00",
+        "amountWithSymbol": "SR17.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR17.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "35347298",
+      "goods_sn": "I4fb114ieonz",
+      "sku_code": "sx2403271141761184",
+      "goods_name": "صنادل نسائية بكعب مخرم لموسم الصيف مع تطريز الزهور ونعل سميك من الرومان، شبشب نسائي دائري الأصابع بأسلوب قديمي وعصري لارتداء الملابس الخارجية على الشاطئ أو في أي مكان، منعشة ومريحة للمشي بخطواتك الأنيقةرمضان",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/05/16/4a/1715845639b9670f9d31e2c2c50b5adbe1ba868467.jpg",
+      "goods_attr": "الأسود / EUR40",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "36.00",
+        "amountWithSymbol": "SR36.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR36.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "81471330",
+      "goods_sn": "I792u5s3vwk7",
+      "sku_code": "sh25051851066829946",
+      "goods_name": "4 قطع/2 قطع/1 قطعة قالب سيليكون بشكل لولي بوب لصنع كرات الثلج، قالب آيس كريم، صينية ثلج للفريزر، قالب آيس كريم لولي بوب إبداعي، صينية ثلج للفريزر، صانع كرات الثلج، قالب آيس كريم، قالب آيس كريم لولي بوب، قالب سيليكون لولي بوب، آيس كريم لولي بوب DIY، صانع كرات الثلج مقاوم للحرارة والبرودة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/26/31/17694172497072dba1433cd6b21ae515f4f2021fd8.jpg",
+      "goods_attr": "متعدد الألوان / 4 قطع (4 ألوان مختلطة)",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "7.77",
+        "amountWithSymbol": "SR7.77",
+        "currency": null
+      },
+      "amountWithSymbol": "SR7.77",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "53111725",
+      "goods_sn": "I42wruti0cuy",
+      "sku_code": "sh2404195739944352",
+      "goods_name": "3 نباتات مزروعة بأصص صغيرة، تأتي مع أدوات حدائق سوداء لزراعة التربة (بأنماط عشوائية)",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/04/19/c9/17134971936a17afb0b031c525833aff9774e87ece.jpg",
+      "goods_attr": "الأسود / مجموعة 3 قطع",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.89",
+        "amountWithSymbol": "SR6.89",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.89",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "13240682",
+      "goods_sn": "I191wa078sbv",
+      "sku_code": "sx2211288025186148",
+      "goods_name": "أحذية كعب عالي للنساء، أحذية ذات أصبع مدبب من الجلد المدبوغ مع فتحات وفيونكة، كعب سميك، متعددة الاستخدامات للتنقل اليومي والأعمال، باللون الأسود، مقاسات كبيرة، أنيقة",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2023/02/24/1677225729827dc844a2ceb7a27eb7ca4d777676d5.jpg",
+      "goods_attr": "الأسود / CN38",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "72.00",
+        "amountWithSymbol": "SR72.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR72.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "68201793",
+      "goods_sn": "I883s5wldec5",
+      "sku_code": "sa25041717510969026",
+      "goods_name": "3 قطع من الاسفنج لتنظيف زجاجات الرضاعة وحلمات الرضاعة واداوات تنظيف القامع",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/17/df/174487747832da43b08c8f3969e90af118df63bec8_square.jpg",
+      "goods_attr": "البيج / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "384062147",
+      "goods_sn": "I8mk12eu8nqweh",
+      "sku_code": "sz25082602907602509",
+      "goods_name": "Aloruh فستان أنيق طويل الأكمام من قماش الشبك بلون أحادي مع تجاعيد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/01/23/30/176914757940a7ab99a32e7bdc71927c49aa6fd3a4.jpg",
+      "goods_attr": "الأسود / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "66.00",
+        "amountWithSymbol": "SR66.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR66.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "450259525",
+      "goods_sn": "I3mnvjvj022gxi",
+      "sku_code": "sk25060506337717495",
+      "goods_name": "طقم تي شيرت وشورت بطبعة كابيبارا للبنات المراهقات، 2 قطعة/مجموعة، لطيف وناعم ومريح للارتداء اليومي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/12/06/17759850620ea0a9817a85bfdc5fd5d26e33746631.jpg",
+      "goods_attr": "أبيض / 11Y",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "26.00",
+        "amountWithSymbol": "SR26.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR26.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "10882617",
+      "goods_sn": "I71ckqa2ncxs",
+      "sku_code": "sc2205116078618253",
+      "goods_name": "30 قطعة مشابك شعر بسيطة كاجوال، مشابك شعر مخلبية، دبابيس شعر، لوازم مدرسية، إكسسوارات شعر، إكسسوارات رأس، دبوس شعر، صيف، عطلة، سفر، مهرجان، عيد ميلاد",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2022/06/16/1655367374f5f0df3779dffd188c457ba40eceb8b8.jpg",
+      "goods_attr": "الذهبي / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "10044449",
+      "goods_sn": "I33g96k8oppx",
+      "sku_code": "sc2203099121636852",
+      "goods_name": "30 قطعة مشابك شعر بسيطة للاستخدام اليومي، مشابك شعر، أغراض المدرسة، إكسسوارات الشعر، إكسسوارات الرأس، دبابيس الشعر",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2022/03/11/1646970363609730653e86aa48c591753664835645.jpg",
+      "goods_attr": "الأسود / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "468063987",
+      "goods_sn": "I6mp3g5w8x3y7l",
+      "sku_code": "sl260513103561433231042",
+      "goods_name": "كتاب قراءة وألعاب للأطفال باللغة العربية، يحتوي على قصص وأنشطة تُعلّم الخصوصية والحماية الشخصية وكيفية رفض اللمس غير المريح بطريقة بسيطة وممتعة.",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/13/5c/17786396781f6c3aca0a93f7b076c8fc1c3dbfc9f6_square.jpg",
+      "goods_attr": "سلامة الخصوصية للأطفال / ابتعد لا تلمسني",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "14.00",
+        "amountWithSymbol": "SR14.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR14.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "41303059",
+      "goods_sn": "I52b66urlpru",
+      "sku_code": "sj2408197404413320",
+      "goods_name": "وصلة أقراط معدنية ورقية تدلٍ غير متماثلة عتيقة، هدايا مجوهرات أنيقة بسيطة للسيدات، مناسبة للاستخدام اليومي والمناسبات والحفلات والمآدب",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/08/19/ca/17240483289b58af5581c1c5ebd69ec0d457216848.jpg",
+      "goods_attr": "ذهبي أصفر / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "7.85",
+        "amountWithSymbol": "SR7.85",
+        "currency": null
+      },
+      "amountWithSymbol": "SR7.85",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "50990367",
+      "goods_sn": "I952m0nzyk4n",
+      "sku_code": "sl2412145594907483",
+      "goods_name": "190 ملصق حروف أبجدية عربية مغناطيسية، ألعاب تعليمية للأطفال لتعلم التهجئة، تشمل لوحة مغناطيسية وصندوق تخزين (ألوان عشوائية)",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/12/14/bc/173414721039f2200ead2c97f6abac8b69f6be410b_square.jpg",
+      "goods_attr": "متعدد الألوان / الحروف العربية 190 قطعة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "54.25",
+        "amountWithSymbol": "SR54.25",
+        "currency": null
+      },
+      "amountWithSymbol": "SR54.25",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "36359382",
+      "goods_sn": "I5ip6j1r48jz",
+      "sku_code": "sj2405046640008716",
+      "goods_name": "حزام ساعة جالكسي سامسونج + غطاء جالكسي سامسونج، لينة ومريحة ومقاومة للماء وقابل للإزالة برباط من السليكون لممارسة الرياضة، + غطاء واقي من البولي كربونات مقاوم للسقوط والخدش مع واقي شاشة زجاجي متكامل، متوافق مع ساعة جالكسي سامسونج 4/5/6/7 المقاس 40مم و 44مم، للرجال والنساء",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/06/04/41/1717500432e3036af8ae164f098e9e7b5897155bb7.jpg",
+      "goods_attr": "الأسود / ساعة جالاكسي 4/5 مقاس 40 ملم",
+      "stock": 8,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "395746440",
+      "goods_sn": "I2mkkumkdqjrom",
+      "sku_code": "sk260119153370499523263",
+      "goods_name": "SHEIN 4 قطع/مجموعة شورتات بسيطة عملية ناعمة ومريحة للأولاد مع شارة وزخرفة الخصر، مناسبة للارتداء اليومي، المدرسة، السفر، الرياضة في الربيع والصيف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/02/04/a7/1770183650135a4cf2f25fba9ba6df720136013513.jpg",
+      "goods_attr": "متعدد الألوان / 4Y",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "30.81",
+        "amountWithSymbol": "SR30.81",
+        "currency": null
+      },
+      "amountWithSymbol": "SR30.81",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "12738893",
+      "goods_sn": "I16sfnmwof0m",
+      "sku_code": "si2212260981426221",
+      "goods_name": "Suprenx 1 قطعة بدلة نسائية للتشكيل، ترفع الصدر، تنحف الخصر، ترفع الأرداف، بدلة صيفية للياقة البدنية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/09/2c/175997520582f2c5ed654df6166f48d074e81aab93.jpg",
+      "goods_attr": "لون مشمشي / XL",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "41.00",
+        "amountWithSymbol": "SR41.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR41.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "76852396",
+      "goods_sn": "I14xrv5o98nz",
+      "sku_code": "sc25051371281322118",
+      "goods_name": "قطعة واحدة وشاح قابل للتحويل من الفسكوز للنساء، ذو رقبة مزيفة، لون أحادي، إكسسوار قابل للتحويل للفستان لديكور عيد الميلاد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/05/13/39/17471241940492f3b2ef9c829ee242134758fd431b.jpg",
+      "goods_attr": "متعدد الألوان / أسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "335972815",
+      "goods_sn": "I3mjdr8w2wck85",
+      "sku_code": "sk25022194110102563",
+      "goods_name": "قبعة شمسية ذات حافة عريضة للأطفال (لون للأولاد) - حزام القبعة، لون موحد، خفيفة الوزن وقابلة للتنفس، مناسبة للاستخدام اليومي/السفر/الشاطئ",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/12/20/4f/1766200288e9011c24f8b3541250c752a941687590.jpg",
+      "goods_attr": "لون موحد - نظام ألوان للأولاد / 1-3Y / رمادي",
+      "stock": 10,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "14.00",
+        "amountWithSymbol": "SR14.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR14.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "336698252",
+      "goods_sn": "I6mm0ght594p31",
+      "sku_code": "sk251222205560009609466",
+      "goods_name": "1 قطعة/2 قطعة/3 قطع قبعة بيسبول للأطفال الرضع، مناسبة للأطفال من 6 إلى 24 شهرًا - قبعة شمس بلون واحد للأطفال الصغار، خفيفة الوزن ومريحة، مناسبة للأولاد الرضع للعب، متوفرة بألوان محايدة متعددة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/12/22/ed/176640836698b6ff3c2e425aebb4c387eff03c4fa3.jpg",
+      "goods_attr": "قبعة البيسبول / 3-6Y / بيج",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "15.00",
+        "amountWithSymbol": "SR15.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR15.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "40302311",
+      "goods_sn": "I01o7c88bucv",
+      "sku_code": "sl2407234314804702",
+      "goods_name": "100/200 قطعة مختلطة الألوان من كرات البومبوم بأحجام 1سم/1.5سم، أعمال يدوية و أشغال فنية ليوم الحب ، كرات من غزل الأقطان للهدايا و الديكور ، أفكار هدايا عيد الميلاد ، زينة عيد الميلاد المصنوعة يدويًا",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/07/23/cc/17217156172fe72b510e5447a1669cc9d594192fad_square.jpg",
+      "goods_attr": "متعدد الألوان / لون الحلوى-100 قطعة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.00",
+        "amountWithSymbol": "SR4.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR4.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "42887135",
+      "goods_sn": "I22hyd5pdedv",
+      "sku_code": "sz2403151821955579",
+      "goods_name": "Modelyn ثوب أنيق باللون الموحد مع تصميم تويست للخصر بذيل سمكة، فساتين سهرة طويلة للخريف",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2024/09/18/b1/17266213965c376be82883fb6a6527ee9b61d78aab.jpg",
+      "goods_attr": "الأسود / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "104.00",
+        "amountWithSymbol": "SR104.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR104.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "56495906",
+      "goods_sn": "I86gsfwmvkj2",
+      "sku_code": "sx25013011040354524",
+      "goods_name": "نعل داخلي مبطن مانع للرجفة مائل الشكل ،خفيف الوزن ،ماصّ للصدمات ، مريح ،أحذية صنادل نسائية سهلة الارتداء 66001",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/02/11/6b/1739243671f36011ddf0734a49fcf39a7a7b05261c.jpg",
+      "goods_attr": "الأسود / CN40",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "44.00",
+        "amountWithSymbol": "SR44.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR44.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "49817686",
+      "goods_sn": "I212i5n8veza",
+      "sku_code": "ss2411303130001008",
+      "goods_name": "قاطعة دائرية يدوية خفيفة الوزن قابلة للدوران 360 درجة ،قطر التقطيع الأدنى 0.79 بوصة ، قطر التقطيع الأقصى 7.87 بوصة ، مستلزمات مدرسية",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/12/28/03/1735366201c42f013d4cde505091c6ed2dc0f981c5.png",
+      "goods_attr": "متعدد الألوان / مجموعة من القواطع الدائرية/نوع أ",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "19.00",
+        "amountWithSymbol": "SR19.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR19.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "155236329",
+      "goods_sn": "I9atgu4wlau0",
+      "sku_code": "sh25081425925533323",
+      "goods_name": "SHEIN | PAW Patrol صندوق طعام بنتو ذو 3 أقسام بنمط كرتوني مقاوم للتسرب سعة 1100 مل، متين ومقاوم للسقوط، مزود بأدوات المائدة وشوكة الطعام",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/09/12/8c/1757666550609a5979e6a72ad3c75b0d3383a8c5b5.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "45.00",
+        "amountWithSymbol": "SR45.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR45.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "322896483",
+      "goods_sn": "I13hiudw911s",
+      "sku_code": "sk251107771278528752",
+      "goods_name": "SHEIN | PAW Patrol طقم ملابس علوية وشورت داخلي للأولاد 6 قطع، طباعة الكلب الناعمة والمريحة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/12/10/3e/17653459007b97728bed1788094fb27677db6ccba0.jpg",
+      "goods_attr": "أبيض / 4Y",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "52.00",
+        "amountWithSymbol": "SR52.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR52.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "345824890",
+      "goods_sn": "I9mjsos0hkq7mq",
+      "sku_code": "st25040124449642044",
+      "goods_name": "KOVSEE قميص كرة قدم أنمي أكمام قصيرة من سلسلة معدنية زرقاء، قميص كرة قدم أنمي مناسب للجنسين، تي شيرت نادي كرة قدم PXG رقم 9، هدية أنمي (مناسب للرجال والنساء) رياضة",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2026/03/23/42/17742475748ebdc42795c7a7ad8775cd72e3547963.png",
+      "goods_attr": "الأزرق / S",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "26.00",
+        "amountWithSymbol": "SR26.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR26.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "49917697",
+      "goods_sn": "I9180rldpv63",
+      "sku_code": "sg2412070407876046",
+      "goods_name": "1 قطعة حقيبة سهرة انيقة من القماش المخملي الأسود ذات مشبك معدني على شكل ورقة للسهرات والمناسبات الرسمية، مناسبة للحفلات المسائية والولائم والزفاف والمناسبات الرسمية",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/12/07/bc/1733540249ee434690f4cef0420cbafd481e1118c7.jpg",
+      "goods_attr": "الأسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "42.00",
+        "amountWithSymbol": "SR42.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR42.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "44544437",
+      "goods_sn": "I03iltry26in",
+      "sku_code": "ss2410090115093598",
+      "goods_name": "9 قطع طقم أقلام جل بألوان موراندي، أنبوب قلم شفاف متدرج، رأس كرة بقطر 0.6 مم، مناسب للرسم والتظليل، هدية قرطاسية للطلاب في بداية العام الدراسي",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/10/09/40/1728459539d9b28452ab8d28d831a3a0d4629a57f7.jpg",
+      "goods_attr": "مقاس واحد / نظام الملح",
+      "stock": 10,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "27559475",
+      "goods_sn": "I52bg1vdbj0r",
+      "sku_code": "sc2307128808907787",
+      "goods_name": "1 قطعة مشبك شعر معدني، مشابك شعر بحجم كبير لتسريحات الشعر المرفوعة، إكسسوارات شعر صيفية للنساء",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/12/11/6e/1702303445e54e7cd25dbb0eeb1e71b88deb717624.jpg",
+      "goods_attr": "الذهبي / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "419122755",
+      "goods_sn": "I6mmnbi54979lj",
+      "sku_code": "sl260312182167714104901",
+      "goods_name": "MINKOJA MINKOJA طاولة تنس طاولة محمولة للتمرين البصري، طاولة تنس طاولة، طقم تنس طاولة، تنس طاولة محمولة، لعبة بونغ الباب للأطفال، ألعاب الحديقة، ألعاب العائلة، المدرسة، ألعاب",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/25/9e/1774434216ff8d2790be45bdec3477c190361bb368.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "14.77",
+        "amountWithSymbol": "SR14.77",
+        "currency": null
+      },
+      "amountWithSymbol": "SR14.77",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "238291891",
+      "goods_sn": "I0boampy8mno",
+      "sku_code": "sk25091546119819494",
+      "goods_name": "Cozy Pixies 5 أزواج جوارب أطفال بألوان أحادية الكرتون، جوارب الساق الفضفاضة للرضع، بدون ربط الساق، جوارب أنبوبية متوسطة للأطفال في الربيع والخريف",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/06/03/6c/178045388096be6afb0e76fc3255c25f4b8df0e3ca.jpg",
+      "goods_attr": "متعدد الألوان / 6-12M",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "12.00",
+        "amountWithSymbol": "SR12.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR12.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "127822279",
+      "goods_sn": "I8a17k2c6w94",
+      "sku_code": "sk25071280051161151",
+      "goods_name": "1 قطعة هاتف تعليمي متعدد الوظائف للأطفال، لعبة أطفال مع موسيقى، هاتف محاكاة للأولاد والبنات، هدية عيد",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2026/07/09/76/1783587518cad15224342abc757b734fceebed8d41.png",
+      "goods_attr": "هاتف محمول كرتوني / أرنب",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "16.00",
+        "amountWithSymbol": "SR16.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR16.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "36439865",
+      "goods_sn": "I9ka1fjgqj6g",
+      "sku_code": "sh2406069963695062",
+      "goods_name": "قارورة مياه معزولة فراغيًا من الفولاذ المقاوم للصدأ ذات تصميم بسيط 1 قطعة، كوب قش محمول للخارج، مناسبة للعودة إلى المدرسة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/06/06/79/1717660289b4bcd4640b99da99a5947fa887acd380.png",
+      "goods_attr": "متعدد الألوان / أزرق-320 مل",
+      "stock": 0,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "15.20",
+        "amountWithSymbol": "SR15.20",
+        "currency": null
+      },
+      "amountWithSymbol": "SR15.20",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "اكرام عبدالله",
+  "order_number": "H-2237",
+  "analyzed_at": "2026-07-22T07:17:57.954497+03:00",
+  "output_file": "H-2237-اكرام-عبدالله-20260722-071757.json"
+}

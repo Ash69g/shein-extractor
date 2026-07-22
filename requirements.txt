@@ -2,3 +2,4 @@ httpx
 playwright
 pydantic
 PySide6
+pypdf

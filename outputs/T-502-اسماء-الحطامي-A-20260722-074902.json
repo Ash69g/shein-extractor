@@ -1,0 +1,578 @@
+{
+  "source_url": "https://onelink.shein.com/43/5wdagnj8b1gq",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_Rui5XBn13iV&group_id=808757565&local_country=SA&url_from=&cart_share=1",
+  "group_id": "808757565",
+  "local_country": "SA",
+  "all_product_size": 28,
+  "counts": {
+    "normalProducts": 26,
+    "outStock": 0,
+    "unavailable": 2
+  },
+  "products": [
+    {
+      "goods_id": "30540114",
+      "goods_sn": "I32orns2bfmu",
+      "sku_code": "sh2402217747993311",
+      "goods_name": "60 قطعة من البالونات البيضاء المصنوعة من المطاط الطبيعي وبملمس اللؤلؤ مقاس 5 بوصة، و ايضا مقاس 5/10/12/18 بوصة للاستخدام في حفلات عيد الميلاد والزفاف والتخرج والأعياد السنوية",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/02/21/f4/17085155193bc66ec1b9d85e833498bb03b772e7c7_square.jpg",
+      "goods_attr": "اللؤلؤة البيضاء / 5 بوصة 30 قطعة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "433538904",
+      "goods_sn": "I8mn6uu2ks94jf",
+      "sku_code": "sb260326102775036991613",
+      "goods_name": "عناقيد رموش صناعية لاصقة ذاتيًا، بدون حاجة لصمغ، قابلة لإعادة الاستخدام",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/09/5a/1778308002b4928345aabd4dfad9c1303ec71821e6.jpg",
+      "goods_attr": "مزيج من 10 إلى 16 / C",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "11.00",
+        "amountWithSymbol": "SR11.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR11.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "462740083",
+      "goods_sn": "I5mnr3oa4ritam",
+      "sku_code": "sz260409143279959387436",
+      "goods_name": "DAZY بنطلون جينز نسائي كاجوال يومي بجيوب وأزرار Y2K",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/05/08/e4/177823082527a08d0ea4ad3efe1873ba239bb65f53.jpg",
+      "goods_attr": "أزرق داكن / S",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "87.00",
+        "amountWithSymbol": "SR87.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR87.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "78011444",
+      "goods_sn": "I98pc25ibbu9",
+      "sku_code": "sh25051363656326466",
+      "goods_name": "شريط خصر عروس مزين باللؤلؤ الأبيض والراين، شريط حفلة عروس العزوبية، شريط حفلة استحمام العروس، شريط حفلة الزفاف، شريط العروس",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/06/dd/17492089161669d695aa540ad8d17f4e099e7c1021.jpg",
+      "goods_attr": "أبيض / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.25",
+        "amountWithSymbol": "SR5.25",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.25",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "132303295",
+      "goods_sn": "I21h6qsdkdgp",
+      "sku_code": "sh25072056682285820",
+      "goods_name": "200 جرام من الزينة الصناعية من الطحالب - خضرة واقعية - عبوة 300 جرام - مثالية لمناظر طبيعية مصغرة، ديكور النوافذ، وتخطيطات التصميم، طحالب اصطناعية حيوية، طحالب خضراء لديكور المناظر الطبيعية المصغرة، نبات أخضر اصطناعي للحديقة والأصص والأرضيات والديكور الخارجي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/20/0a/17529954958765435a557e308847313158ffb488cd.jpg",
+      "goods_attr": "متعدد الألوان / نوع أخضر داكن مضاد للبهتان 80 جرام",
+      "stock": 8,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "14.00",
+        "amountWithSymbol": "SR14.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR14.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "415918059",
+      "goods_sn": "I7mmdjirr69lzi",
+      "sku_code": "sh260305214880542371765",
+      "goods_name": "22 قطعة مجموعة هدايا لحفل الزفاف، نظارات حفل عروس العصابات، عصابات شعر لحفل العروس، مجموعة عصابات شعر لحفل العروس، اكسسوارات نظارات حفل العروس",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/05/7d/1772718669bfde15746c578434afc342de870e0d2c.jpg",
+      "goods_attr": "طقم أساور للعروس ووصيفاتها / 22 قطعة/مجموعة / وردي",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "33.00",
+        "amountWithSymbol": "SR33.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR33.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "10925135",
+      "goods_sn": "I0286i88033n",
+      "sku_code": "sw2206161113292511",
+      "goods_name": "Dazy-Less قميص كاجوال للسيدات للعمل مع تفاصيل خياطة متماسكة رمضان",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2025/02/19/97/1739955049600b2c49f6e4827494b02fc5595fa42a.jpg",
+      "goods_attr": "الأسود / S",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "33.00",
+        "amountWithSymbol": "SR33.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR33.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "162554233",
+      "goods_sn": "I81o7ffccdpp",
+      "sku_code": "sj2308171549545466",
+      "goods_name": "6 أزواج من أقراط الأذن المرصعة للنساء، أقراط غضروف مرصعة بزركونيا مكعبة لامعة من الفولاذ المقاوم للصدأ باللون الفضي، مجوهرات ثقب الأذن للحفلات والهدايا",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/08/22/de/17558461752336bd78c01ec91f98f72fb280fc3e70.jpg",
+      "goods_attr": "مجموعة من 6 قطع / فضة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "20.00",
+        "amountWithSymbol": "SR20.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR20.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "37499638",
+      "goods_sn": "I9w7tqvcj4xs",
+      "sku_code": "sk2406205396837866",
+      "goods_name": "زينة شعر تاج الفتيات بمشط، هدية عيد ميلاد ومشبك شعر، تيارا برينسيس كريستال مع مشط",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/29/66/1780048583f5aadad323c0af212e45dbcac9c2fb9b.jpg",
+      "goods_attr": "فضي / d",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "458403734",
+      "goods_sn": "I0momrxv54h4u1",
+      "sku_code": "sh260501181294902567341",
+      "goods_name": "قلادة تذكارية فضية DIY مع إطارين بيضاويين وقلب معلق، منقوش عليها \"ستظل إلى الأبد في قلبي\"، هدية مجوهرات ذات معنى للزفاف والتخرج والأصدقاء والعائلة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/01/a4/1777631204ca4ddb28088b0d884e2f3b0883020351.jpg",
+      "goods_attr": "متعدد الألوان / مجموعة من قطعتين",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "70281753",
+      "goods_sn": "I877b3fr3bk8",
+      "sku_code": "sz25031031734152403",
+      "goods_name": "SHEIN PETITE بنطلون جينز نسائي بقصة فضفاضة وجيوب وساق واسعة كاجوال متعدد الاستخدامات، للنساء الصغيرات",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/04/25/38/17455602614899a3130bbeeb02b4b024956cb95ba8.jpg",
+      "goods_attr": "أزرق متوسط / Petite XS",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "72.00",
+        "amountWithSymbol": "SR72.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR72.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "64454668",
+      "goods_sn": "I47ltvkg93sw",
+      "sku_code": "sh25033102774575532",
+      "goods_name": "زينة حفلات العقد الوردية، إطار دعامات صور البوث فوتوغرافي مع فيونكة وردية لحفلة العروس وخطوبتها والعزوبية، ديكورات أعياد الميلاد والزفاف بفيونكات وردية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/03/31/06/17434104517e27210e86b8d44dfa3afa0caf8e4075_square.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "11.00",
+        "amountWithSymbol": "SR11.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR11.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "26866700",
+      "goods_sn": "I11k4p1iax37",
+      "sku_code": "si2311091041565001",
+      "goods_name": "Charlaine ستارة الخصر الشفافة بتفاصيل دانتيل نسائية مثيرة",
+      "goods_img": "https://img.ltwebstatic.com/images3_pi/2024/10/26/c7/1729935158a8809797233f80f2696acaa46a1f2e3a.jpg",
+      "goods_attr": "أبيض / S",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "434312808",
+      "goods_sn": "I1mn4fmy5pp0zw",
+      "sku_code": "sj260324174516000334647",
+      "goods_name": "JOJELOO أقراط أنيقة على شكل بجعة مرصعة بأحجار الزركونيا السوداء والشفافة - غير مسببة للحساسية، مجوهرات عصرية للارتداء اليومي، هدية مثالية للنساء والأزواج - مناسبة لعيد الحب، عيد الميلاد، عيد الأم، رأس السنة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/29/eb/177476946635791f933869effd8aa6601d67872c90_square.jpg",
+      "goods_attr": "أقراط البجعة / فضي",
+      "stock": 7,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.06",
+        "amountWithSymbol": "SR10.06",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.06",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "58910677",
+      "goods_sn": "I639af3a3z4b",
+      "sku_code": "sh25022604404706794",
+      "goods_name": "1/3/4/6/8/10/15/20 قطعة من كتل الرغوة الزهرية، مناسبة للزهور الطازجة والزهور الاصطناعية ديكور DIY، كتل الرغوة الزهرية الخضراء، يمكن استخدامها لتنسيق الزهور، ديكور النباتات الحرف اليدوية، ديكور الزهور، ديكور المنزل والزفاف وعيد الميلاد والحفلات والحديقة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/02/26/34/17405496180f8e74d059676400f29b25d89978fb99.jpg",
+      "goods_attr": "أخضر / 1 جهاز كمبيوتر",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "485787536",
+      "goods_sn": "I0mpjbpmuerwz0",
+      "sku_code": "sh260524131410195293424",
+      "goods_name": "25/50/100/150/300 قطعة زهور أنفاس الطفل الاصطناعية الصغيرة بألوان مختلطة، مواد حرفية لصب الراتنج، إكسسوارات الشعر، أكاليل الزفاف، ديكور الطاولة والمنزل، ديكور لجميع المواسم",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/07/07/8a/1783411637d4e930e46680fa5e10ab57fa7382224f_square.jpg",
+      "goods_attr": "أبيض أخضر 1 / 25 قطعة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.65",
+        "amountWithSymbol": "SR4.65",
+        "currency": null
+      },
+      "amountWithSymbol": "SR4.65",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "419027986",
+      "goods_sn": "I0mmjxah0jh7xr",
+      "sku_code": "sc260310091055761865430",
+      "goods_name": "مشبك شعر فاخر وأنيق بتصميم قطعة واحدة باللون الوردي مع غرة، إكسسوار شعر مزين بخرز للنساء، مشابك مخلب",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/10/37/177310527327812d6fd6e3ce97a702ba74cdee93bb.jpg",
+      "goods_attr": "الذهبي / 2 حزمة / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "463293595",
+      "goods_sn": "I0mojs3vred8g1",
+      "sku_code": "sh260429160471632880493",
+      "goods_name": "مجموعة ديكور ظهر الكرسي للعروس/العريس أو المتزوجين/العروسين الجدد من قطعتين، أغطية كراسي دانتيل شفافة أنيقة مع شريط، مناسبة للعريس والعروس، ديكور كراسي العرسان الجدد، مناسبة لحفل الزفاف والاستقبال وحفل الخطوبة والذكرى السنوية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/29/67/1777450291e6ff8ff03b00a390a147dc2634f774c4.jpg",
+      "goods_attr": "طقم واحد بيج للمتزوجين/الجدد / متعدد الألوان",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "29.41",
+        "amountWithSymbol": "SR29.41",
+        "currency": null
+      },
+      "amountWithSymbol": "SR29.41",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "120941458",
+      "goods_sn": "I74fltyhoy0h",
+      "sku_code": "sh25022268132345115",
+      "goods_name": "kumozawa 5/6/15 قطعة بالون عروس شامبانيا بطول 40 بوصة (تقريبًا 101.6 سم) لحفل استحمام العروس، بالونات حرف بنر العروس من البوليستر الساتان الأبيض الكريمي، بالونات بنر العروس لديكور حفل الزفاف والخطوبة وحفل العروس",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/04/64/1751617154d542080a17ef6e0714963a31ad64532e_square.jpg",
+      "goods_attr": "أبيض حليبي / 15 قطعة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "23.00",
+        "amountWithSymbol": "SR23.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR23.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "60817602",
+      "goods_sn": "I875lp8lviov",
+      "sku_code": "sh2408029860903668",
+      "goods_name": "مجموعة ديكور حفل عروس الخطوبة 3 قطع، هدية حفل الزفاف، شريط عروس، نظارات قلب أبيض، حجاب، ديكور زفاف، لوازم زفاف، ديكور، عناصر جديدة، ديكور المشهد، إكسسوارات التصوير",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/03/19/7d/1742363663929ab18b0f3ebad23a1a30f8adefaa35_square.jpg",
+      "goods_attr": "حجاب نظارة عادية / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "19.93",
+        "amountWithSymbol": "SR19.93",
+        "currency": null
+      },
+      "amountWithSymbol": "SR19.93",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "404261763",
+      "goods_sn": "I8ml0ux8sp7vkb",
+      "sku_code": "sk260130200853708438395",
+      "goods_name": "زوج من صنادل البنات ذات أصابع مستديرة، بطراز كوري عصري، أحذية أميرة ذات زهور ثلاثية الأبعاد، صنادل أميرة عطرية للبنات الصغيرات، أحذية أداء، مناسبة للارتداء الصيفي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/09/49/178098835647f511656e388fce9aadda535bd15177.jpg",
+      "goods_attr": "أبيض / EUR27",
+      "stock": 2,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "36.00",
+        "amountWithSymbol": "SR36.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR36.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "404261763",
+      "goods_sn": "I4ml0ux8s6vw8h",
+      "sku_code": "sk260130200853708438395",
+      "goods_name": "زوج من صنادل البنات ذات أصابع مستديرة، بطراز كوري عصري، أحذية أميرة ذات زهور ثلاثية الأبعاد، صنادل أميرة عطرية للبنات الصغيرات، أحذية أداء، مناسبة للارتداء الصيفي",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/09/49/178098835647f511656e388fce9aadda535bd15177.jpg",
+      "goods_attr": "أبيض / EUR25",
+      "stock": 6,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "36.00",
+        "amountWithSymbol": "SR36.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR36.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "344322140",
+      "goods_sn": "I9mjkvbxscl09u",
+      "sku_code": "sk251225110234287511236",
+      "goods_name": "شريط رأس أبيض مزين بالخرز والفيونكة، إكسسوار زفاف بسيط",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/12/25/82/1766632148da4736fc914b260d5392b2129735bfeb.jpg",
+      "goods_attr": "متعدد الألوان / أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "509235110",
+      "goods_sn": "I6mqj6f06fu2k4",
+      "sku_code": "sk260618152270690049508",
+      "goods_name": "زوج واحد من أحذية رياضية للبنات، أحذية رياضية شبكية قابلة للتنفس للأطفال، أحذية رياضية كاجوال، أحذية أطفال مضادة للانزلاق، ملابس خارجية متعددة الاستخدامات، مناسبة لجميع الفصول، أحذية رياضية للشباب، العطلات، الاستخدام اليومي، الملابس الخارجية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/18/6b/1781767435e70ee3bb3f43c973a015cd40367b5e3a_square.jpg",
+      "goods_attr": "وردي / EUR27",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "44.55",
+        "amountWithSymbol": "SR44.55",
+        "currency": null
+      },
+      "amountWithSymbol": "SR44.55",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "463917886",
+      "goods_sn": "I3mofdztu98jqu",
+      "sku_code": "sk260426141652092951881",
+      "goods_name": "فستان أميرة أبيض مزين بزهور ثلاثية الأبعاد للبنات الصغيرات، مناسب لحفلة عيد ميلاد الطفل، الزفاف، الحفلة الراقصة، مناسبات العطلات، فتاة الزهور",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/19/ea/17791619194dd5e37c4c080d29d9a0f3f4b770fd4f.jpg",
+      "goods_attr": "أبيض / 4Y",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "70.00",
+        "amountWithSymbol": "SR70.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR70.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "476993142",
+      "goods_sn": "I3mpdsh9f8ctxc",
+      "sku_code": "sk260423150797325646144",
+      "goods_name": "2 قطعة/3 قطع/4 قطع قلادة وسوار وأقراط وخاتم من الفولاذ المقاوم للصدأ باللون الذهبي مع سلسلة مرصعة بالزركونيا على شكل فيونكة، أنيق وعصري للفتيات للارتداء اليومي وهدية عيد ميلاد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/20/60/177926441431d3d3fc56639d42d46b0abf2369006b.jpg",
+      "goods_attr": "الذهبي / قلادة + سوار + أقراط + خاتم",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "16.00",
+        "amountWithSymbol": "SR16.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR16.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "454479370",
+      "goods_sn": "I6moe12n9xy36q",
+      "sku_code": "sw25052650089434243",
+      "goods_name": "غطاء هاتف محمي ناعم وإبداعي بحامل بطاقات ثلاثي الأبعاد بزخارف زهرية ملونة، مناسب لهواتف آيفون 16 برو ماكس/ 15 برو ماكس، الجديد 11، 12، 14 برو/13، طراز صيفي لآيفون 17 برو ماكس/17/برو/17 بلس/17",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/25/9b/177710216937056a1143481b6bae02ee2ca20979a4.jpg",
+      "goods_attr": "متعدد الألوان / iPhone 12 Pro Max",
+      "stock": 0,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "425337367",
+      "goods_sn": "I5mmu7dtjvyvm3",
+      "sku_code": "sh260317134971437481150",
+      "goods_name": "1/5 قطع شريط ساتان زخرفي للزفاف، مناسب لتزيين زجاجات الشمبانيا للعروسين، ديكور حفلة الزفاف، اقتراح هدية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/17/cd/177372679849953409ff5f312b41ee21c9eefc03b8_square.jpg",
+      "goods_attr": "أنماط متعددة / مقاس واحد يناسب الجميع",
+      "stock": 0,
+      "sold_out": true,
+      "availability": "unavailable",
+      "source_group": "unavailable",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "اسماء الحطامي A",
+  "order_number": "T-502",
+  "analyzed_at": "2026-07-22T07:49:02.709631+03:00",
+  "output_file": "T-502-اسماء-الحطامي-A-20260722-074902.json"
+}
