@@ -12,7 +12,7 @@ python app.py
 يمكن كذلك تثبيت المشروع محليًا بوضع التطوير وتشغيل نقطة الدخول الجديدة:
 
 ```powershell
-python -m pip install -e .
+python -m pip install -e ".[desktop]"
 shein-extractor
 ```
 
@@ -38,7 +38,7 @@ shein-extractor
 بعد تفعيل البيئة الافتراضية يمكن فحص المشروع كاملًا بالأوامر التالية:
 
 ```powershell
-python -m pip install -e ".[dev]"
+python -m pip install -e ".[desktop,dev]"
 ruff check .
 pytest -q
 python -m compileall -q src

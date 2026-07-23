@@ -1,0 +1,38 @@
+services:
+  shein-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: shein-extractor-api:0.2.0
+    container_name: shein-api
+    restart: unless-stopped
+    init: true
+    shm_size: "1gb"
+    environment:
+      SHEIN_API_KEY: ${SHEIN_API_KEY:?Set SHEIN_API_KEY in the project .env file}
+      SHEIN_API_HOST: 0.0.0.0
+      SHEIN_API_PORT: "8000"
+      SHEIN_OUTPUT_DIR: /app/runtime/outputs
+      SHEIN_EXPORT_DIR: /app/runtime/exports
+      SHEIN_QUEUE_DB: /app/runtime/data/jobs.sqlite3
+      SHEIN_IMAGE_MAX_ATTEMPTS: "10"
+      SHEIN_IMAGE_TIMEOUT_SECONDS: "15"
+      SHEIN_SYNC_WAIT_SECONDS: "900"
+    volumes:
+      - ./runtime:/app/runtime
+    networks:
+      - n8n
+    mem_limit: 4g
+    cpus: 1.5
+    pids_limit: 512
+    stop_grace_period: 2m
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+
+networks:
+  n8n:
+    external: true
+    name: root_default

@@ -2002,3 +2002,47 @@ Telegram Trigger
 - أعيد تشغيل مجموعة الاختبارات بعد تحديث التوثيق، ونجحت `34` حالة في `3.19s` مع التحذير الخارجي نفسه فقط.
 - أعيد تشغيل `ruff check .` و`compileall` و`pip check` و`git diff --check`، ونجحت جميعها دون أخطاء.
 - نجح استيراد Composition Root وظهرت المسارات الفعلية: `/health/live` و`/health/ready` و`/v1/jobs` و`/v1/jobs/{job_id}` و`/v1/jobs/{job_id}/pdf` و`/v1/process`.
+
+## 2026-07-23 — تجهيز حاوية الخدمة للنشر على Hostinger
+
+### التغييرات المنفذة
+
+- أضيف `Dockerfile` مبني على `python:3.13-slim-bookworm` لتشغيل API دون واجهة سطح المكتب.
+- يثبت البناء اعتماديات مجموعة `server` فقط، ثم يثبت Chromium واعتماداته بالأمر `python -m playwright install --with-deps chromium`.
+- أضيفت خطوط DejaVu وNoto الضرورية لعرض العربية والرموز داخل تقارير PDF.
+- تعمل الحاوية بمستخدم غير جذري باسم `shein`، مع `HEALTHCHECK` على `/health/live`.
+- يعمل Uvicorn بعامل واحد `--workers 1` للمحافظة على ترتيب طابور `FIFO` ومنع تشغيل عدة جلسات Chromium متزامنة.
+- أضيف `compose.hostinger.yml` لتشغيل خدمة `shein-api` وربطها داخليًا بشبكة Docker الحالية `root_default`.
+- لا ينشر ملف Compose أي منفذ للإنترنت؛ الوصول إلى API سيكون من `n8n` عبر `http://shein-api:8000`.
+- أضيف ربط دائم من `./runtime` على الخادم إلى `/app/runtime` داخل الحاوية لحفظ SQLite وJSON وPDF خارج دورة حياة الحاوية.
+- حددت موارد الخدمة مبدئيًا إلى `1.5` CPU و`4 GB` ذاكرة و`1 GB` لذاكرة Chromium المشتركة، مع تدوير سجلات Docker.
+- فُصلت اعتماديات PySide6 إلى المجموعة الاختيارية `desktop` حتى لا تثبت مكتبات الواجهة الرسومية داخل حاوية الخادم.
+- حُدثت أوامر تثبيت سطح المكتب في `README.md` لاستخدام `.[desktop]` و`.[desktop,dev]`.
+- أعيد `.env.example` إلى المسارات المحلية، وأضيف `.env.hostinger.example` للمفتاح السري المطلوب على الخادم.
+- أضيف `.dockerignore` لمنع إرسال البيئات الافتراضية والاختبارات والأسرار والتقارير المحلية إلى سياق بناء Docker.
+- أضيف `HOSTINGER_DEPLOYMENT.md` ويحتوي على أوامر التجهيز والبناء والتشغيل وفحوص الصحة والتخزين والربط مع `n8n`.
+
+### القرارات المعتمدة
+
+- يبنى Docker ويختبر فعليًا على VPS في Hostinger؛ لا يلزم تثبيت Docker Desktop على Windows.
+- تحفظ كل البيانات دائمًا داخل مجلد `runtime/` على الخادم، ولا يستخدم الأمر `docker compose down -v`.
+- يبقى API داخليًا وغير مكشوف مباشرة للإنترنت، ويتولى `n8n` استقبال Telegram وإدارة الطلبات.
+- يحتفظ النظام بعامل معالجة واحد في المرحلة الأولى لضمان الأولوية حسب وقت الوصول وتقليل استهلاك ذاكرة الخادم.
+
+### نتائج التحقق الفعلية
+
+- تطابقت متغيرات `compose.hostinger.yml` مع `ApiSettings` الفعلية، بما فيها `SHEIN_QUEUE_DB` ومسارات JSON وPDF.
+- تحقق فحص ساكن من وجود الشبكة الخارجية `root_default`، وربط `runtime/`، وسياسة إعادة التشغيل، وعدم وجود قسم `ports`.
+- تحقق فحص ساكن من تثبيت Chromium، والعمل بمستخدم غير جذري، وفحص `/health/live`، وتشغيل Uvicorn بعامل واحد.
+- ظهرت مسارات API الفعلية: `/health/live` و`/health/ready` و`/v1/jobs` و`/v1/jobs/{job_id}` و`/v1/jobs/{job_id}/pdf` و`/v1/process`.
+- نجحت مجموعة الاختبارات كاملة: `34 passed, 1 warning in 3.29s`.
+- نجح `ruff check .` وكانت النتيجة `All checks passed!`.
+- نجح `python -m compileall -q src`.
+- نجح `python -m pip check` وكانت النتيجة `No broken requirements found`.
+- نجح `git diff --check` دون أخطاء مسافات؛ ظهرت تحذيرات CRLF خاصة ببيئة Windows فقط.
+- لم ينفذ بناء صورة Docker محليًا لأن Docker غير مثبت على جهاز Windows، ولم تجر أي تغييرات على VPS في هذه المرحلة.
+
+### الحالة والخطوة التالية
+
+- أصبحت حزمة النشر المحلية جاهزة للرفع إلى Hostinger.
+- الخطوة التالية هي رفع المشروع إلى `/opt/shein-extractor` على VPS، ثم تنفيذ `docker compose -f compose.hostinger.yml build --pull` واختبار فحوص الصحة والتخزين والاتصال من حاوية `n8n`.
