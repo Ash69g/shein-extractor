@@ -46,4 +46,32 @@ python -m compileall -q src
 
 تشمل الاختبارات تحليل الفاتورة، والتحقق من الرابط، وتطبيع جميع حالات المنتجات، وعقد `SKU`، والحفظ والتحميل، وإغلاق Chromium عند النجاح والفشل، وإنشاء PDF، وفتح وإغلاق واجهة Qt.
 
-> النسخة الحالية تطبيق سطح مكتب محلي. لم تُضف بعد خدمة HTTP أو إعدادات Hostinger أو تكامل n8n؛ ستنفذ هذه الأجزاء في مرحلة مستقلة بعد دراسة بيئة الاستضافة.
+## تشغيل API محليًا
+
+ثبّت اعتماديات الخادم، وعيّن مفتاحًا سريًا، ثم شغّل `uvicorn`:
+
+```powershell
+python -m pip install -e ".[server,dev]"
+$env:SHEIN_API_KEY = (python -c "import secrets; print(secrets.token_urlsafe(32))")
+python -m uvicorn shein_extractor.presentation.api.bootstrap:app --host 127.0.0.1 --port 8000
+```
+
+نقاط الخدمة الحالية:
+
+- `GET /health/live`: فحص أن عملية API تعمل.
+- `GET /health/ready`: فحص المفتاح ومجلدي JSON وPDF.
+- `POST /v1/process`: يستقبل الفاتورة أو الرابط ويعيد ملف PDF مباشرة، ويتطلب الترويسة `X-API-Key`.
+- `GET /docs`: توثيق OpenAPI التفاعلي.
+
+مثال جسم الطلب:
+
+```json
+{
+  "raw_input": "نص الفاتورة أو رابط SHEIN",
+  "customer_name": null,
+  "order_number": null,
+  "timeout_seconds": 60
+}
+```
+
+لا تحفظ قيمة `SHEIN_API_KEY` الحقيقية داخل Git. يحتوي `.env.example` أسماء متغيرات البيئة المطلوبة فقط. لم يضف طابور `FIFO` أو تكامل `n8n` وTelegram بعد؛ وهما المرحلة التالية.

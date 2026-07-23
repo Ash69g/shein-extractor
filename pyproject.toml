@@ -21,11 +21,16 @@ dev = [
     "pytest==9.1.1",
     "ruff==0.15.22",
 ]
+server = [
+    "fastapi==0.139.2",
+    "uvicorn[standard]==0.51.0",
+]
 
 [project.scripts]
 shein-extractor = "shein_extractor.presentation.qt.bootstrap:main"
 shein-extract-cart = "shein_extractor.cli.extract_cart:main"
 shein-diagnose-link = "shein_extractor.infrastructure.diagnostics.link_diagnostics:main"
+shein-api = "shein_extractor.presentation.api.bootstrap:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

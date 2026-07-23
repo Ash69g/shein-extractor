@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from datetime import datetime
 from pathlib import Path
+from collections.abc import Callable, Iterable, Mapping
+from dataclasses import dataclass
 from typing import Protocol
 
 from shein_extractor.domain.models import CartExtraction
@@ -33,3 +35,17 @@ class ExtractionRepository(Protocol):
 class LinkValidator(Protocol):
     def __call__(self, value: str) -> str: ...
 
+
+@dataclass(frozen=True)
+class ImageFetchResult:
+    images: Mapping[str, bytes]
+    failed_urls: tuple[str, ...]
+
+
+class ProductImageFetcher(Protocol):
+    def fetch(
+        self,
+        urls: Iterable[str],
+        *,
+        progress_callback: Callable[[int, int], None] | None = None,
+    ) -> ImageFetchResult: ...

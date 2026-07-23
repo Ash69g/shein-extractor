@@ -6,3 +6,4 @@ tmp/
 .pytest_cache/
 .pytest-tmp/
 src/*.egg-info/
+.env
