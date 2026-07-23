@@ -1,0 +1,798 @@
+{
+  "source_url": "https://onelink.shein.com/44/5wjvd0rfx1en",
+  "final_url": "https://m.shein.com/ar/cart/share/landing?shc=2_Ru242qjy6FT&group_id=810653025&local_country=SA&url_from=&cart_share=1",
+  "group_id": "810653025",
+  "local_country": "SA",
+  "all_product_size": 39,
+  "counts": {
+    "normalProducts": 39,
+    "outStock": 0,
+    "unavailable": 0
+  },
+  "products": [
+    {
+      "goods_id": "23891683",
+      "goods_sn": "I437sxbvy64d",
+      "sku_code": "sj2309048882888949",
+      "goods_name": "24 قطعة/مجموعة من أقراط الأذن المصنوعة من الراتنج والخرز الصناعي بطراز فاخر وأنيق للنساء",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/09/04/e8/1693808518806ec761428c55739cd572107b680f66.jpg",
+      "goods_attr": "أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "278832217",
+      "goods_sn": "I394lcx2w8uy",
+      "sku_code": "sx2305318814332611",
+      "goods_name": "كعب عالي بأصبع مدبب للنساء 2025، كعب قطة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/11/06/24/1762440512ad41d66c15fe57cac151cf4257ddf373.jpg",
+      "goods_attr": "الذهبي / EUR37",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "65.00",
+        "amountWithSymbol": "SR65.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR65.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "23438633",
+      "goods_sn": "I05fr7lb586e",
+      "sku_code": "sj2309177795881194",
+      "goods_name": "20 قطعة أساور بوهيمية بيضاء مكدسة مزينة بالخرز للنساء",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/09/17/8c/1694941462f4ebc5fd1f7273fc3f0ff60bbffe3385.jpg",
+      "goods_attr": "أبيض / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "302446806",
+      "goods_sn": "I99gwpnztst5",
+      "sku_code": "sj2405078528771137",
+      "goods_name": "سوار من اللؤلؤ الطبيعي مطلي بالذهب عيار 18 قيراط، هدية لعيد الأم، عيد الحب، عيد الميلاد، الزفاف، الخطوبة، العروس",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/11/21/9a/17636920528d9a1e52b8a301771d018eef91d7098a.jpg",
+      "goods_attr": "أبيض / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "23.00",
+        "amountWithSymbol": "SR23.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR23.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "131749034",
+      "goods_sn": "I0abj4eiydli",
+      "sku_code": "sj25072022252875055",
+      "goods_name": "قلادة عنق قصيرة أنيقة من السلسلة والدانتيل الأبيض الأنيق قطعة واحدة للنساء",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/20/3a/1752977485bd38fe34b2073815fd7a44b139fcd6a9.jpg",
+      "goods_attr": "أبيض / مقاس واحد / N3136#A أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "51892454",
+      "goods_sn": "I55e47va52xd",
+      "sku_code": "sj2412234795462629",
+      "goods_name": "قلادة من الخرز الطويلة المزيفة بالخرز اللؤلؤي، قلادة لؤلؤية بيضاء متعددة الطبقات عصرية وشاملة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/12/23/98/17349586733eb6f5b21a362581db6f4dbe18214f21.jpg",
+      "goods_attr": "أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "20031116",
+      "goods_sn": "I540ni65jzxw",
+      "sku_code": "sj2307191011084512",
+      "goods_name": "2 أزواج من أقراط اللؤلؤ الباروك الفاخر بطراز بوهيمي فينتاج للنساء، لحفلات السهرة والاستخدام اليومي",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/07/19/168975172824c9f47c5f01b4032595c03d154033b1.jpg",
+      "goods_attr": "ذهبي أصفر / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "7.00",
+        "amountWithSymbol": "SR7.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR7.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "423142273",
+      "goods_sn": "I0mmoivzmytckp",
+      "sku_code": "sg260114163425603687605",
+      "goods_name": "محفظة أنيقة للنساء مزينة بنقوش زهرية وخرز، مناسبة لحفلات المساء والتخرج والزفاف، وهي هدية رائعة للصديقات (متوفرة بأنماط متعددة)",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/13/08/177338316735cccfdc31294346e4fa054ab1dd1db1.jpg",
+      "goods_attr": "الأسود",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "33.00",
+        "amountWithSymbol": "SR33.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR33.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "441139687",
+      "goods_sn": "I6mnr7uex44krj",
+      "sku_code": "sb260409161032126382300",
+      "goods_name": "24 قطعة ملصقات فن الأظافر بشكل لوزي أبيض نقي بتصميم أورورا كلاسيكي أنيق وبسيط بأسلوب الشارع العتيق، مناسبة لحياة الفتيات والنساء اليومية والتسوق",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/09/01/1775723051a1734d7768528e04237467fc43626d77.jpg",
+      "goods_attr": "أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "37618059",
+      "goods_sn": "I2q8lefm0jq1",
+      "sku_code": "sj2406130834274188",
+      "goods_name": "5 قطع/مجموعة أقراط زهرة مزينة بالخيوط والحبات اللؤلؤية الصناعية، تصميم راقي ومميز مناسب كهدية للعيد ، الأم ، عيد الأم",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/03/07/b6/174134299053ab925272d1ac70854c5a096e714c86.jpg",
+      "goods_attr": "متعدد الألوان",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "13.00",
+        "amountWithSymbol": "SR13.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR13.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "449074372",
+      "goods_sn": "I1mnob7424cp8q",
+      "sku_code": "sb260407153984411283008",
+      "goods_name": "SHEGLAM Marshmallow Puff قلم تمويه الشفاه-032 Soft Bounce",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/05/07/f2/1778149027dd0e891640aa45c6434dc56284a42082.jpg",
+      "goods_attr": "032 ارتداد ناعم / 1.75g",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "17.00",
+        "amountWithSymbol": "SR17.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR17.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "156963356",
+      "goods_sn": "I41kb8z35q2r",
+      "sku_code": "sb25081738089932630",
+      "goods_name": "9 أزواج من رموش القطة الصناعية من الفرو الصناعي | شريط شفاف خفيف الوزن 3D قصير | يخلق تأثير طبيعي ناعم وفاخر، مناسب للتنقل اليومي والمواعيد والغداء وإجراء مكالمات الفيديو وصور جواز السفر وحضور حفلات الزفاف والسفر والعطلات. رموش صناعية",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/08/18/0b/1755450873d9c422d7603ccce21728820f4a776941.jpg",
+      "goods_attr": "الأسود / رموش عيون القطة",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "101243575",
+      "goods_sn": "I69f0wwgih90",
+      "sku_code": "sj25061643142151451",
+      "goods_name": "زوج أقراط بتلة زهر أكريليك كريستال بشراشيب طويلة، أقراط أوروبية وأمريكية أنيقة شخصية للنساء والفتيات، للسفر والأعراس والأعياد والكريسماس هدية 2025",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/16/c2/175003265812e3a357e09f9b64243812420b3ded48.jpg",
+      "goods_attr": "الذهبي / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.66",
+        "amountWithSymbol": "SR8.66",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.66",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "307896439",
+      "goods_sn": "I23wcngvhmsg",
+      "sku_code": "sb2412178251530928",
+      "goods_name": "200/100/50/10 فرشاة رموش، فرشاة ماسكارا رموش (مع علبة تخزين)، فرشاة حواجب قابلة للتصرف، فرشاة تمديد الرموش، فرشاة حواجب، فرشاة زيت الخروع (مسحوق كريستالي)، هدايا",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2025/11/24/2b/1763985700cbe9021087c622ab1a87e83a8716785b.png",
+      "goods_attr": "الأسود / 50 قطعة لكل كيس",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "394900295",
+      "goods_sn": "I5mjzivqlp9xvl",
+      "sku_code": "sz260104172175424475034",
+      "goods_name": "DAZY فستان نسائي أنيق بتصميم الكتف المكشوف وطول متوسط، مناسب لمناسبات الربيع والصيف، فساتين شمسية للنساء",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2026/02/04/3b/1770169923ef125139f5e69fa025f10d018566656f.jpg",
+      "goods_attr": "لون مشمشي / M",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "87.50",
+        "amountWithSymbol": "SR87.50",
+        "currency": null
+      },
+      "amountWithSymbol": "SR87.50",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "38705400",
+      "goods_sn": "I91d1iw5j5x0",
+      "sku_code": "sb2407103296988710",
+      "goods_name": "مجموعة أدوات العناية بالأظافر المزدوجة الجانبين، مقص أظافر وملمع أظافر بلوري، مبرد أظافر زجاجي، أداة تقليم البشرة حول الأظافر، للرجال والنساء، للعناية بالأظافر الطبيعية",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/07/10/60/1720582189870d992e99e10b55dd759e5461cd53f1.png",
+      "goods_attr": "متعدد الألوان / شفاف-3 قطع",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "326367333",
+      "goods_sn": "I9mj6w93rlktev",
+      "sku_code": "sc251215163057990586703",
+      "goods_name": "FRIFUL 1 قطعة سلسلة خصر أنيقة من اللؤلؤ الأبيض الفاخر للصيف والمدرسة والخريف وعيد الهالوين",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/03/20/06/17424380183ca3d227c4db7b17851cbdbb06902219.png",
+      "goods_attr": "أبيض / 80",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "9.00",
+        "amountWithSymbol": "SR9.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR9.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "46071151",
+      "goods_sn": "I83x52g05kzo",
+      "sku_code": "sj2410262488130923",
+      "goods_name": "زوج من أقراط الأذن المنسدلة المصنوعة من الأكريليك بشكل ورقة مزينة بالخيوط والجُل ، قلادة أزياء حريمية أنيقة وعادية للمناسبات والمواعيد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/12/66/1781238125fffed0159e04af21ebc6e1d06de2950c_square.jpg",
+      "goods_attr": "أبيض / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "438854129",
+      "goods_sn": "I5mngxskbxrml2",
+      "sku_code": "sw260112093735584007685",
+      "goods_name": "غطاء هاتف من مادة TPU بتصميم بسيط وأنيق، مقاوم للصدمات وبطبعات أشجار جوز الهند وزهور وسلاحف البحر باللون الوردي، بملمس جلد الليتشي مقاوم للسقوط والخدش، متوافق مع موديلات آيفون 11/12/13/14/14بلس/15/15بلس/16/16بلس/7/8بلس/17/17برو وغيرها، هدية مناسبة للاحتفالات",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/02/d2/1775101399fd328269c89a967154e43b9ab2ef9b05.jpg",
+      "goods_attr": "متعدد الألوان / iPhone 16 Pro Max",
+      "stock": 6,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "6.00",
+        "amountWithSymbol": "SR6.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR6.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "86022288",
+      "goods_sn": "I0ig5oyf9f31",
+      "sku_code": "sj25052291122661665",
+      "goods_name": "1 قطعة قلادة مزخرفة بالؤلؤ الزجاجي الطبقات بطراز فرنسي عتيق أنيق ، مناسب لحفلات السيدات والولائم",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2025/05/22/30/174789377320dd4e7ce22188af3decdc32958be80d.png",
+      "goods_attr": "قلادة / أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.66",
+        "amountWithSymbol": "SR5.66",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.66",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "33381026",
+      "goods_sn": "I54o2a0lvtj7",
+      "sku_code": "si2404118986401994",
+      "goods_name": "20 زوج جوارب كاحل للنساء، متنوعة الألوان موحد اللون والمخطط عموديًا، منفذة للهواء وناعمة وقابلة للاستخدام المتعدد",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/04/17/5f/1713307822440b8c70facf8fc0c4996e90dbbc95bc.jpg",
+      "goods_attr": "متعدد الألوان / 36-39",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "32.00",
+        "amountWithSymbol": "SR32.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR32.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "33635228",
+      "goods_sn": "I92bs6d5tx1n",
+      "sku_code": "sj2301302823390054",
+      "goods_name": "قطعة واحدة سوار نسائي مطلي بالذهب عيار 18 قيراط مع لؤلؤ طبيعي على شكل قلب، مناسب لحفلات المساء، عيد الحب، عيد الأم، هدية عيد ميلاد، هدية زفاف للعروس",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/04/13/aa/1713010501022488a0bfb83fb1d561bb023e6c4e49.jpg",
+      "goods_attr": "أبيض / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "27.00",
+        "amountWithSymbol": "SR27.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR27.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "46655581",
+      "goods_sn": "I03kg76f3geo",
+      "sku_code": "sb2410117117012370",
+      "goods_name": "SHEGLAM ماسكارا متعددة الاستخدامات لتكثيف الرموش وإطالة الرموش-ماسكارا ماكياتو مقاومة للماء برأسين، سهلة الإزالة ولا تلطخ ماسكرا",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/07/10/a1/1752116485ebdb2edb421486814ce812ccb377841d.jpg",
+      "goods_attr": "Waterproof Macchiato / 4 غرام * 2",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "23.00",
+        "amountWithSymbol": "SR23.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR23.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "73883455",
+      "goods_sn": "I688zha02nar",
+      "sku_code": "sj25042711499389132",
+      "goods_name": "مجموعة خاتمين للنساء قابل للتعديل ذو تصميم مطاطي مزينة باللؤلؤ، إكسسوارات ذات طابع أنيق ومبسط، مناسبة للاستخدام اليومي، هدية مثالية للصديقة/الأخت",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/27/ab/1745763266626080fa70df987261138ff6889f0bb5.jpg",
+      "goods_attr": "أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "3.96",
+        "amountWithSymbol": "SR3.96",
+        "currency": null
+      },
+      "amountWithSymbol": "SR3.96",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "25089469",
+      "goods_sn": "I312wpkbybf6",
+      "sku_code": "sj2310203891698925",
+      "goods_name": "1 قطعة خاتم مفتوح بتصميم زهري أنيق مناسب للاستخدام اليومي للنساء في عيد الحب",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/10/20/03/1697782951f233c99d14c347a4864b10ba80487412.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.00",
+        "amountWithSymbol": "SR5.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "207603680",
+      "goods_sn": "I5bxhrmalacs",
+      "sku_code": "sb25093033314544241",
+      "goods_name": "640 قطعة رموش صناعية D-Curl مجموعة تمديد DIY، أطوال مختلطة 8-16 ملم، تجعيد مختلط 10D-80D، مع غراء ومثبت وأدوات رموش، مناسبة للاستخدام اليومي والحفلات والسفر، هدية مثالية للعائلة والأصدقاء",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/13/19/1778635189ebcf28163e72ca01bec3ae57bd260ce4.jpg",
+      "goods_attr": "الأسود / D / مجموعة كتب الرموش 30D+40D+50D",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "19.00",
+        "amountWithSymbol": "SR19.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR19.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "297984460",
+      "goods_sn": "I09ekwif90ok",
+      "sku_code": "sj2406143710711401",
+      "goods_name": "Nooxian مجموعة قلادة اللؤلؤ الساطع هدية للأم 2 قطعة (كمية اللؤلؤ عشوائية)",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/11/18/df/1763455653000f62c0fb1443353102b2f0e29075b9.jpg",
+      "goods_attr": "أبيض / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "15.00",
+        "amountWithSymbol": "SR15.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR15.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "56927745",
+      "goods_sn": "I42tznnjat21",
+      "sku_code": "sb2311030111008501",
+      "goods_name": "Asiteo أشيتيو 5 أزواج من رموش صناعية طبيعية شبيهة بالدمى - رموش كرتونية ذات ساق شفافة، تصميم أسلوب الجنية، مثالية للتنكر - قابلة لإعادة الاستخدام",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2025/02/24/09/17403576441eec40c7cd42400faa7956a56f5d716b.jpg",
+      "goods_attr": "رموش مانجا سبايكي \"Spiky Manga\"",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "8.00",
+        "amountWithSymbol": "SR8.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR8.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "49422398",
+      "goods_sn": "I74pjgx2ybkc",
+      "sku_code": "sj2411295554989679",
+      "goods_name": "مجموعة 2 سوار محبوك بالخرز من اللؤلؤ الزائف ، هدية مجوهرات أنيقة بطراز بوهيمي مناسبة للبنات/السيدات، أسورة قابلة للتعديل بكاحل مطاطي مناسبة لأي مناسبة",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/11/29/20/173281992163d16a056053f87e45823c61f891055b.jpg",
+      "goods_attr": "أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "4.89",
+        "amountWithSymbol": "SR4.89",
+        "currency": null
+      },
+      "amountWithSymbol": "SR4.89",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "283337148",
+      "goods_sn": "I7cr0oadu57h",
+      "sku_code": "sz251104311648473746",
+      "goods_name": "Elenzga فستان حفلة أنيق طويل الأكمام مناسب للنساء، خريف/شتاء",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/11/12/c6/17629402358b9b8ac0316c5481eb9ea2d2b7a69efb.jpg",
+      "goods_attr": "الأسود / M",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "60.00",
+        "amountWithSymbol": "SR60.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR60.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "524491469",
+      "goods_sn": "I1mrcyv52n41eq",
+      "sku_code": "sw260129114419777239571",
+      "goods_name": "1 قطعة غطاء هاتف TPU ناعم بتصميم موجة بيضاء وقلب وسلحفاة زرقاء قابل للتخصيص، بسيط ومضاد للسقوط، تغطية كاملة ومضاد للتلوث، متوافق مع Apple 17 16 15 14 13 12 11 Pro Max Air والسلسلة",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2026/07/09/76/178356745967e44f8811dca71d0dcbe62b3434e080.png",
+      "goods_attr": "متعدد الألوان / iPhone 16 Pro Max",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "5.74",
+        "amountWithSymbol": "SR5.74",
+        "currency": null
+      },
+      "amountWithSymbol": "SR5.74",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "338785635",
+      "goods_sn": "I4mr6ixfsxvkjm",
+      "sku_code": "sh251222122579991518955",
+      "goods_name": "100 قطعة مشابك جذور الشعر الناعمة 5.5 سم، مصممة لصالونات الشعر، عالية الجودة. أداة تصفيف الشعر DIY، إنشاء جذور شعر كثيفة بسهولة، إضافة ملمس الشعر، الخيار المثالي لتصفيف الشعر",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2025/12/22/9a/176637756655b41b35eed5c137d79f579e482efe5a.jpg",
+      "goods_attr": "فضي / 50 قطعة/عبوة تخزين",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "14.00",
+        "amountWithSymbol": "SR14.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR14.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "31061934",
+      "goods_sn": "I9n83bi0ad7x",
+      "sku_code": "sj2303012818658553",
+      "goods_name": "طقم مجوهرات لؤلؤة أنيق يتضمن قلادة واحدة وزوج من الأقراط مناسب للإرتداء اليومي والمناسباترمضان",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/03/05/78/1709619775359be938d06e6441ea61347f523d7a27.jpg",
+      "goods_attr": "متعدد الألوان / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "10.00",
+        "amountWithSymbol": "SR10.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR10.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "28639079",
+      "goods_sn": "I97r6wofuyv0",
+      "sku_code": "sj2310141344608800",
+      "goods_name": "خاتم مفتوح قابل للتعديل بلؤلؤ صناعي للنساء، أسلوب حداثة الموضة",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/05/7d/1780624206235417709496bf9f1ee0c1424df5b861.jpg",
+      "goods_attr": "فضي / مقاس واحد",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "3.89",
+        "amountWithSymbol": "SR3.89",
+        "currency": null
+      },
+      "amountWithSymbol": "SR3.89",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "43689377",
+      "goods_sn": "I24bcnhrwkt0",
+      "sku_code": "sj2409240961460534",
+      "goods_name": "أقراط مسامير ظهر مسطح للآذان الحساسة من الفولاذ المقاوم للصدأ 316 للنساء والرجال غير مسبب للحساسية 20G أقراط غضروف صغيرة أوبال CZ لؤلؤة 8 أزواج",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/09/24/46/1727146920141696c43b31fc0c110d83e74f4bd499_square.jpg",
+      "goods_attr": "8 أزواج من الأقراط ذات الظهر المسطح / بدلة اللون مقاس واحد يناسب الجميع",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "12.00",
+        "amountWithSymbol": "SR12.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR12.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "156494008",
+      "goods_sn": "I623ma39e07z",
+      "sku_code": "si25072578589579656",
+      "goods_name": "SHEIN 4 قطع/عبوة ملابس داخلية سلسة بخصر عالي بلون واحد",
+      "goods_img": "https://img.ltwebstatic.com/v4/j/pi/2025/08/18/b1/17554908231abbed164aa4372fc31d61579688e895.jpg",
+      "goods_attr": "متعدد الألوان / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "40.00",
+        "amountWithSymbol": "SR40.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR40.00",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "39475546",
+      "goods_sn": "I41jyuw3n7qz",
+      "sku_code": "si2407185136628158",
+      "goods_name": "4 قطع/عبوة صدريات لا تظهر للنساء، لا سلكية ناعمة ومريحة للنوم، تناسب الحجم AB، ألوان عشوائية",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2024/08/01/8f/172249242896f4f8d06b48470561cd988b431cc19a.jpg",
+      "goods_attr": "متعدد الألوان / M",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "51.91",
+        "amountWithSymbol": "SR51.91",
+        "currency": null
+      },
+      "amountWithSymbol": "SR51.91",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "64101802",
+      "goods_sn": "I67kxruqjfqn",
+      "sku_code": "si25011585854076519",
+      "goods_name": "3 قطع من السراويل النسائية الملبوسة عالية الخصر، مريحة وسلسة وأنيقة بتصميم بسيط وطباعة وذات تحكم في البطن ومانعة للاحتكاك",
+      "goods_img": "https://img.ltwebstatic.com/v4/p/spmp/2025/03/30/fe/1743320456f2b0c4ba7b0481979bf2ff4f4ae23d96.png",
+      "goods_attr": "متعدد الألوان / L",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "27.21",
+        "amountWithSymbol": "SR27.21",
+        "currency": null
+      },
+      "amountWithSymbol": "SR27.21",
+      "is_on_sale": 1
+    },
+    {
+      "goods_id": "19442451",
+      "goods_sn": "I942e6id6soq",
+      "sku_code": "sj2307055926628661",
+      "goods_name": "7 سوارات بوهيمية مطرزة بالخرز مع أصداف وخرز ومرجان نجمة للنساء (ألوان الخرز يتم اختيارها عشوائياً)رمضان",
+      "goods_img": "https://img.ltwebstatic.com/images3_spmp/2023/07/05/1688545983ae553cd24c2a691da7a51130817123f4.jpg",
+      "goods_attr": "أبيض",
+      "stock": 999,
+      "sold_out": false,
+      "availability": "available",
+      "source_group": "normalProducts",
+      "display_price": {
+        "source": "priceData.unitPrice.price",
+        "amount": "7.00",
+        "amountWithSymbol": "SR7.00",
+        "currency": null
+      },
+      "amountWithSymbol": "SR7.00",
+      "is_on_sale": 1
+    }
+  ],
+  "customer_name": "رهف بسام",
+  "order_number": "H-2259",
+  "analyzed_at": "2026-07-23T12:49:50.829070+03:00",
+  "output_file": "H-2259-رهف-بسام-20260723-124950.json"
+}

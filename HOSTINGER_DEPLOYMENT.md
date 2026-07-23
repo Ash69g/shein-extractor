@@ -56,7 +56,7 @@ docker compose -f compose.hostinger.yml config --services
 docker compose -f compose.hostinger.yml config --images
 ```
 
-النتيجة المتوقعة تتضمن الخدمة `shein-api` والصورة `shein-extractor-api:0.2.0`.
+النتيجة المتوقعة تتضمن الخدمة `shein-api` والصورة `shein-extractor-api:0.2.1`.
 
 ## 4. بناء الحاوية
 
@@ -153,4 +153,3 @@ docker compose -f compose.hostinger.yml up -d
 3. متابعة `GET /v1/jobs/{job_id}` حتى تصبح الحالة `completed`.
 4. تنزيل الملف من `GET /v1/jobs/{job_id}/pdf`.
 5. إرسال PDF إلى مجموعة Telegram نفسها.
-
