@@ -24,6 +24,10 @@ from shein_extractor.domain.models import (
     CartExtraction,
     ExtractedCartItem,
 )
+from shein_extractor.infrastructure.pdf.common import (
+    PdfExportResult,
+    truncate_product_name,
+)
 
 
 STATUS_LABELS = {
@@ -60,12 +64,6 @@ TIME_COLOR = QColor("#7e22ce")
 
 
 @dataclass(frozen=True)
-class PdfExportResult:
-    page_count: int
-    unavailable_image_count: int
-
-
-@dataclass(frozen=True)
 class ProductRowLayout:
     product: ExtractedCartItem
     height: float
@@ -75,17 +73,6 @@ class ProductRowLayout:
 class ReportHeaderLayout:
     bottom: float
     link_rect: QRectF
-
-
-def truncate_product_name(value: str | None, limit: int = 100) -> str:
-    name = (value or "—").strip()
-    if len(name) <= limit:
-        return name
-    return f"{name[:limit].rstrip()}…"
-
-
-def default_pdf_path(json_path: Path, export_directory: Path) -> Path:
-    return export_directory / f"{json_path.stem}.pdf"
 
 
 def _font(size: float, *, bold: bool = False) -> QFont:

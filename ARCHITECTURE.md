@@ -42,7 +42,7 @@ infrastructure┘          ▲
 
 - `AnalyzeCart`: استخراج السلة وحفظ JSON من خلال منفذي الاستخراج والتخزين.
 - `LoadAnalysis`: تحميل تحليل محفوظ دون معرفة صيغة التخزين.
-- `ExportReport`: إنشاء التقرير من خلال منفذ مجرد، بينما ينفذ Qt عملية الرسم داخل `infrastructure/pdf`.
+- `ExportReport`: إنشاء التقرير من خلال منفذ مجرد؛ ينفذ `QtPdfReportExporter` الرسم لتطبيق سطح المكتب، بينما ينفذ `PlaywrightPdfReportExporter` التصدير الخادمي عبر HTML/CSS وChromium دون تحميل `PySide6`.
 
 ## التوافق
 
