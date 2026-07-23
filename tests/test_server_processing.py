@@ -2,10 +2,12 @@ from __future__ import annotations
 
 from collections.abc import Callable, Iterable, Mapping
 from datetime import datetime, timezone
+from io import BytesIO
 from pathlib import Path
 
 import httpx
 import pytest
+from PIL import Image
 
 from shein_extractor.application.ports import ImageFetchResult
 from shein_extractor.application.processing import (
@@ -26,7 +28,10 @@ from shein_extractor.domain.models import (
     CartExtraction,
     ExtractedCartItem,
 )
-from shein_extractor.infrastructure.images import HttpxProductImageFetcher
+from shein_extractor.infrastructure.images import (
+    HttpxProductImageFetcher,
+    optimize_product_image,
+)
 from shein_extractor.infrastructure.persistence import JsonExtractionRepository
 
 
@@ -243,3 +248,22 @@ def test_httpx_image_fetcher_retries_and_reports_failures() -> None:
     assert attempts["https://example.com/retry.webp"] == 2
     assert attempts["https://example.com/missing.webp"] == 3
     assert progress == [(1, 2), (2, 2)]
+
+
+def test_product_image_optimizer_reduces_dimensions_and_file_size() -> None:
+    source = Image.effect_noise((1600, 1200), 100).convert("RGB")
+    original = BytesIO()
+    source.save(original, format="JPEG", quality=95)
+
+    optimized = optimize_product_image(original.getvalue())
+
+    with Image.open(BytesIO(optimized)) as result:
+        assert max(result.size) <= 512
+        assert result.format == "JPEG"
+    assert len(optimized) < len(original.getvalue()) / 4
+
+
+def test_product_image_optimizer_preserves_unrecognized_content() -> None:
+    content = b"RIFFxxxxWEBPimage"
+
+    assert optimize_product_image(content) == content
