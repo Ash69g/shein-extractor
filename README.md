@@ -59,8 +59,11 @@ python -m uvicorn shein_extractor.presentation.api.bootstrap:app --host 127.0.0.
 نقاط الخدمة الحالية:
 
 - `GET /health/live`: فحص أن عملية API تعمل.
-- `GET /health/ready`: فحص المفتاح ومجلدي JSON وPDF.
-- `POST /v1/process`: يستقبل الفاتورة أو الرابط ويعيد ملف PDF مباشرة، ويتطلب الترويسة `X-API-Key`.
+- `GET /health/ready`: فحص المفتاح، وعامل الطابور، ومجلدات التشغيل.
+- `POST /v1/jobs`: إضافة فاتورة أو رابط إلى طابور `FIFO` الدائم، ويتطلب الترويسة `X-API-Key`.
+- `GET /v1/jobs/{job_id}`: قراءة حالة المهمة ونسبة التقدم والنتائج أو الخطأ.
+- `GET /v1/jobs/{job_id}/pdf`: تنزيل PDF بعد اكتمال المهمة.
+- `POST /v1/process`: مسار متوافق مع الاستخدام السابق؛ يضيف المهمة إلى الطابور وينتظر اكتمالها ثم يعيد PDF مباشرة.
 - `GET /docs`: توثيق OpenAPI التفاعلي.
 
 مثال جسم الطلب:
@@ -74,4 +77,12 @@ python -m uvicorn shein_extractor.presentation.api.bootstrap:app --host 127.0.0.
 }
 ```
 
-لا تحفظ قيمة `SHEIN_API_KEY` الحقيقية داخل Git. يحتوي `.env.example` أسماء متغيرات البيئة المطلوبة فقط. لم يضف طابور `FIFO` أو تكامل `n8n` وTelegram بعد؛ وهما المرحلة التالية.
+المسار الموصى به داخل `n8n` هو:
+
+1. إرسال المدخل إلى `POST /v1/jobs`.
+2. الاستعلام عن `GET /v1/jobs/{job_id}` حتى تصبح الحالة `completed` أو `failed`.
+3. تنزيل الملف من `GET /v1/jobs/{job_id}/pdf` وإرساله إلى Telegram.
+
+يحفظ الطابور حالاته افتراضيًا في `data/jobs.sqlite3`، ويعيد المهام التي كانت بحالة `running` إلى الانتظار بعد إعادة تشغيل الخدمة. يمكن تغيير المسار بواسطة `SHEIN_QUEUE_DB`، وتغيير مهلة انتظار المسار المتوافق `/v1/process` بواسطة `SHEIN_SYNC_WAIT_SECONDS`.
+
+لا تحفظ قيمة `SHEIN_API_KEY` الحقيقية داخل Git. يحتوي `.env.example` أسماء متغيرات البيئة المطلوبة فقط. لم يضف سير عمل `n8n` أو تكامل Telegram بعد؛ وهما المرحلة التالية.

@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 exports/
+data/
 tmp/
 .pytest_cache/
 .pytest-tmp/

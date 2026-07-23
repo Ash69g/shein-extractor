@@ -10,8 +10,10 @@ class ApiSettings:
     api_key: str
     output_directory: Path = Path("outputs")
     export_directory: Path = Path("exports")
+    queue_database: Path = Path("data/jobs.sqlite3")
     image_max_attempts: int = 10
     image_timeout_seconds: float = 15
+    synchronous_wait_seconds: float = 900
     host: str = "0.0.0.0"
     port: int = 8000
 
@@ -21,10 +23,15 @@ class ApiSettings:
             api_key=os.getenv("SHEIN_API_KEY", "").strip(),
             output_directory=Path(os.getenv("SHEIN_OUTPUT_DIR", "outputs")),
             export_directory=Path(os.getenv("SHEIN_EXPORT_DIR", "exports")),
+            queue_database=Path(os.getenv("SHEIN_QUEUE_DB", "data/jobs.sqlite3")),
             image_max_attempts=_positive_int("SHEIN_IMAGE_MAX_ATTEMPTS", 10),
             image_timeout_seconds=_positive_float(
                 "SHEIN_IMAGE_TIMEOUT_SECONDS",
                 15,
+            ),
+            synchronous_wait_seconds=_positive_float(
+                "SHEIN_SYNC_WAIT_SECONDS",
+                900,
             ),
             host=os.getenv("SHEIN_API_HOST", "0.0.0.0").strip() or "0.0.0.0",
             port=_positive_int("SHEIN_API_PORT", 8000),

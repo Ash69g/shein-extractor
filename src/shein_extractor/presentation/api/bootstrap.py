@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import uvicorn
 
+from shein_extractor.application.jobs import ProcessingQueue
 from shein_extractor.application.processing import ProcessCart
 from shein_extractor.application.reporting import ExportReport
 from shein_extractor.application.use_cases import AnalyzeCart
@@ -9,6 +10,7 @@ from shein_extractor.application.validation import validate_shein_url
 from shein_extractor.infrastructure.images import HttpxProductImageFetcher
 from shein_extractor.infrastructure.pdf import PlaywrightPdfReportExporter
 from shein_extractor.infrastructure.persistence import JsonExtractionRepository
+from shein_extractor.infrastructure.queue import SqliteJobRepository
 from shein_extractor.infrastructure.shein.playwright_gateway import (
     PlaywrightCartGateway,
 )
@@ -32,11 +34,16 @@ def build_app():
         settings.export_directory,
         link_validator=validate_shein_url,
     )
-    return create_app(
+    queue = ProcessingQueue(
         processor,
+        SqliteJobRepository(settings.queue_database),
+    )
+    return create_app(
+        queue,
         api_key=settings.api_key,
         output_directory=settings.output_directory,
         export_directory=settings.export_directory,
+        synchronous_wait_seconds=settings.synchronous_wait_seconds,
     )
 
 
