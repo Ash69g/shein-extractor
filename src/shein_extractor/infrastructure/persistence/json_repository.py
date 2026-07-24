@@ -8,6 +8,7 @@ from shein_extractor.application.naming import (
     sanitize_filename_component,
     unique_output_path,
 )
+from shein_extractor.application.timezones import gmt_plus_3_time
 from shein_extractor.domain.models import CartExtraction
 
 
@@ -24,7 +25,7 @@ class JsonExtractionRepository:
         analyzed_at: datetime | None = None,
     ) -> Path:
         self.output_directory.mkdir(parents=True, exist_ok=True)
-        analysis_time = analyzed_at or datetime.now().astimezone()
+        analysis_time = gmt_plus_3_time(analyzed_at)
         display_name = (customer_name or "").strip() or DEFAULT_CUSTOMER_NAME
         safe_name = sanitize_filename_component(display_name)
         display_order_number = (order_number or "").strip() or None
@@ -45,4 +46,3 @@ class JsonExtractionRepository:
 
     def load(self, path: Path) -> CartExtraction:
         return CartExtraction.model_validate_json(path.read_text(encoding="utf-8"))
-

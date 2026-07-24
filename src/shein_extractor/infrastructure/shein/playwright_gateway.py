@@ -14,11 +14,16 @@ from shein_extractor.infrastructure.shein.payload_normalizer import normalize_pa
 
 
 TARGET_ENDPOINT = "/bff-api/order/cart/share/landing"
+EXPIRED_LINK_REDIRECT_GRACE_SECONDS = 12
+
+
+def is_expired_share_url(url: str) -> bool:
+    parsed = urlparse(url)
+    return parsed.path.rstrip("/") == "/h5/sharejump/appjump"
 
 
 def capture_failure_error(final_url: str) -> CartExtractionError:
-    parsed = urlparse(final_url)
-    if parsed.path.rstrip("/") == "/h5/sharejump/appjump":
+    if is_expired_share_url(final_url):
         return ExpiredShareLinkError(
             "رابط مشاركة SHEIN منتهي الصلاحية أو لم يعد يحتوي سلة متاحة."
         )
@@ -74,8 +79,20 @@ class PlaywrightCartGateway:
                     timeout=int(timeout_seconds * 1000),
                 )
                 deadline = monotonic() + timeout_seconds
+                expired_link_deadline = monotonic() + min(
+                    EXPIRED_LINK_REDIRECT_GRACE_SECONDS,
+                    timeout_seconds,
+                )
                 while captured_payload is None and monotonic() < deadline:
                     page.wait_for_timeout(250)
+                    final_url = page.url
+                    if (
+                        monotonic() >= expired_link_deadline
+                        and is_expired_share_url(final_url)
+                    ):
+                        raise ExpiredShareLinkError(
+                            "رابط مشاركة SHEIN منتهي الصلاحية أو لم يعد يحتوي سلة متاحة."
+                        )
                 final_url = page.url
             except PlaywrightTimeoutError as error:
                 raise CartExtractionError(

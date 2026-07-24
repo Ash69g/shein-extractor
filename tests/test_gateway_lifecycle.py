@@ -3,7 +3,7 @@ from __future__ import annotations
 import pytest
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 
-from shein_extractor.domain.errors import CartExtractionError
+from shein_extractor.domain.errors import CartExtractionError, ExpiredShareLinkError
 from shein_extractor.infrastructure.shein import playwright_gateway as gateway_module
 
 
@@ -118,3 +118,18 @@ def test_gateway_closes_browser_after_timeout(monkeypatch) -> None:
             timeout_seconds=5,
         )
     assert context.closed and browser.closed
+
+
+def test_expired_share_url_detection() -> None:
+    assert gateway_module.is_expired_share_url(
+        "https://api-shein.shein.com/h5/sharejump/appjump"
+    )
+    assert not gateway_module.is_expired_share_url(
+        "https://m.shein.com/cart?group_id=10"
+    )
+    assert isinstance(
+        gateway_module.capture_failure_error(
+            "https://api-shein.shein.com/h5/sharejump/appjump"
+        ),
+        ExpiredShareLinkError,
+    )

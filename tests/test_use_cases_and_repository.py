@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from shein_extractor.application.use_cases import AnalyzeCart, AnalyzeCartRequest
@@ -54,8 +54,16 @@ def test_analyze_cart_coordinates_gateway_and_repository(tmp_path: Path) -> None
     assert gateway.calls == [(extraction.source_url, True, 45)]
     assert result.output_path.exists()
     assert "T-501" in result.output_path.name
+    assert "20260722-113000" in result.output_path.name
     loaded = repository.load(result.output_path)
     assert loaded.customer_name == "حياة شطوان"
     assert loaded.order_number == "T-501"
+    assert loaded.analyzed_at == datetime(
+        2026,
+        7,
+        22,
+        11,
+        30,
+        tzinfo=timezone(timedelta(hours=3), name="GMT+3"),
+    )
     assert loaded.products[0].sku_code == "sr2601"
-

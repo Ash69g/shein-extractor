@@ -56,7 +56,7 @@ docker compose -f compose.hostinger.yml config --services
 docker compose -f compose.hostinger.yml config --images
 ```
 
-النتيجة المتوقعة تتضمن الخدمة `shein-api` والصورة `shein-extractor-api:0.2.1`.
+النتيجة المتوقعة تتضمن الخدمة `shein-api` والصورة `shein-extractor-api:0.2.3`.
 
 ## 4. بناء الحاوية
 

@@ -133,7 +133,7 @@ def test_processing_rejects_missing_or_invalid_api_key(
     assert response.status_code == 401
 
 
-def test_job_endpoints_create_track_and_download_pdf(tmp_path: Path) -> None:
+def test_job_endpoints_create_track_and_download_result_files(tmp_path: Path) -> None:
     processor = StubProcessor(sample_result(tmp_path))
     app = make_app(tmp_path, processor)
     headers = {"X-API-Key": "secret-key"}
@@ -152,16 +152,22 @@ def test_job_endpoints_create_track_and_download_pdf(tmp_path: Path) -> None:
         job_id = accepted.json()["job_id"]
         status_response = _wait_for_terminal(client, job_id, headers)
         pdf_response = client.get(f"/v1/jobs/{job_id}/pdf", headers=headers)
+        json_response = client.get(f"/v1/jobs/{job_id}/json", headers=headers)
 
     assert accepted.status_code == 202
     assert accepted.json()["status"] == "queued"
     assert accepted.json()["status_url"] == f"/v1/jobs/{job_id}"
+    assert accepted.json()["json_url"] == f"/v1/jobs/{job_id}/json"
     assert status_response.json()["status"] == "completed"
     assert status_response.json()["product_count"] == 2
     assert pdf_response.status_code == 200
     assert pdf_response.content.startswith(b"%PDF-1.4")
     assert pdf_response.headers["x-job-id"] == job_id
     assert pdf_response.headers["x-product-count"] == "2"
+    assert json_response.status_code == 200
+    assert json_response.headers["content-type"] == "application/json"
+    assert json_response.content == b"{}"
+    assert json_response.headers["x-job-id"] == job_id
     assert processor.requests == [
         ProcessCartRequest(
             raw_input="invoice text",
@@ -213,14 +219,16 @@ def test_processing_maps_background_failures(
     assert response.status_code == expected_status
 
 
-def test_pending_and_unknown_pdf_responses(tmp_path: Path) -> None:
+def test_pending_and_unknown_result_file_responses(tmp_path: Path) -> None:
     app = make_app(tmp_path, StubProcessor(sample_result(tmp_path)))
     headers = {"X-API-Key": "secret-key"}
 
     with TestClient(app) as client:
         unknown = client.get("/v1/jobs/missing/pdf", headers=headers)
+        unknown_json = client.get("/v1/jobs/missing/json", headers=headers)
 
     assert unknown.status_code == 404
+    assert unknown_json.status_code == 404
 
 
 def test_processing_validates_request_body_before_enqueue(tmp_path: Path) -> None:

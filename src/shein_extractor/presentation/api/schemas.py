@@ -28,6 +28,7 @@ class JobAcceptedResponse(BaseModel):
     status: JobStatus
     status_url: str
     pdf_url: str
+    json_url: str
 
 
 class JobStatusResponse(BaseModel):

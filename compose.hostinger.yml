@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: shein-extractor-api:0.2.1
+    image: shein-extractor-api:0.2.3
     container_name: shein-api
     restart: unless-stopped
     init: true

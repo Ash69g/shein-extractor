@@ -42,7 +42,7 @@ def create_app(
 
     app = FastAPI(
         title="SHEIN Cart Processing API",
-        version="0.2.0",
+        version="0.2.3",
         docs_url="/docs",
         redoc_url=None,
         lifespan=lifespan,
@@ -118,6 +118,23 @@ def create_app(
     ) -> FileResponse:
         return _pdf_response(_require_job(queue, job_id))
 
+    @app.get(
+        "/v1/jobs/{job_id}/json",
+        response_class=FileResponse,
+        responses={
+            200: {"content": {"application/json": {}}},
+            401: {"model": ApiErrorResponse},
+            404: {"model": ApiErrorResponse},
+            409: {"model": ApiErrorResponse},
+        },
+        tags=["processing"],
+    )
+    def get_job_json(
+        job_id: str,
+        _: None = Depends(verify_api_key),
+    ) -> FileResponse:
+        return _json_response(_require_job(queue, job_id))
+
     @app.post(
         "/v1/process",
         response_class=FileResponse,
@@ -170,6 +187,7 @@ def _accepted_response(job: ProcessingJob) -> JobAcceptedResponse:
         status=job.status,
         status_url=f"/v1/jobs/{job.job_id}",
         pdf_url=f"/v1/jobs/{job.job_id}/pdf",
+        json_url=f"/v1/jobs/{job.job_id}/json",
     )
 
 
@@ -221,6 +239,24 @@ def _pdf_response(job: ProcessingJob) -> FileResponse:
             "X-PDF-Page-Count": str(job.page_count or 0),
             "X-Unavailable-Image-Count": str(job.unavailable_image_count or 0),
         },
+    )
+
+
+def _json_response(job: ProcessingJob) -> FileResponse:
+    if job.status == JobStatus.FAILED:
+        raise _job_failure(job)
+    if job.status != JobStatus.COMPLETED:
+        raise HTTPException(
+            status_code=409,
+            detail=f"ملف JSON غير جاهز بعد. حالة المهمة: {job.status.value}",
+        )
+    if job.json_path is None or not job.json_path.is_file():
+        raise HTTPException(status_code=404, detail="ملف JSON الناتج غير موجود.")
+    return FileResponse(
+        job.json_path,
+        media_type="application/json",
+        filename=job.json_path.name,
+        headers={"X-Job-ID": job.job_id},
     )
 
 
